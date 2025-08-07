@@ -1,0 +1,34 @@
+{
+  "repositories": [
+    {
+      "id": "transdocs.org",
+      "url": "git@github.com:transdocs-org/web-site.git",
+      "personalUrl": "https://github.com/transdocs-org/transdocs.org.git",
+      "branch": "main",
+      "targetLanguage": "zh",
+      "includes": [
+        "docs/**/*.md",
+        "docs/.vitepress/config.mts",
+        "readmes.json"
+      ]
+    }
+  ],
+  "ai": {
+    "apiKey": "${AI_API_KEY}",
+    "model": "qwen-plus"
+  },
+  "email": {
+    "enabled": true,
+    "host": "smtp.qiye.aliyun.com",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "${EMAIL_USER}",
+      "pass": "${EMAIL_PASSWORD}"
+    },
+    "to": "2220124666@qq.com"
+  },
+  "github": {
+    "token": "${GITHUB_TOKEN}"
+  }
+}

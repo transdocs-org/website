@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "TransDocs"
   text: "专注于精准翻译文档"
-  tagline: "力求 100% 还原官网内容与风格"
+  tagline: "还在努力建设中，请稍后..."
   actions:
     - theme: brand
       text: Markdown Examples

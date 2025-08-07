@@ -1,0 +1,24 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  name: "TransDocs"
+  text: "专注于精准翻译文档"
+  tagline: "力求 100% 还原官网内容与风格"
+  actions:
+    - theme: brand
+      text: Markdown 示例
+      link: /markdown-examples
+    - theme: alt
+      text: API 示例
+      link: /api-examples
+
+features:
+  - title: 功能 A
+    details: 洛伦 ipsum 坐 amet，consectetur adipiscing elit
+  - title: 功能 B
+    details: 洛伦 ipsum 坐 amet，consectetur adipiscing elit
+  - title: 功能 C
+    details: 洛伦 ipsum 坐 amet，consectetur adipiscing elit
+---

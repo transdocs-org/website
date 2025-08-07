@@ -1,0 +1,40 @@
+name: Transdocs CI
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  transdocs:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Setup Node.js environment
+      uses: actions/setup-node@v4
+      with:
+        node-version: '22'
+        cache: 'pnpm'
+
+    - name: Install pnpm
+      run: npm install -g pnpm
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Change to .deploy directory and create .env file
+      run: |
+        cd .deploy
+        echo "AI_API_KEY=${{ secrets.ALI_LLM_API_KEY }}" >> .env
+        echo "GITHUB_TOKEN=${{ secrets.GH_TOKEN }}" >> .env
+        echo "EMAIL_PASSWORD=${{ secrets.EMAIL_PASSWORD }}" >> .env
+        echo "EMAIL_USER=${{ secrets.EMAIL_USER }}" >> .env
+
+    - name: Run transdocs
+      run: |
+        cd .deploy
+        npx transdocs
