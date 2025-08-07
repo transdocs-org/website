@@ -3,14 +3,14 @@
     {
       "filePath": "docs\\.vitepress\\config.mts",
       "fileName": "config.mts",
-      "md5Hash": "0da412a30477691fa1f2cd2f59c33b92",
+      "md5Hash": "e0d25f274fcec473acd72e3d9a47b84a",
       "targetLanguage": "zh",
       "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\.vitepress\\config.mts",
       "translations": [
         {
           "language": "zh",
-          "fileName": "0da412a30477691fa1f2cd2f59c33b92.zh",
-          "relativePath": "0da412a30477691fa1f2cd2f59c33b92.zh"
+          "fileName": "e0d25f274fcec473acd72e3d9a47b84a.zh",
+          "relativePath": "e0d25f274fcec473acd72e3d9a47b84a.zh"
         }
       ]
     },
@@ -101,14 +101,28 @@
     {
       "filePath": "docs\\index.md",
       "fileName": "index.md",
-      "md5Hash": "7fdec7a581c4101ddfafab1aae1964e1",
+      "md5Hash": "62fc4412809119146468654fc1db9e65",
       "targetLanguage": "zh",
       "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\index.md",
       "translations": [
         {
           "language": "zh",
-          "fileName": "7fdec7a581c4101ddfafab1aae1964e1.zh",
-          "relativePath": "7fdec7a581c4101ddfafab1aae1964e1.zh"
+          "fileName": "62fc4412809119146468654fc1db9e65.zh",
+          "relativePath": "62fc4412809119146468654fc1db9e65.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "readmes.json",
+      "fileName": "readmes.json",
+      "md5Hash": "f698decebfcbb097697f3e20703f8564",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\readmes.json",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "f698decebfcbb097697f3e20703f8564.zh",
+          "relativePath": "f698decebfcbb097697f3e20703f8564.zh"
         }
       ]
     }
