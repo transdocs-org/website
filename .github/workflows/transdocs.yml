@@ -25,10 +25,6 @@ jobs:
       with:
         node-version: '22'
 
-    - name: Setup git with token
-      run: |
-        git config --global url."https://${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
-
     - name: Run transdocs
       run: |
         cd .deploy
