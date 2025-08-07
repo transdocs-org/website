@@ -30,4 +30,5 @@ jobs:
     - name: Run transdocs
       run: |
         cd .deploy
+        cat .env
         npx @transdocs/cli
