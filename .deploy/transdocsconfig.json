@@ -2,7 +2,7 @@
   "repositories": [
     {
       "id": "transdocs.org",
-      "url": "git@github.com:transdocs-org/web-site.git",
+      "url": "https://github.com/transdocs-org/web-site.git",
       "personalUrl": "https://github.com/transdocs-org/transdocs.org.git",
       "branch": "main",
       "targetLanguage": "zh",
