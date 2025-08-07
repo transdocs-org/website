@@ -5,6 +5,7 @@ import { HumanMessage } from '@langchain/core/messages';
 import { README_ANALYSIS_PROMPT } from './prompts';
 import { JsonOutputParser } from '@langchain/core/output_parsers';
 import { JSONFilePreset } from 'lowdb/node';
+import { sanitizeFilename } from './utils';
 
 // 加载环境变量
 config();
@@ -15,6 +16,7 @@ interface ReadmeItem {
   category?: string;
   tags?: string[];
   savePath?: string;
+  filename?: string
 }
 
 interface AnalysisResult {
@@ -66,16 +68,16 @@ async function analyzeReadmesWithLLM(urls: string[]) {
 async function checkAndHandleDuplicates(analysisResults: AnalysisResult[], existingReadmes: ReadmeItem[]): Promise<AnalysisResult[]> {
   // 获取所有已存在的名称
   const existingNames = new Set(existingReadmes.map(r => r.name).filter(name => name !== undefined));
-  
+
   // 检查是否有重复名称
   const nameCount: Record<string, number> = {};
   const duplicates: string[] = [];
-  
+
   // 统计分析结果中的名称重复情况
   analysisResults.forEach(result => {
     nameCount[result.name] = (nameCount[result.name] || 0) + 1;
   });
-  
+
   // 检查与现有名称的冲突
   analysisResults.forEach(result => {
     if (existingNames.has(result.name) || nameCount[result.name] > 1) {
@@ -84,31 +86,31 @@ async function checkAndHandleDuplicates(analysisResults: AnalysisResult[], exist
       }
     }
   });
-  
+
   // 如果没有重复，直接返回原结果
   if (duplicates.length === 0) {
     return analysisResults;
   }
-  
+
   console.log(`发现重复名称: ${duplicates.join(', ')}. 正在重新处理...`);
-  
+
   // 收集有重复名称的项目的URL
   const duplicateUrls = analysisResults
     .filter(result => duplicates.includes(result.name))
     .map(result => result.url);
-  
+
   // 重新让LLM处理这些有重复名称的项目
   if (duplicateUrls.length > 0) {
     try {
       const newResults = await analyzeReadmesWithLLM(duplicateUrls);
-      
+
       // 如果返回的是数组，替换重复的结果
       if (Array.isArray(newResults)) {
         const urlToNewResult: Record<string, AnalysisResult> = {};
         newResults.forEach(result => {
           urlToNewResult[result.url] = result;
         });
-        
+
         // 替换重复的分析结果
         return analysisResults.map(result => {
           if (duplicateUrls.includes(result.url) && urlToNewResult[result.url]) {
@@ -121,7 +123,7 @@ async function checkAndHandleDuplicates(analysisResults: AnalysisResult[], exist
       console.error('重新处理重复名称时出错:', error);
     }
   }
-  
+
   // 如果重新处理失败，返回原始结果
   return analysisResults;
 }
@@ -159,13 +161,14 @@ async function processReadmes(): Promise<void> {
       let finalResults = Array.isArray(analysisResults) ? analysisResults : [];
       if (Array.isArray(analysisResults)) {
         finalResults = await checkAndHandleDuplicates(analysisResults, db.data.readmes);
-        
+
         for (const analysis of finalResults) {
           const readme = db.data.readmes.find(r => r.url === analysis.url);
           if (readme) {
             readme.name = analysis.name;
             readme.category = analysis.category;
             readme.tags = analysis.tags;
+            readme.filename = sanitizeFilename(analysis.name)
             console.log(`处理完成: ${readme.name}`);
           }
         }

@@ -11,8 +11,8 @@
 
 This is a client library for the Binance Margin Trading API, enabling developers to interact programmatically with Binance's Margin Trading trading platform. The library provides tools to use funds provided by a third party to conduct asset transactions through the REST API:
 
-- [REST API](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//src/rest-api/rest-api.ts)
-- [Websocket Stream](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//src/websocket-streams/websocket-streams-connection.ts)
+- [REST API](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/src/rest-api/rest-api.ts)
+- [Websocket Stream](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/src/websocket-streams/websocket-streams-connection.ts)
 
 ## Table of Contents
 
@@ -55,7 +55,7 @@ For detailed information, refer to the [Binance API Documentation](https://devel
 
 ### REST APIs
 
-All REST API endpoints are available through the [`rest-api`](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//src/rest-api/rest-api.ts) module. Note that some endpoints require authentication using your Binance API credentials.
+All REST API endpoints are available through the [`rest-api`](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/src/rest-api/rest-api.ts) module. Note that some endpoints require authentication using your Binance API credentials.
 
 ```typescript
 import { MarginTrading, MarginTradingRestAPI } from '@binance/margin-trading';
@@ -73,7 +73,7 @@ client.restAPI
     .catch((err) => console.error(err));
 ```
 
-More examples can be found in the [`examples/rest-api`](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//examples/rest-api/) folder.
+More examples can be found in the [`examples/rest-api`](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/examples/rest-api/) folder.
 
 #### Configuration Options
 
@@ -97,35 +97,35 @@ The REST API supports the following advanced configuration options:
 
 ##### Timeout
 
-You can configure a timeout for requests in milliseconds. If the request exceeds the specified timeout, it will be aborted. See the [Timeout example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/timeout.md) for detailed usage.
+You can configure a timeout for requests in milliseconds. If the request exceeds the specified timeout, it will be aborted. See the [Timeout example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/timeout.md) for detailed usage.
 
 ##### Proxy
 
-The REST API supports HTTP/HTTPS proxy configurations. See the [Proxy example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/proxy.md) for detailed usage.
+The REST API supports HTTP/HTTPS proxy configurations. See the [Proxy example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/proxy.md) for detailed usage.
 
 ##### Keep-Alive
 
-Enable HTTP keep-alive for persistent connections. See the [Keep-Alive example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/keepAlive.md) for detailed usage.
+Enable HTTP keep-alive for persistent connections. See the [Keep-Alive example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/keepAlive.md) for detailed usage.
 
 ##### Compression
 
-Enable or disable response compression. See the [Compression example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/compression.md) for detailed usage.
+Enable or disable response compression. See the [Compression example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/compression.md) for detailed usage.
 
 ##### Retries
 
-Configure the number of retry attempts and delay in milliseconds between retries for failed requests. See the [Retries example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/retries.md) for detailed usage.
+Configure the number of retry attempts and delay in milliseconds between retries for failed requests. See the [Retries example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/retries.md) for detailed usage.
 
 ##### HTTPS Agent
 
-Customize the HTTPS agent for advanced TLS configurations. See the [HTTPS Agent example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/httpsAgent.md) for detailed usage.
+Customize the HTTPS agent for advanced TLS configurations. See the [HTTPS Agent example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/httpsAgent.md) for detailed usage.
 
 ##### Key Pair Based Authentication
 
-The REST API supports key pair-based authentication for secure communication. You can use `RSA` or `ED25519` keys for signing requests. See the [Key Pair Based Authentication example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/key-pair-authentication.md) for detailed usage.
+The REST API supports key pair-based authentication for secure communication. You can use `RSA` or `ED25519` keys for signing requests. See the [Key Pair Based Authentication example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/key-pair-authentication.md) for detailed usage.
 
 ##### Certificate Pinning
 
-To enhance security, you can use certificate pinning with the `httpsAgent` option in the configuration. This ensures the client only communicates with servers using specific certificates. See the [Certificate Pinning example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/certificate-pinning.md) for detailed usage.
+To enhance security, you can use certificate pinning with the `httpsAgent` option in the configuration. This ensures the client only communicates with servers using specific certificates. See the [Certificate Pinning example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/certificate-pinning.md) for detailed usage.
 
 #### Error Handling
 
@@ -142,13 +142,13 @@ The REST API provides detailed error types to help you handle issues effectively
 - `NotFoundError`: Resource not found.
 - `BadRequestError`: Invalid request.
 
-See the [Error Handling example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/rest-api/error-handling.md) for detailed usage.
+See the [Error Handling example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/error-handling.md) for detailed usage.
 
 If `basePath` is not provided, it defaults to `https://api.binance.com`.
 
 ### Websocket Streams
 
-WebSocket Streams in `margin-trading` is used for subscribing to risk and trade data streams. Use the [websocket-streams](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//src/websocket-streams/websocket-streams.ts) module to interact with it.
+WebSocket Streams in `margin-trading` is used for subscribing to risk and trade data streams. Use the [websocket-streams](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/src/websocket-streams/websocket-streams.ts) module to interact with it.
 
 #### Configuration Options
 
@@ -286,7 +286,7 @@ The tests cover:
 
 ## Migration Guide
 
-If you are upgrading to the new modularized structure, refer to the [Migration Guide](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//docs/migration_guide_margin_trading_connector.md) for detailed steps.
+If you are upgrading to the new modularized structure, refer to the [Migration Guide](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/migration_guide_margin_trading_connector.md) for detailed steps.
 
 ## Contributing
 
@@ -305,4 +305,4 @@ Thank you for your contributions!
 
 ## Licence
 
-This project is licensed under the MIT License. See the [LICENCE](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading//LICENCE) file for details.
+This project is licensed under the MIT License. See the [LICENCE](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/LICENCE) file for details.

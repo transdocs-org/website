@@ -6,6 +6,9 @@ hero:
   name: "TransDocs"
   text: "专注于精准翻译文档"
   tagline: "还在努力建设中，请稍后..."
+  image:
+    src: /logo.png
+    alt: TransDocs
   actions:
     - theme: brand
       text: Markdown Examples

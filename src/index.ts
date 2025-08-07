@@ -30,7 +30,7 @@ async function main() {
         }
 
         // 处理文件名，将空格替换为连字符
-        const sanitizedName = sanitizeFilename(readme.name);
+        const sanitizedName = readme.filename;
 
         // 构造保存路径: docs/{category}/{sanitizedName}.md
         const filePath = path.join(categoryDir, sanitizedName + '.md');

@@ -1,32 +1,62 @@
 import { defineConfig } from 'vitepress'
-import path from 'node:path'
-import { sanitizeFilename } from '../../src/utils'
-import _readmes from '../../readmes.json'
+import readmes from '../../readmes.json'
 
-const readmes = _readmes.readmes
-const categories = [... new Set(readmes.map(item => item.category))]
+const categories = readmes.readmes.reduce((acc, cur) => {
+  const { category } = cur
 
-// https://vitepress.dev/reference/site-config
+  if (!acc[category]) {
+    acc[category] = []
+  }
+
+  acc[category].push(cur)
+
+  acc[category].sort((a, b) => a.filename.localeCompare(b.filename))
+
+  return acc
+}, {})
+
 export default defineConfig({
   title: "TransDocs",
   description: "专注于精准翻译文档",
   themeConfig: {
+    logo: '/logo.png',
     nav: [
       { text: 'Home', link: '/' },
-      ...categories.map(category => ({
-        text: category,
-        link: `/${category}/${sanitizeFilename(readmes.find(item => item.category === category)!.name)}`
-      }))
+      {
+        text: 'Readmes',
+        items: Object.keys(categories).map(category => {
+          const lastFilename = categories[category][0].filename
+          return {
+            text: category,
+            link: `/${category}/${lastFilename}`
+          }
+        })
+      },
     ],
 
-    sidebar: [
-    ],
+    sidebar: {
+      ...Object.keys(categories).reduce((acc, category) => {
+        acc[`/${category}/`] = [{
+          text: category,
+          items: categories[category].map(item => {
+            return {
+              text: item.name,
+              link: `/${category}/${item.filename}`
+            }
+          })
+        }]
+
+        return acc
+      }, {})
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/transdocs-org/transdocs.org' }
     ]
   },
+  lang: 'zh-CN',
   head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     [
       'script',
       {},
