@@ -30,4 +30,4 @@ jobs:
     - name: Run transdocs
       run: |
         cd .deploy
-        npx transdocs
+        npx @transdocs/cli
