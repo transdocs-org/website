@@ -1,0 +1,37 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rslib build --watch",
+    "build": "rslib build",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=9"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rslib/core": "^0.11.2",
+    "vitepress": "^1.6.3"
+  },
+  "dependencies": {
+    "@langchain/core": "^0.3.66",
+    "@langchain/openai": "^0.6.3",
+    "@types/node": "^24.2.0",
+    "@types/parse-github-url": "^1.0.3",
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1",
+    "git-url-parse": "^16.1.0",
+    "lowdb": "^7.0.1",
+    "parse-github-url": "^1.0.3",
+    "typescript": "^5.9.2",
+    "vue": "^3.5.18"
+  }
+}
