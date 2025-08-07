@@ -25,9 +25,9 @@ export default defineConfig({
       {
         text: 'Readmes',
         items: Object.keys(categories).map(category => {
-          const lastFilename = categories[category][0].filename
+          const ｛ filename: lastFilename, category: text ｝ = categories[category][0]
           return {
-            text: category,
+            text: ,
             link: `/${category}/${lastFilename}`
           }
         })
