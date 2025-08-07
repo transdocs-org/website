@@ -14,6 +14,7 @@ interface ReadmeItem {
   url: string;
   name?: string;
   category?: string;
+  categoryId?: string;
   tags?: string[];
   savePath?: string;
   filename?: string
@@ -167,6 +168,7 @@ async function processReadmes(): Promise<void> {
           if (readme) {
             readme.name = analysis.name;
             readme.category = analysis.category;
+            readme.categoryId = analysis.category;
             readme.tags = analysis.tags;
             readme.filename = sanitizeFilename(analysis.name)
             console.log(`处理完成: ${readme.name}`);

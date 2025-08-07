@@ -1,19 +1,19 @@
 import { defineConfig } from 'vitepress'
 import readmes from '../../readmes.json'
 
-const categories = readmes.readmes.reduce((acc, cur) => {
-  const { category } = cur
+const categories = readmes.readmes.map((acc, cur: any) => {
+  const { categoryId } = cur
 
-  if (!acc[category]) {
-    acc[category] = []
+  if (!acc[categoryId]) {
+    acc[categoryId] = []
   }
 
-  acc[category].push(cur)
+  acc[categoryId].push(cur)
 
-  acc[category].sort((a, b) => a.filename.localeCompare(b.filename))
+  acc[categoryId].sort((a, b) => a.filename.localeCompare(b.filename))
 
   return acc
-}, {})
+})
 
 export default defineConfig({
   title: "TransDocs",

@@ -4,6 +4,7 @@
       "url": "https://github.com/binance/binance-connector-js/tree/master/clients/spot",
       "name": "Binance Connector Js Spot",
       "category": "blockchain",
+      "categoryId": "blockchain",
       "tags": [
         "javascript",
         "api",
@@ -17,6 +18,7 @@
       "url": "https://github.com/binance/binance-connector-python/tree/master/clients/spot",
       "name": "Binance Connector Python Spot",
       "category": "blockchain",
+      "categoryId": "blockchain",
       "tags": [
         "python",
         "api",
@@ -30,6 +32,7 @@
       "url": "https://github.com/binance/binance-connector-python/tree/master/clients/margin_trading",
       "name": "Binance Connector Python Margin Trading",
       "category": "blockchain",
+      "categoryId": "blockchain",
       "tags": [
         "python",
         "api",
@@ -43,6 +46,7 @@
       "url": "https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading",
       "name": "Binance Connector Js Margin Trading",
       "category": "blockchain",
+      "categoryId": "blockchain",
       "tags": [
         "javascript",
         "api",
@@ -56,6 +60,7 @@
       "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-community",
       "name": "Langchainjs Community",
       "category": "ai",
+      "categoryId": "ai",
       "tags": [
         "javascript",
         "ai",
@@ -69,6 +74,7 @@
       "url": "https://github.com/langchain-ai/langchain-community/tree/main/libs/community",
       "name": "Langchain Community",
       "category": "ai",
+      "categoryId": "ai",
       "tags": [
         "python",
         "ai",
