@@ -6,6 +6,12 @@ on:
     branches:
       - main
 
+env:
+  GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+  ALI_LLM_API_KEY: ${{ secrets.ALI_LLM_API_KEY }}
+  EMAIL_USER: ${{ secrets.EMAIL_USER }}
+  EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }}
+
 jobs:
   transdocs:
     runs-on: ubuntu-latest
@@ -18,17 +24,6 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '22'
-
-    - name: Change to .deploy directory and create .env file
-      run: |
-        cd .deploy
-        echo ${{ secrets.ALI_LLM_API_KEY }}
-        echo "" > .env
-        echo "AI_API_KEY=${{ secrets.ALI_LLM_API_KEY }}" >> .env
-        echo "GITHUB_TOKEN=${{ secrets.GH_TOKEN }}" >> .env
-        echo "EMAIL_PASSWORD=${{ secrets.EMAIL_PASSWORD }}" >> .env
-        echo "EMAIL_USER=${{ secrets.EMAIL_USER }}" >> .env
-        cat .env
 
     - name: Run transdocs
       run: |
