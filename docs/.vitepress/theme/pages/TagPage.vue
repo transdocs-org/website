@@ -17,7 +17,7 @@ const list = computed(() => data.readmes.filter((item) => item.tags?.includes?.(
 
     <ul>
       <li v-for="item in list">
-        <Tag :href="`/${item.category}/${item.filename}`" class="tag">{{ item.name }}</Tag>
+        <Tag :href="`/${item.categoryId}/${item.filename}`" class="tag">{{ item.name }}</Tag>
       </li>
     </ul>
   </div>
