@@ -19,6 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "@rslib/core": "^0.11.2",
+    "sass-embedded": "^1.90.0",
     "vitepress": "^1.6.3"
   },
   "dependencies": {

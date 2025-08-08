@@ -10,16 +10,6 @@ import { sanitizeFilename } from './utils';
 // 加载环境变量
 config();
 
-interface ReadmeItem {
-  url: string;
-  name?: string;
-  category?: string;
-  categoryId?: string;
-  tags?: string[];
-  savePath?: string;
-  filename?: string
-}
-
 interface AnalysisResult {
   url: string;
   name: string;

@@ -1,59 +1,58 @@
 import { defineConfig } from 'vitepress'
-import readmes from '../../readmes.json'
+import type { DefaultTheme } from 'vitepress'
+import path from 'node:path'
+import { categories } from './common'
 
-const categories = readmes.readmes.map((acc, cur: any) => {
-  const { categoryId } = cur
+const readmesNav: DefaultTheme.NavItem = {
+  text: 'Readmes',
+  items: categories.map(category => {
+    const { name, items, id } = category
+    const { filename } = items[0]
+    return {
+      text: name,
+      link: `/${id}/${filename}`
+    }
+  }),
+}
 
-  if (!acc[categoryId]) {
-    acc[categoryId] = []
-  }
-
-  acc[categoryId].push(cur)
-
-  acc[categoryId].sort((a, b) => a.filename.localeCompare(b.filename))
-
-  return acc
-})
-
-export default defineConfig({
-  title: "TransDocs",
-  description: "专注于精准翻译文档",
-  themeConfig: {
-    logo: '/logo.png',
-    nav: [
-      { text: 'Home', link: '/' },
-      {
-        text: 'Readmes',
-        items: Object.keys(categories).map(category => {
-          const ｛ filename: lastFilename, category: text ｝ = categories[category][0]
-          return {
-            text: ,
-            link: `/${category}/${lastFilename}`
-          }
-        })
-      },
-    ],
-
-    sidebar: {
-      ...Object.keys(categories).reduce((acc, category) => {
-        acc[`/${category}/`] = [{
-          text: category,
-          items: categories[category].map(item => {
-            return {
-              text: item.name,
-              link: `/${category}/${item.filename}`
-            }
-          })
-        }]
-
-        return acc
-      }, {})
-    },
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/transdocs-org/transdocs.org' }
+const nav: DefaultTheme.NavItem[] = [
+  { text: 'Home', link: '/' },
+  { text: 'Sites', link: '/sites' },
+  readmesNav,
+  { text: 'Tags', link: '/tags' },
+  {
+    text: 'About', items: [
+      { text: 'Update Strategy', link: '/update-strategy' }
     ]
   },
+]
+
+const sidebar: DefaultTheme.Sidebar = categories.reduce((acc, category) => {
+  const { name, id, items } = category
+
+  acc[`/${id}/`] = [{
+    text: name,
+    items: items.map(item => {
+      return {
+        text: item.name,
+        link: `/${name}/${item.filename}`
+      }
+    })
+  }]
+
+  return acc
+}, {} as any)
+
+export default defineConfig({
+  title: "TransDocs - 译文",
+  description: "专注开源技术文档翻译，实时、快速、精准。",
+  themeConfig: {
+    logo: '/logo.png',
+    nav,
+    sidebar,
+    siteTitle: 'TransDocs',
+  },
+  lastUpdated: true,
   lang: 'zh-CN',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -68,5 +67,16 @@ export default defineConfig({
         s.parentNode.insertBefore(hm, s);
       })();`
     ]
-  ]
+  ],
+  sitemap: {
+    hostname: 'https://transdocs.org'
+  },
+
+  vite: {
+    resolve: {
+      alias: {
+        '@': path.resolve(__dirname, 'theme')
+      }
+    }
+  }
 })

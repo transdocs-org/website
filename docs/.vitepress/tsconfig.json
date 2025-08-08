@@ -6,8 +6,6 @@
     "lib": [
       "ES2020"
     ],
-    "outDir": "./dist",
-    "rootDir": "./src",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
@@ -15,11 +13,20 @@
     "resolveJsonModule": true,
     "types": [
       "node"
-    ]
+    ],
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "theme/*"
+      ]
+    }
   },
   "include": [
-    "src/**/*",
-    "types.d.ts"
+    "**/*/*.ts",
+    "**/*/*.vue",
+    "config.mts",
+    "common.ts",
+    "../../types.d.ts"
   ],
   "exclude": [
     "node_modules"
