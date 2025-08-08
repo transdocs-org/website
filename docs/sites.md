@@ -1,3 +1,3 @@
 ---
-layout: sites-page
+layout: sites-page # no translation needed
 ---

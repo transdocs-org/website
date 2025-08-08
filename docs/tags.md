@@ -1,3 +1,3 @@
 ---
-layout: tags-page
+layout: tags-page # no translation needed
 ---
