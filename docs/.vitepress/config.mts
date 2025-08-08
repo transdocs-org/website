@@ -35,7 +35,7 @@ const sidebar: DefaultTheme.Sidebar = categories.reduce((acc, category) => {
     items: items.map(item => {
       return {
         text: item.name,
-        link: `/${name}/${item.filename}`
+        link: `/${id}/${item.filename}`
       }
     })
   }]
