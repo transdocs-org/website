@@ -16,11 +16,12 @@ function convertToRawUrl(url: string): string {
 
   const { owner, name, ref, filepath } = parsed
 
-  return `https://raw.githubusercontent.com/${owner}/${name}/refs/heads/${ref}/${filepath}`;
+  return `https://raw.githubusercontent.com/${owner}/${name}/refs/heads/${ref}/${filepath}`
 }
 
 function convertToRawReadmeUrl(url: string) {
-  return `${convertToRawUrl(url)}/README.md`
+  const rawUrl = convertToRawUrl(url)
+  return `${rawUrl}${rawUrl.endsWith('/') ? '' : '/'}README.md`
 }
 
 /**
