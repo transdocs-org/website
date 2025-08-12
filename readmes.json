@@ -83,6 +83,19 @@
         "machine learning"
       ],
       "filename": "Langchain-Community"
+    },
+    {
+      "url": "https://github.com/json5/json5/tree/main",
+      "name": "Json5",
+      "category": "web",
+      "categoryId": "web",
+      "tags": [
+        "javascript",
+        "json",
+        "data format",
+        "configuration"
+      ],
+      "filename": "Json5"
     }
   ]
 }
