@@ -8,8 +8,7 @@
       "targetLanguage": "zh",
       "includes": [
         "docs/**/*.md",
-        "docs/.vitepress/config.mts",
-        "readmes.json"
+        "docs/.vitepress/config.mts"
       ]
     }
   ],
