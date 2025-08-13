@@ -22,6 +22,10 @@ const sites = [
   {
     name: 'Langchainjs',
     url: 'https://langchainjs.transdocs.org'
+  },
+  {
+    name: 'ta-lib-python',
+    url: 'https://ta-lib-python.transdocs.org'
   }
 ]
 
