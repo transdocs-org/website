@@ -96,6 +96,19 @@
         "configuration"
       ],
       "filename": "Json5"
+    },
+    {
+      "url": "https://github.com/websockets/ws/blob/master",
+      "name": "WebSockets",
+      "category": "web",
+      "categoryId": "web",
+      "tags": [
+        "javascript",
+        "websockets",
+        "networking",
+        "real-time"
+      ],
+      "filename": "WebSockets"
     }
   ]
 }
