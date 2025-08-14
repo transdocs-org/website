@@ -1,0 +1,5784 @@
+{
+  "type": "root",
+  "children": [
+    {
+      "type": "heading",
+      "depth": 1,
+      "children": [
+        {
+          "type": "text",
+          "value": "ws: a Node.js WebSocket library",
+          "position": {
+            "start": {
+              "line": 1,
+              "column": 3,
+              "offset": 2
+            },
+            "end": {
+              "line": 1,
+              "column": 34,
+              "offset": 33
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 1,
+          "column": 1,
+          "offset": 0
+        },
+        "end": {
+          "line": 1,
+          "column": 34,
+          "offset": 33
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "title": null,
+          "url": "https://www.npmjs.com/package/ws",
+          "children": [
+            {
+              "type": "image",
+              "title": null,
+              "url": "https://img.shields.io/npm/v/ws.svg?logo=npm",
+              "alt": "Version npm",
+              "position": {
+                "start": {
+                  "line": 3,
+                  "column": 2,
+                  "offset": 36
+                },
+                "end": {
+                  "line": 3,
+                  "column": 62,
+                  "offset": 96
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 1,
+              "offset": 35
+            },
+            "end": {
+              "line": 3,
+              "column": 97,
+              "offset": 131
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": "\n",
+          "position": {
+            "start": {
+              "line": 3,
+              "column": 97,
+              "offset": 131
+            },
+            "end": {
+              "line": 4,
+              "column": 1,
+              "offset": 132
+            }
+          }
+        },
+        {
+          "type": "link",
+          "title": null,
+          "url": "https://github.com/websockets/ws/actions?query=workflow%3ACI+branch%3Amaster",
+          "children": [
+            {
+              "type": "image",
+              "title": null,
+              "url": "https://img.shields.io/github/actions/workflow/status/websockets/ws/ci.yml?branch=master&label=CI&logo=github",
+              "alt": "CI",
+              "position": {
+                "start": {
+                  "line": 4,
+                  "column": 2,
+                  "offset": 133
+                },
+                "end": {
+                  "line": 4,
+                  "column": 118,
+                  "offset": 249
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 1,
+              "offset": 132
+            },
+            "end": {
+              "line": 4,
+              "column": 197,
+              "offset": 328
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": "\n",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 197,
+              "offset": 328
+            },
+            "end": {
+              "line": 5,
+              "column": 1,
+              "offset": 329
+            }
+          }
+        },
+        {
+          "type": "link",
+          "title": null,
+          "url": "https://coveralls.io/github/websockets/ws",
+          "children": [
+            {
+              "type": "image",
+              "title": null,
+              "url": "https://img.shields.io/coveralls/websockets/ws/master.svg?logo=coveralls",
+              "alt": "Coverage Status",
+              "position": {
+                "start": {
+                  "line": 5,
+                  "column": 2,
+                  "offset": 330
+                },
+                "end": {
+                  "line": 5,
+                  "column": 94,
+                  "offset": 422
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 1,
+              "offset": 329
+            },
+            "end": {
+              "line": 5,
+              "column": 138,
+              "offset": 466
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 3,
+          "column": 1,
+          "offset": 35
+        },
+        "end": {
+          "line": 5,
+          "column": 138,
+          "offset": 466
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "ws is a simple to use, blazing fast, and thoroughly tested WebSocket client and\nserver implementation.",
+          "position": {
+            "start": {
+              "line": 7,
+              "column": 1,
+              "offset": 468
+            },
+            "end": {
+              "line": 8,
+              "column": 23,
+              "offset": 570
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 7,
+          "column": 1,
+          "offset": 468
+        },
+        "end": {
+          "line": 8,
+          "column": 23,
+          "offset": 570
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Passes the quite extensive Autobahn test suite: ",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 1,
+              "offset": 572
+            },
+            "end": {
+              "line": 10,
+              "column": 49,
+              "offset": 620
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "server",
+              "position": {
+                "start": {
+                  "line": 10,
+                  "column": 50,
+                  "offset": 621
+                },
+                "end": {
+                  "line": 10,
+                  "column": 56,
+                  "offset": 627
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 49,
+              "offset": 620
+            },
+            "end": {
+              "line": 10,
+              "column": 72,
+              "offset": 643
+            }
+          },
+          "label": "server-report",
+          "identifier": "server-report",
+          "referenceType": "full"
+        },
+        {
+          "type": "text",
+          "value": ",\n",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 72,
+              "offset": 643
+            },
+            "end": {
+              "line": 11,
+              "column": 1,
+              "offset": 645
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "client",
+              "position": {
+                "start": {
+                  "line": 11,
+                  "column": 2,
+                  "offset": 646
+                },
+                "end": {
+                  "line": 11,
+                  "column": 8,
+                  "offset": 652
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 1,
+              "offset": 645
+            },
+            "end": {
+              "line": 11,
+              "column": 24,
+              "offset": 668
+            }
+          },
+          "label": "client-report",
+          "identifier": "client-report",
+          "referenceType": "full"
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 24,
+              "offset": 668
+            },
+            "end": {
+              "line": 11,
+              "column": 25,
+              "offset": 669
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 10,
+          "column": 1,
+          "offset": 572
+        },
+        "end": {
+          "line": 11,
+          "column": 25,
+          "offset": 669
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "strong",
+          "children": [
+            {
+              "type": "text",
+              "value": "Note",
+              "position": {
+                "start": {
+                  "line": 13,
+                  "column": 3,
+                  "offset": 673
+                },
+                "end": {
+                  "line": 13,
+                  "column": 7,
+                  "offset": 677
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 1,
+              "offset": 671
+            },
+            "end": {
+              "line": 13,
+              "column": 9,
+              "offset": 679
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": ": This module does not work in the browser. The client in the docs is a\nreference to a backend with the role of a client in the WebSocket communication.\nBrowser clients must use the native\n",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 9,
+              "offset": 679
+            },
+            "end": {
+              "line": 16,
+              "column": 1,
+              "offset": 868
+            }
+          }
+        },
+        {
+          "type": "link",
+          "title": null,
+          "url": "https://developer.mozilla.org/en-US/docs/Web/API/WebSocket",
+          "children": [
+            {
+              "type": "inlineCode",
+              "value": "WebSocket",
+              "position": {
+                "start": {
+                  "line": 16,
+                  "column": 2,
+                  "offset": 869
+                },
+                "end": {
+                  "line": 16,
+                  "column": 13,
+                  "offset": 880
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 1,
+              "offset": 868
+            },
+            "end": {
+              "line": 16,
+              "column": 74,
+              "offset": 941
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": "\nobject. To make the same code work seamlessly on Node.js and the browser, you\ncan use one of the many wrappers available on npm, like\n",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 74,
+              "offset": 941
+            },
+            "end": {
+              "line": 19,
+              "column": 1,
+              "offset": 1076
+            }
+          }
+        },
+        {
+          "type": "link",
+          "title": null,
+          "url": "https://github.com/heineiuo/isomorphic-ws",
+          "children": [
+            {
+              "type": "text",
+              "value": "isomorphic-ws",
+              "position": {
+                "start": {
+                  "line": 19,
+                  "column": 2,
+                  "offset": 1077
+                },
+                "end": {
+                  "line": 19,
+                  "column": 15,
+                  "offset": 1090
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 1,
+              "offset": 1076
+            },
+            "end": {
+              "line": 19,
+              "column": 59,
+              "offset": 1134
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 59,
+              "offset": 1134
+            },
+            "end": {
+              "line": 19,
+              "column": 60,
+              "offset": 1135
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 13,
+          "column": 1,
+          "offset": 671
+        },
+        "end": {
+          "line": 19,
+          "column": 60,
+          "offset": 1135
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "Table of Contents",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 4,
+              "offset": 1140
+            },
+            "end": {
+              "line": 21,
+              "column": 21,
+              "offset": 1157
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 21,
+          "column": 1,
+          "offset": 1137
+        },
+        "end": {
+          "line": 21,
+          "column": 21,
+          "offset": 1157
+        }
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "start": null,
+      "spread": false,
+      "children": [
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "link",
+                  "title": null,
+                  "url": "#protocol-support",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Protocol support",
+                      "position": {
+                        "start": {
+                          "line": 23,
+                          "column": 4,
+                          "offset": 1162
+                        },
+                        "end": {
+                          "line": 23,
+                          "column": 20,
+                          "offset": 1178
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 23,
+                      "column": 3,
+                      "offset": 1161
+                    },
+                    "end": {
+                      "line": 23,
+                      "column": 40,
+                      "offset": 1198
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 23,
+                  "column": 3,
+                  "offset": 1161
+                },
+                "end": {
+                  "line": 23,
+                  "column": 40,
+                  "offset": 1198
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 1,
+              "offset": 1159
+            },
+            "end": {
+              "line": 23,
+              "column": 40,
+              "offset": 1198
+            }
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "link",
+                  "title": null,
+                  "url": "#installing",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Installing",
+                      "position": {
+                        "start": {
+                          "line": 24,
+                          "column": 4,
+                          "offset": 1202
+                        },
+                        "end": {
+                          "line": 24,
+                          "column": 14,
+                          "offset": 1212
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 24,
+                      "column": 3,
+                      "offset": 1201
+                    },
+                    "end": {
+                      "line": 24,
+                      "column": 28,
+                      "offset": 1226
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 24,
+                  "column": 3,
+                  "offset": 1201
+                },
+                "end": {
+                  "line": 24,
+                  "column": 28,
+                  "offset": 1226
+                }
+              }
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "start": null,
+              "spread": false,
+              "children": [
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#opt-in-for-performance",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Opt-in for performance",
+                              "position": {
+                                "start": {
+                                  "line": 25,
+                                  "column": 6,
+                                  "offset": 1232
+                                },
+                                "end": {
+                                  "line": 25,
+                                  "column": 28,
+                                  "offset": 1254
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 25,
+                              "column": 5,
+                              "offset": 1231
+                            },
+                            "end": {
+                              "line": 25,
+                              "column": 54,
+                              "offset": 1280
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 25,
+                          "column": 5,
+                          "offset": 1231
+                        },
+                        "end": {
+                          "line": 25,
+                          "column": 54,
+                          "offset": 1280
+                        }
+                      }
+                    },
+                    {
+                      "type": "list",
+                      "ordered": false,
+                      "start": null,
+                      "spread": false,
+                      "children": [
+                        {
+                          "type": "listItem",
+                          "spread": false,
+                          "checked": null,
+                          "children": [
+                            {
+                              "type": "paragraph",
+                              "children": [
+                                {
+                                  "type": "link",
+                                  "title": null,
+                                  "url": "#legacy-opt-in-for-performance",
+                                  "children": [
+                                    {
+                                      "type": "text",
+                                      "value": "Legacy opt-in for performance",
+                                      "position": {
+                                        "start": {
+                                          "line": 26,
+                                          "column": 8,
+                                          "offset": 1288
+                                        },
+                                        "end": {
+                                          "line": 26,
+                                          "column": 37,
+                                          "offset": 1317
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "position": {
+                                    "start": {
+                                      "line": 26,
+                                      "column": 7,
+                                      "offset": 1287
+                                    },
+                                    "end": {
+                                      "line": 26,
+                                      "column": 70,
+                                      "offset": 1350
+                                    }
+                                  }
+                                }
+                              ],
+                              "position": {
+                                "start": {
+                                  "line": 26,
+                                  "column": 7,
+                                  "offset": 1287
+                                },
+                                "end": {
+                                  "line": 26,
+                                  "column": 70,
+                                  "offset": 1350
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 26,
+                              "column": 5,
+                              "offset": 1285
+                            },
+                            "end": {
+                              "line": 26,
+                              "column": 70,
+                              "offset": 1350
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 26,
+                          "column": 5,
+                          "offset": 1285
+                        },
+                        "end": {
+                          "line": 26,
+                          "column": 70,
+                          "offset": 1350
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 25,
+                      "column": 3,
+                      "offset": 1229
+                    },
+                    "end": {
+                      "line": 26,
+                      "column": 70,
+                      "offset": 1350
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 25,
+                  "column": 3,
+                  "offset": 1229
+                },
+                "end": {
+                  "line": 26,
+                  "column": 70,
+                  "offset": 1350
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 1,
+              "offset": 1199
+            },
+            "end": {
+              "line": 26,
+              "column": 70,
+              "offset": 1350
+            }
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "link",
+                  "title": null,
+                  "url": "#api-docs",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "API docs",
+                      "position": {
+                        "start": {
+                          "line": 27,
+                          "column": 4,
+                          "offset": 1354
+                        },
+                        "end": {
+                          "line": 27,
+                          "column": 12,
+                          "offset": 1362
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 27,
+                      "column": 3,
+                      "offset": 1353
+                    },
+                    "end": {
+                      "line": 27,
+                      "column": 24,
+                      "offset": 1374
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 27,
+                  "column": 3,
+                  "offset": 1353
+                },
+                "end": {
+                  "line": 27,
+                  "column": 24,
+                  "offset": 1374
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 1,
+              "offset": 1351
+            },
+            "end": {
+              "line": 27,
+              "column": 24,
+              "offset": 1374
+            }
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "link",
+                  "title": null,
+                  "url": "#websocket-compression",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "WebSocket compression",
+                      "position": {
+                        "start": {
+                          "line": 28,
+                          "column": 4,
+                          "offset": 1378
+                        },
+                        "end": {
+                          "line": 28,
+                          "column": 25,
+                          "offset": 1399
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 28,
+                      "column": 3,
+                      "offset": 1377
+                    },
+                    "end": {
+                      "line": 28,
+                      "column": 50,
+                      "offset": 1424
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 28,
+                  "column": 3,
+                  "offset": 1377
+                },
+                "end": {
+                  "line": 28,
+                  "column": 50,
+                  "offset": 1424
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 28,
+              "column": 1,
+              "offset": 1375
+            },
+            "end": {
+              "line": 28,
+              "column": 50,
+              "offset": 1424
+            }
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "link",
+                  "title": null,
+                  "url": "#usage-examples",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Usage examples",
+                      "position": {
+                        "start": {
+                          "line": 29,
+                          "column": 4,
+                          "offset": 1428
+                        },
+                        "end": {
+                          "line": 29,
+                          "column": 18,
+                          "offset": 1442
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 29,
+                      "column": 3,
+                      "offset": 1427
+                    },
+                    "end": {
+                      "line": 29,
+                      "column": 36,
+                      "offset": 1460
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 29,
+                  "column": 3,
+                  "offset": 1427
+                },
+                "end": {
+                  "line": 29,
+                  "column": 36,
+                  "offset": 1460
+                }
+              }
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "start": null,
+              "spread": false,
+              "children": [
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#sending-and-receiving-text-data",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Sending and receiving text data",
+                              "position": {
+                                "start": {
+                                  "line": 30,
+                                  "column": 6,
+                                  "offset": 1466
+                                },
+                                "end": {
+                                  "line": 30,
+                                  "column": 37,
+                                  "offset": 1497
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 30,
+                              "column": 5,
+                              "offset": 1465
+                            },
+                            "end": {
+                              "line": 30,
+                              "column": 72,
+                              "offset": 1532
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 30,
+                          "column": 5,
+                          "offset": 1465
+                        },
+                        "end": {
+                          "line": 30,
+                          "column": 72,
+                          "offset": 1532
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 30,
+                      "column": 3,
+                      "offset": 1463
+                    },
+                    "end": {
+                      "line": 30,
+                      "column": 72,
+                      "offset": 1532
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#sending-binary-data",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Sending binary data",
+                              "position": {
+                                "start": {
+                                  "line": 31,
+                                  "column": 6,
+                                  "offset": 1538
+                                },
+                                "end": {
+                                  "line": 31,
+                                  "column": 25,
+                                  "offset": 1557
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 31,
+                              "column": 5,
+                              "offset": 1537
+                            },
+                            "end": {
+                              "line": 31,
+                              "column": 48,
+                              "offset": 1580
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 31,
+                          "column": 5,
+                          "offset": 1537
+                        },
+                        "end": {
+                          "line": 31,
+                          "column": 48,
+                          "offset": 1580
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 31,
+                      "column": 3,
+                      "offset": 1535
+                    },
+                    "end": {
+                      "line": 31,
+                      "column": 48,
+                      "offset": 1580
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#simple-server",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Simple server",
+                              "position": {
+                                "start": {
+                                  "line": 32,
+                                  "column": 6,
+                                  "offset": 1586
+                                },
+                                "end": {
+                                  "line": 32,
+                                  "column": 19,
+                                  "offset": 1599
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 32,
+                              "column": 5,
+                              "offset": 1585
+                            },
+                            "end": {
+                              "line": 32,
+                              "column": 36,
+                              "offset": 1616
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 32,
+                          "column": 5,
+                          "offset": 1585
+                        },
+                        "end": {
+                          "line": 32,
+                          "column": 36,
+                          "offset": 1616
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 32,
+                      "column": 3,
+                      "offset": 1583
+                    },
+                    "end": {
+                      "line": 32,
+                      "column": 36,
+                      "offset": 1616
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#external-https-server",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "External HTTP/S server",
+                              "position": {
+                                "start": {
+                                  "line": 33,
+                                  "column": 6,
+                                  "offset": 1622
+                                },
+                                "end": {
+                                  "line": 33,
+                                  "column": 28,
+                                  "offset": 1644
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 33,
+                              "column": 5,
+                              "offset": 1621
+                            },
+                            "end": {
+                              "line": 33,
+                              "column": 53,
+                              "offset": 1669
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 33,
+                          "column": 5,
+                          "offset": 1621
+                        },
+                        "end": {
+                          "line": 33,
+                          "column": 53,
+                          "offset": 1669
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 33,
+                      "column": 3,
+                      "offset": 1619
+                    },
+                    "end": {
+                      "line": 33,
+                      "column": 53,
+                      "offset": 1669
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#multiple-servers-sharing-a-single-https-server",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Multiple servers sharing a single HTTP/S server",
+                              "position": {
+                                "start": {
+                                  "line": 34,
+                                  "column": 6,
+                                  "offset": 1675
+                                },
+                                "end": {
+                                  "line": 34,
+                                  "column": 53,
+                                  "offset": 1722
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 34,
+                              "column": 5,
+                              "offset": 1674
+                            },
+                            "end": {
+                              "line": 34,
+                              "column": 103,
+                              "offset": 1772
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 34,
+                          "column": 5,
+                          "offset": 1674
+                        },
+                        "end": {
+                          "line": 34,
+                          "column": 103,
+                          "offset": 1772
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 34,
+                      "column": 3,
+                      "offset": 1672
+                    },
+                    "end": {
+                      "line": 34,
+                      "column": 103,
+                      "offset": 1772
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#client-authentication",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Client authentication",
+                              "position": {
+                                "start": {
+                                  "line": 35,
+                                  "column": 6,
+                                  "offset": 1778
+                                },
+                                "end": {
+                                  "line": 35,
+                                  "column": 27,
+                                  "offset": 1799
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 35,
+                              "column": 5,
+                              "offset": 1777
+                            },
+                            "end": {
+                              "line": 35,
+                              "column": 52,
+                              "offset": 1824
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 35,
+                          "column": 5,
+                          "offset": 1777
+                        },
+                        "end": {
+                          "line": 35,
+                          "column": 52,
+                          "offset": 1824
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 35,
+                      "column": 3,
+                      "offset": 1775
+                    },
+                    "end": {
+                      "line": 35,
+                      "column": 52,
+                      "offset": 1824
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#server-broadcast",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Server broadcast",
+                              "position": {
+                                "start": {
+                                  "line": 36,
+                                  "column": 6,
+                                  "offset": 1830
+                                },
+                                "end": {
+                                  "line": 36,
+                                  "column": 22,
+                                  "offset": 1846
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 36,
+                              "column": 5,
+                              "offset": 1829
+                            },
+                            "end": {
+                              "line": 36,
+                              "column": 42,
+                              "offset": 1866
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 36,
+                          "column": 5,
+                          "offset": 1829
+                        },
+                        "end": {
+                          "line": 36,
+                          "column": 42,
+                          "offset": 1866
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 36,
+                      "column": 3,
+                      "offset": 1827
+                    },
+                    "end": {
+                      "line": 36,
+                      "column": 42,
+                      "offset": 1866
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#round-trip-time",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Round-trip time",
+                              "position": {
+                                "start": {
+                                  "line": 37,
+                                  "column": 6,
+                                  "offset": 1872
+                                },
+                                "end": {
+                                  "line": 37,
+                                  "column": 21,
+                                  "offset": 1887
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 37,
+                              "column": 5,
+                              "offset": 1871
+                            },
+                            "end": {
+                              "line": 37,
+                              "column": 40,
+                              "offset": 1906
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 37,
+                          "column": 5,
+                          "offset": 1871
+                        },
+                        "end": {
+                          "line": 37,
+                          "column": 40,
+                          "offset": 1906
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 37,
+                      "column": 3,
+                      "offset": 1869
+                    },
+                    "end": {
+                      "line": 37,
+                      "column": 40,
+                      "offset": 1906
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#use-the-nodejs-streams-api",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Use the Node.js streams API",
+                              "position": {
+                                "start": {
+                                  "line": 38,
+                                  "column": 6,
+                                  "offset": 1912
+                                },
+                                "end": {
+                                  "line": 38,
+                                  "column": 33,
+                                  "offset": 1939
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 38,
+                              "column": 5,
+                              "offset": 1911
+                            },
+                            "end": {
+                              "line": 38,
+                              "column": 63,
+                              "offset": 1969
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 38,
+                          "column": 5,
+                          "offset": 1911
+                        },
+                        "end": {
+                          "line": 38,
+                          "column": 63,
+                          "offset": 1969
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 38,
+                      "column": 3,
+                      "offset": 1909
+                    },
+                    "end": {
+                      "line": 38,
+                      "column": 63,
+                      "offset": 1969
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#other-examples",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "Other examples",
+                              "position": {
+                                "start": {
+                                  "line": 39,
+                                  "column": 6,
+                                  "offset": 1975
+                                },
+                                "end": {
+                                  "line": 39,
+                                  "column": 20,
+                                  "offset": 1989
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 39,
+                              "column": 5,
+                              "offset": 1974
+                            },
+                            "end": {
+                              "line": 39,
+                              "column": 38,
+                              "offset": 2007
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 39,
+                          "column": 5,
+                          "offset": 1974
+                        },
+                        "end": {
+                          "line": 39,
+                          "column": 38,
+                          "offset": 2007
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 39,
+                      "column": 3,
+                      "offset": 1972
+                    },
+                    "end": {
+                      "line": 39,
+                      "column": 38,
+                      "offset": 2007
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 30,
+                  "column": 3,
+                  "offset": 1463
+                },
+                "end": {
+                  "line": 39,
+                  "column": 38,
+                  "offset": 2007
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 29,
+              "column": 1,
+              "offset": 1425
+            },
+            "end": {
+              "line": 39,
+              "column": 38,
+              "offset": 2007
+            }
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "link",
+                  "title": null,
+                  "url": "#faq",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "FAQ",
+                      "position": {
+                        "start": {
+                          "line": 40,
+                          "column": 4,
+                          "offset": 2011
+                        },
+                        "end": {
+                          "line": 40,
+                          "column": 7,
+                          "offset": 2014
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 40,
+                      "column": 3,
+                      "offset": 2010
+                    },
+                    "end": {
+                      "line": 40,
+                      "column": 14,
+                      "offset": 2021
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 40,
+                  "column": 3,
+                  "offset": 2010
+                },
+                "end": {
+                  "line": 40,
+                  "column": 14,
+                  "offset": 2021
+                }
+              }
+            },
+            {
+              "type": "list",
+              "ordered": false,
+              "start": null,
+              "spread": false,
+              "children": [
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#how-to-get-the-ip-address-of-the-client",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "How to get the IP address of the client?",
+                              "position": {
+                                "start": {
+                                  "line": 41,
+                                  "column": 6,
+                                  "offset": 2027
+                                },
+                                "end": {
+                                  "line": 41,
+                                  "column": 46,
+                                  "offset": 2067
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 41,
+                              "column": 5,
+                              "offset": 2026
+                            },
+                            "end": {
+                              "line": 41,
+                              "column": 89,
+                              "offset": 2110
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 41,
+                          "column": 5,
+                          "offset": 2026
+                        },
+                        "end": {
+                          "line": 41,
+                          "column": 89,
+                          "offset": 2110
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 41,
+                      "column": 3,
+                      "offset": 2024
+                    },
+                    "end": {
+                      "line": 41,
+                      "column": 89,
+                      "offset": 2110
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#how-to-detect-and-close-broken-connections",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "How to detect and close broken connections?",
+                              "position": {
+                                "start": {
+                                  "line": 42,
+                                  "column": 6,
+                                  "offset": 2116
+                                },
+                                "end": {
+                                  "line": 42,
+                                  "column": 49,
+                                  "offset": 2159
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 42,
+                              "column": 5,
+                              "offset": 2115
+                            },
+                            "end": {
+                              "line": 42,
+                              "column": 95,
+                              "offset": 2205
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 42,
+                          "column": 5,
+                          "offset": 2115
+                        },
+                        "end": {
+                          "line": 42,
+                          "column": 95,
+                          "offset": 2205
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 42,
+                      "column": 3,
+                      "offset": 2113
+                    },
+                    "end": {
+                      "line": 42,
+                      "column": 95,
+                      "offset": 2205
+                    }
+                  }
+                },
+                {
+                  "type": "listItem",
+                  "spread": false,
+                  "checked": null,
+                  "children": [
+                    {
+                      "type": "paragraph",
+                      "children": [
+                        {
+                          "type": "link",
+                          "title": null,
+                          "url": "#how-to-connect-via-a-proxy",
+                          "children": [
+                            {
+                              "type": "text",
+                              "value": "How to connect via a proxy?",
+                              "position": {
+                                "start": {
+                                  "line": 43,
+                                  "column": 6,
+                                  "offset": 2211
+                                },
+                                "end": {
+                                  "line": 43,
+                                  "column": 33,
+                                  "offset": 2238
+                                }
+                              }
+                            }
+                          ],
+                          "position": {
+                            "start": {
+                              "line": 43,
+                              "column": 5,
+                              "offset": 2210
+                            },
+                            "end": {
+                              "line": 43,
+                              "column": 63,
+                              "offset": 2268
+                            }
+                          }
+                        }
+                      ],
+                      "position": {
+                        "start": {
+                          "line": 43,
+                          "column": 5,
+                          "offset": 2210
+                        },
+                        "end": {
+                          "line": 43,
+                          "column": 63,
+                          "offset": 2268
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 43,
+                      "column": 3,
+                      "offset": 2208
+                    },
+                    "end": {
+                      "line": 43,
+                      "column": 63,
+                      "offset": 2268
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 41,
+                  "column": 3,
+                  "offset": 2024
+                },
+                "end": {
+                  "line": 43,
+                  "column": 63,
+                  "offset": 2268
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 40,
+              "column": 1,
+              "offset": 2008
+            },
+            "end": {
+              "line": 43,
+              "column": 63,
+              "offset": 2268
+            }
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "link",
+                  "title": null,
+                  "url": "#changelog",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "Changelog",
+                      "position": {
+                        "start": {
+                          "line": 44,
+                          "column": 4,
+                          "offset": 2272
+                        },
+                        "end": {
+                          "line": 44,
+                          "column": 13,
+                          "offset": 2281
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 44,
+                      "column": 3,
+                      "offset": 2271
+                    },
+                    "end": {
+                      "line": 44,
+                      "column": 26,
+                      "offset": 2294
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 44,
+                  "column": 3,
+                  "offset": 2271
+                },
+                "end": {
+                  "line": 44,
+                  "column": 26,
+                  "offset": 2294
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 1,
+              "offset": 2269
+            },
+            "end": {
+              "line": 44,
+              "column": 26,
+              "offset": 2294
+            }
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "link",
+                  "title": null,
+                  "url": "#license",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "License",
+                      "position": {
+                        "start": {
+                          "line": 45,
+                          "column": 4,
+                          "offset": 2298
+                        },
+                        "end": {
+                          "line": 45,
+                          "column": 11,
+                          "offset": 2305
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 45,
+                      "column": 3,
+                      "offset": 2297
+                    },
+                    "end": {
+                      "line": 45,
+                      "column": 22,
+                      "offset": 2316
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 45,
+                  "column": 3,
+                  "offset": 2297
+                },
+                "end": {
+                  "line": 45,
+                  "column": 22,
+                  "offset": 2316
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 1,
+              "offset": 2295
+            },
+            "end": {
+              "line": 45,
+              "column": 22,
+              "offset": 2316
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 23,
+          "column": 1,
+          "offset": 1159
+        },
+        "end": {
+          "line": 45,
+          "column": 22,
+          "offset": 2316
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "Protocol support",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 4,
+              "offset": 2321
+            },
+            "end": {
+              "line": 47,
+              "column": 20,
+              "offset": 2337
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 47,
+          "column": 1,
+          "offset": 2318
+        },
+        "end": {
+          "line": 47,
+          "column": 20,
+          "offset": 2337
+        }
+      }
+    },
+    {
+      "type": "list",
+      "ordered": false,
+      "start": null,
+      "spread": false,
+      "children": [
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "HyBi drafts 07-12",
+                      "position": {
+                        "start": {
+                          "line": 49,
+                          "column": 5,
+                          "offset": 2343
+                        },
+                        "end": {
+                          "line": 49,
+                          "column": 22,
+                          "offset": 2360
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 49,
+                      "column": 3,
+                      "offset": 2341
+                    },
+                    "end": {
+                      "line": 49,
+                      "column": 24,
+                      "offset": 2362
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": " (Use the option ",
+                  "position": {
+                    "start": {
+                      "line": 49,
+                      "column": 24,
+                      "offset": 2362
+                    },
+                    "end": {
+                      "line": 49,
+                      "column": 41,
+                      "offset": 2379
+                    }
+                  }
+                },
+                {
+                  "type": "inlineCode",
+                  "value": "protocolVersion: 8",
+                  "position": {
+                    "start": {
+                      "line": 49,
+                      "column": 41,
+                      "offset": 2379
+                    },
+                    "end": {
+                      "line": 49,
+                      "column": 61,
+                      "offset": 2399
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": ")",
+                  "position": {
+                    "start": {
+                      "line": 49,
+                      "column": 61,
+                      "offset": 2399
+                    },
+                    "end": {
+                      "line": 49,
+                      "column": 62,
+                      "offset": 2400
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 49,
+                  "column": 3,
+                  "offset": 2341
+                },
+                "end": {
+                  "line": 49,
+                  "column": 62,
+                  "offset": 2400
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 1,
+              "offset": 2339
+            },
+            "end": {
+              "line": 49,
+              "column": 62,
+              "offset": 2400
+            }
+          }
+        },
+        {
+          "type": "listItem",
+          "spread": false,
+          "checked": null,
+          "children": [
+            {
+              "type": "paragraph",
+              "children": [
+                {
+                  "type": "strong",
+                  "children": [
+                    {
+                      "type": "text",
+                      "value": "HyBi drafts 13-17",
+                      "position": {
+                        "start": {
+                          "line": 50,
+                          "column": 5,
+                          "offset": 2405
+                        },
+                        "end": {
+                          "line": 50,
+                          "column": 22,
+                          "offset": 2422
+                        }
+                      }
+                    }
+                  ],
+                  "position": {
+                    "start": {
+                      "line": 50,
+                      "column": 3,
+                      "offset": 2403
+                    },
+                    "end": {
+                      "line": 50,
+                      "column": 24,
+                      "offset": 2424
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": " (Current default, alternatively option\n",
+                  "position": {
+                    "start": {
+                      "line": 50,
+                      "column": 24,
+                      "offset": 2424
+                    },
+                    "end": {
+                      "line": 51,
+                      "column": 1,
+                      "offset": 2464
+                    }
+                  }
+                },
+                {
+                  "type": "inlineCode",
+                  "value": "protocolVersion: 13",
+                  "position": {
+                    "start": {
+                      "line": 51,
+                      "column": 3,
+                      "offset": 2466
+                    },
+                    "end": {
+                      "line": 51,
+                      "column": 24,
+                      "offset": 2487
+                    }
+                  }
+                },
+                {
+                  "type": "text",
+                  "value": ")",
+                  "position": {
+                    "start": {
+                      "line": 51,
+                      "column": 24,
+                      "offset": 2487
+                    },
+                    "end": {
+                      "line": 51,
+                      "column": 25,
+                      "offset": 2488
+                    }
+                  }
+                }
+              ],
+              "position": {
+                "start": {
+                  "line": 50,
+                  "column": 3,
+                  "offset": 2403
+                },
+                "end": {
+                  "line": 51,
+                  "column": 25,
+                  "offset": 2488
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 1,
+              "offset": 2401
+            },
+            "end": {
+              "line": 51,
+              "column": 25,
+              "offset": 2488
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 49,
+          "column": 1,
+          "offset": 2339
+        },
+        "end": {
+          "line": 51,
+          "column": 25,
+          "offset": 2488
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "Installing",
+          "position": {
+            "start": {
+              "line": 53,
+              "column": 4,
+              "offset": 2493
+            },
+            "end": {
+              "line": 53,
+              "column": 14,
+              "offset": 2503
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 53,
+          "column": 1,
+          "offset": 2490
+        },
+        "end": {
+          "line": 53,
+          "column": 14,
+          "offset": 2503
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": null,
+      "meta": null,
+      "value": "npm install ws",
+      "position": {
+        "start": {
+          "line": 55,
+          "column": 1,
+          "offset": 2505
+        },
+        "end": {
+          "line": 57,
+          "column": 4,
+          "offset": 2527
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Opt-in for performance",
+          "position": {
+            "start": {
+              "line": 59,
+              "column": 5,
+              "offset": 2533
+            },
+            "end": {
+              "line": 59,
+              "column": 27,
+              "offset": 2555
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 59,
+          "column": 1,
+          "offset": 2529
+        },
+        "end": {
+          "line": 59,
+          "column": 27,
+          "offset": 2555
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "bufferutil",
+              "position": {
+                "start": {
+                  "line": 61,
+                  "column": 2,
+                  "offset": 2558
+                },
+                "end": {
+                  "line": 61,
+                  "column": 12,
+                  "offset": 2568
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 61,
+              "column": 1,
+              "offset": 2557
+            },
+            "end": {
+              "line": 61,
+              "column": 15,
+              "offset": 2571
+            }
+          },
+          "label": "bufferutil",
+          "identifier": "bufferutil",
+          "referenceType": "collapsed"
+        },
+        {
+          "type": "text",
+          "value": " is an optional module that can be installed alongside the ws\nmodule:",
+          "position": {
+            "start": {
+              "line": 61,
+              "column": 15,
+              "offset": 2571
+            },
+            "end": {
+              "line": 62,
+              "column": 8,
+              "offset": 2640
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 61,
+          "column": 1,
+          "offset": 2557
+        },
+        "end": {
+          "line": 62,
+          "column": 8,
+          "offset": 2640
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": null,
+      "meta": null,
+      "value": "npm install --save-optional bufferutil",
+      "position": {
+        "start": {
+          "line": 64,
+          "column": 1,
+          "offset": 2642
+        },
+        "end": {
+          "line": 66,
+          "column": 4,
+          "offset": 2688
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "This is a binary addon that improves the performance of certain operations such\nas masking and unmasking the data payload of the WebSocket frames. Prebuilt\nbinaries are available for the most popular platforms, so you don't necessarily\nneed to have a C++ compiler installed on your machine.",
+          "position": {
+            "start": {
+              "line": 68,
+              "column": 1,
+              "offset": 2690
+            },
+            "end": {
+              "line": 71,
+              "column": 55,
+              "offset": 2980
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 68,
+          "column": 1,
+          "offset": 2690
+        },
+        "end": {
+          "line": 71,
+          "column": 55,
+          "offset": 2980
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "To force ws to not use bufferutil, use the\n",
+          "position": {
+            "start": {
+              "line": 73,
+              "column": 1,
+              "offset": 2982
+            },
+            "end": {
+              "line": 74,
+              "column": 1,
+              "offset": 3025
+            }
+          }
+        },
+        {
+          "type": "link",
+          "title": null,
+          "url": "./doc/ws.md#ws_no_buffer_util",
+          "children": [
+            {
+              "type": "inlineCode",
+              "value": "WS_NO_BUFFER_UTIL",
+              "position": {
+                "start": {
+                  "line": 74,
+                  "column": 2,
+                  "offset": 3026
+                },
+                "end": {
+                  "line": 74,
+                  "column": 21,
+                  "offset": 3045
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 74,
+              "column": 1,
+              "offset": 3025
+            },
+            "end": {
+              "line": 74,
+              "column": 53,
+              "offset": 3077
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": " environment variable. This\ncan be useful to enhance security in systems where a user can put a package in\nthe package search path of an application of another user, due to how the\nNode.js resolver algorithm works.",
+          "position": {
+            "start": {
+              "line": 74,
+              "column": 53,
+              "offset": 3077
+            },
+            "end": {
+              "line": 77,
+              "column": 34,
+              "offset": 3291
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 73,
+          "column": 1,
+          "offset": 2982
+        },
+        "end": {
+          "line": 77,
+          "column": 34,
+          "offset": 3291
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 4,
+      "children": [
+        {
+          "type": "text",
+          "value": "Legacy opt-in for performance",
+          "position": {
+            "start": {
+              "line": 79,
+              "column": 6,
+              "offset": 3298
+            },
+            "end": {
+              "line": 79,
+              "column": 35,
+              "offset": 3327
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 79,
+          "column": 1,
+          "offset": 3293
+        },
+        "end": {
+          "line": 79,
+          "column": 35,
+          "offset": 3327
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "If you are running on an old version of Node.js (prior to v18.14.0), ws also\nsupports the ",
+          "position": {
+            "start": {
+              "line": 81,
+              "column": 1,
+              "offset": 3329
+            },
+            "end": {
+              "line": 82,
+              "column": 14,
+              "offset": 3419
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "utf-8-validate",
+              "position": {
+                "start": {
+                  "line": 82,
+                  "column": 15,
+                  "offset": 3420
+                },
+                "end": {
+                  "line": 82,
+                  "column": 29,
+                  "offset": 3434
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 82,
+              "column": 14,
+              "offset": 3419
+            },
+            "end": {
+              "line": 82,
+              "column": 32,
+              "offset": 3437
+            }
+          },
+          "label": "utf-8-validate",
+          "identifier": "utf-8-validate",
+          "referenceType": "collapsed"
+        },
+        {
+          "type": "text",
+          "value": " module:",
+          "position": {
+            "start": {
+              "line": 82,
+              "column": 32,
+              "offset": 3437
+            },
+            "end": {
+              "line": 82,
+              "column": 40,
+              "offset": 3445
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 81,
+          "column": 1,
+          "offset": 3329
+        },
+        "end": {
+          "line": 82,
+          "column": 40,
+          "offset": 3445
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": null,
+      "meta": null,
+      "value": "npm install --save-optional utf-8-validate",
+      "position": {
+        "start": {
+          "line": 84,
+          "column": 1,
+          "offset": 3447
+        },
+        "end": {
+          "line": 86,
+          "column": 4,
+          "offset": 3497
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "This contains a binary polyfill for ",
+          "position": {
+            "start": {
+              "line": 88,
+              "column": 1,
+              "offset": 3499
+            },
+            "end": {
+              "line": 88,
+              "column": 37,
+              "offset": 3535
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "inlineCode",
+              "value": "buffer.isUtf8()",
+              "position": {
+                "start": {
+                  "line": 88,
+                  "column": 38,
+                  "offset": 3536
+                },
+                "end": {
+                  "line": 88,
+                  "column": 55,
+                  "offset": 3553
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 88,
+              "column": 37,
+              "offset": 3535
+            },
+            "end": {
+              "line": 88,
+              "column": 58,
+              "offset": 3556
+            }
+          },
+          "label": "`buffer.isUtf8()`",
+          "identifier": "`buffer.isutf8()`",
+          "referenceType": "collapsed"
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 88,
+              "column": 58,
+              "offset": 3556
+            },
+            "end": {
+              "line": 88,
+              "column": 59,
+              "offset": 3557
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 88,
+          "column": 1,
+          "offset": 3499
+        },
+        "end": {
+          "line": 88,
+          "column": 59,
+          "offset": 3557
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "To force ws not to use utf-8-validate, use the\n",
+          "position": {
+            "start": {
+              "line": 90,
+              "column": 1,
+              "offset": 3559
+            },
+            "end": {
+              "line": 91,
+              "column": 1,
+              "offset": 3606
+            }
+          }
+        },
+        {
+          "type": "link",
+          "title": null,
+          "url": "./doc/ws.md#ws_no_utf_8_validate",
+          "children": [
+            {
+              "type": "inlineCode",
+              "value": "WS_NO_UTF_8_VALIDATE",
+              "position": {
+                "start": {
+                  "line": 91,
+                  "column": 2,
+                  "offset": 3607
+                },
+                "end": {
+                  "line": 91,
+                  "column": 24,
+                  "offset": 3629
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 91,
+              "column": 1,
+              "offset": 3606
+            },
+            "end": {
+              "line": 91,
+              "column": 59,
+              "offset": 3664
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": " environment variable.",
+          "position": {
+            "start": {
+              "line": 91,
+              "column": 59,
+              "offset": 3664
+            },
+            "end": {
+              "line": 91,
+              "column": 81,
+              "offset": 3686
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 90,
+          "column": 1,
+          "offset": 3559
+        },
+        "end": {
+          "line": 91,
+          "column": 81,
+          "offset": 3686
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "API docs",
+          "position": {
+            "start": {
+              "line": 93,
+              "column": 4,
+              "offset": 3691
+            },
+            "end": {
+              "line": 93,
+              "column": 12,
+              "offset": 3699
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 93,
+          "column": 1,
+          "offset": 3688
+        },
+        "end": {
+          "line": 93,
+          "column": 12,
+          "offset": 3699
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "See ",
+          "position": {
+            "start": {
+              "line": 95,
+              "column": 1,
+              "offset": 3701
+            },
+            "end": {
+              "line": 95,
+              "column": 5,
+              "offset": 3705
+            }
+          }
+        },
+        {
+          "type": "link",
+          "title": null,
+          "url": "./doc/ws.md",
+          "children": [
+            {
+              "type": "inlineCode",
+              "value": "/doc/ws.md",
+              "position": {
+                "start": {
+                  "line": 95,
+                  "column": 6,
+                  "offset": 3706
+                },
+                "end": {
+                  "line": 95,
+                  "column": 18,
+                  "offset": 3718
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 95,
+              "column": 5,
+              "offset": 3705
+            },
+            "end": {
+              "line": 95,
+              "column": 32,
+              "offset": 3732
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": " for Node.js-like documentation of ws classes and\nutility functions.",
+          "position": {
+            "start": {
+              "line": 95,
+              "column": 32,
+              "offset": 3732
+            },
+            "end": {
+              "line": 96,
+              "column": 19,
+              "offset": 3800
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 95,
+          "column": 1,
+          "offset": 3701
+        },
+        "end": {
+          "line": 96,
+          "column": 19,
+          "offset": 3800
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "WebSocket compression",
+          "position": {
+            "start": {
+              "line": 98,
+              "column": 4,
+              "offset": 3805
+            },
+            "end": {
+              "line": 98,
+              "column": 25,
+              "offset": 3826
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 98,
+          "column": 1,
+          "offset": 3802
+        },
+        "end": {
+          "line": 98,
+          "column": 25,
+          "offset": 3826
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "ws supports the ",
+          "position": {
+            "start": {
+              "line": 100,
+              "column": 1,
+              "offset": 3828
+            },
+            "end": {
+              "line": 100,
+              "column": 17,
+              "offset": 3844
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "permessage-deflate extension",
+              "position": {
+                "start": {
+                  "line": 100,
+                  "column": 18,
+                  "offset": 3845
+                },
+                "end": {
+                  "line": 100,
+                  "column": 46,
+                  "offset": 3873
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 100,
+              "column": 17,
+              "offset": 3844
+            },
+            "end": {
+              "line": 100,
+              "column": 67,
+              "offset": 3894
+            }
+          },
+          "label": "permessage-deflate",
+          "identifier": "permessage-deflate",
+          "referenceType": "full"
+        },
+        {
+          "type": "text",
+          "value": " which enables\nthe client and server to negotiate a compression algorithm and its parameters,\nand then selectively apply it to the data payloads of each WebSocket message.",
+          "position": {
+            "start": {
+              "line": 100,
+              "column": 67,
+              "offset": 3894
+            },
+            "end": {
+              "line": 102,
+              "column": 78,
+              "offset": 4065
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 100,
+          "column": 1,
+          "offset": 3828
+        },
+        "end": {
+          "line": 102,
+          "column": 78,
+          "offset": 4065
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "The extension is disabled by default on the server and enabled by default on the\nclient. It adds a significant overhead in terms of performance and memory\nconsumption so we suggest to enable it only if it is really needed.",
+          "position": {
+            "start": {
+              "line": 104,
+              "column": 1,
+              "offset": 4067
+            },
+            "end": {
+              "line": 106,
+              "column": 68,
+              "offset": 4289
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 104,
+          "column": 1,
+          "offset": 4067
+        },
+        "end": {
+          "line": 106,
+          "column": 68,
+          "offset": 4289
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Note that Node.js has a variety of issues with high-performance compression,\nwhere increased concurrency, especially on Linux, can lead to ",
+          "position": {
+            "start": {
+              "line": 108,
+              "column": 1,
+              "offset": 4291
+            },
+            "end": {
+              "line": 109,
+              "column": 63,
+              "offset": 4430
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "catastrophic\nmemory fragmentation",
+              "position": {
+                "start": {
+                  "line": 109,
+                  "column": 64,
+                  "offset": 4431
+                },
+                "end": {
+                  "line": 110,
+                  "column": 21,
+                  "offset": 4464
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 109,
+              "column": 63,
+              "offset": 4430
+            },
+            "end": {
+              "line": 110,
+              "column": 37,
+              "offset": 4480
+            }
+          },
+          "label": "node-zlib-bug",
+          "identifier": "node-zlib-bug",
+          "referenceType": "full"
+        },
+        {
+          "type": "text",
+          "value": " and slow performance. If you intend to use\npermessage-deflate in production, it is worthwhile to set up a test\nrepresentative of your workload and ensure Node.js/zlib will handle it with\nacceptable performance and memory usage.",
+          "position": {
+            "start": {
+              "line": 110,
+              "column": 37,
+              "offset": 4480
+            },
+            "end": {
+              "line": 113,
+              "column": 41,
+              "offset": 4708
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 108,
+          "column": 1,
+          "offset": 4291
+        },
+        "end": {
+          "line": 113,
+          "column": 41,
+          "offset": 4708
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Tuning of permessage-deflate can be done via the options defined below. You can\nalso use ",
+          "position": {
+            "start": {
+              "line": 115,
+              "column": 1,
+              "offset": 4710
+            },
+            "end": {
+              "line": 116,
+              "column": 10,
+              "offset": 4799
+            }
+          }
+        },
+        {
+          "type": "inlineCode",
+          "value": "zlibDeflateOptions",
+          "position": {
+            "start": {
+              "line": 116,
+              "column": 10,
+              "offset": 4799
+            },
+            "end": {
+              "line": 116,
+              "column": 30,
+              "offset": 4819
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": " and ",
+          "position": {
+            "start": {
+              "line": 116,
+              "column": 30,
+              "offset": 4819
+            },
+            "end": {
+              "line": 116,
+              "column": 35,
+              "offset": 4824
+            }
+          }
+        },
+        {
+          "type": "inlineCode",
+          "value": "zlibInflateOptions",
+          "position": {
+            "start": {
+              "line": 116,
+              "column": 35,
+              "offset": 4824
+            },
+            "end": {
+              "line": 116,
+              "column": 55,
+              "offset": 4844
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": ", which is passed directly\ninto the creation of ",
+          "position": {
+            "start": {
+              "line": 116,
+              "column": 55,
+              "offset": 4844
+            },
+            "end": {
+              "line": 117,
+              "column": 22,
+              "offset": 4892
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "raw deflate/inflate streams",
+              "position": {
+                "start": {
+                  "line": 117,
+                  "column": 23,
+                  "offset": 4893
+                },
+                "end": {
+                  "line": 117,
+                  "column": 50,
+                  "offset": 4920
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 117,
+              "column": 22,
+              "offset": 4892
+            },
+            "end": {
+              "line": 117,
+              "column": 77,
+              "offset": 4947
+            }
+          },
+          "label": "node-zlib-deflaterawdocs",
+          "identifier": "node-zlib-deflaterawdocs",
+          "referenceType": "full"
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 117,
+              "column": 77,
+              "offset": 4947
+            },
+            "end": {
+              "line": 117,
+              "column": 78,
+              "offset": 4948
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 115,
+          "column": 1,
+          "offset": 4710
+        },
+        "end": {
+          "line": 117,
+          "column": 78,
+          "offset": 4948
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "See ",
+          "position": {
+            "start": {
+              "line": 119,
+              "column": 1,
+              "offset": 4950
+            },
+            "end": {
+              "line": 119,
+              "column": 5,
+              "offset": 4954
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "the docs",
+              "position": {
+                "start": {
+                  "line": 119,
+                  "column": 6,
+                  "offset": 4955
+                },
+                "end": {
+                  "line": 119,
+                  "column": 14,
+                  "offset": 4963
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 119,
+              "column": 5,
+              "offset": 4954
+            },
+            "end": {
+              "line": 119,
+              "column": 34,
+              "offset": 4983
+            }
+          },
+          "label": "ws-server-options",
+          "identifier": "ws-server-options",
+          "referenceType": "full"
+        },
+        {
+          "type": "text",
+          "value": " for more options.",
+          "position": {
+            "start": {
+              "line": 119,
+              "column": 34,
+              "offset": 4983
+            },
+            "end": {
+              "line": 119,
+              "column": 52,
+              "offset": 5001
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 119,
+          "column": 1,
+          "offset": 4950
+        },
+        "end": {
+          "line": 119,
+          "column": 52,
+          "offset": 5001
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket, { WebSocketServer } from 'ws';\n\nconst wss = new WebSocketServer({\n  port: 8080,\n  perMessageDeflate: {\n    zlibDeflateOptions: {\n      // See zlib defaults.\n      chunkSize: 1024,\n      memLevel: 7,\n      level: 3\n    },\n    zlibInflateOptions: {\n      chunkSize: 10 * 1024\n    },\n    // Other options settable:\n    clientNoContextTakeover: true, // Defaults to negotiated value.\n    serverNoContextTakeover: true, // Defaults to negotiated value.\n    serverMaxWindowBits: 10, // Defaults to negotiated value.\n    // Below options specified as default values.\n    concurrencyLimit: 10, // Limits zlib concurrency for perf.\n    threshold: 1024 // Size (in bytes) below which messages\n    // should not be compressed if context takeover is disabled.\n  }\n});",
+      "position": {
+        "start": {
+          "line": 121,
+          "column": 1,
+          "offset": 5003
+        },
+        "end": {
+          "line": 146,
+          "column": 4,
+          "offset": 5786
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "The client will only use the extension if it is supported and enabled on the\nserver. To always disable the extension on the client, set the\n",
+          "position": {
+            "start": {
+              "line": 148,
+              "column": 1,
+              "offset": 5788
+            },
+            "end": {
+              "line": 150,
+              "column": 1,
+              "offset": 5928
+            }
+          }
+        },
+        {
+          "type": "inlineCode",
+          "value": "perMessageDeflate",
+          "position": {
+            "start": {
+              "line": 150,
+              "column": 1,
+              "offset": 5928
+            },
+            "end": {
+              "line": 150,
+              "column": 20,
+              "offset": 5947
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": " option to ",
+          "position": {
+            "start": {
+              "line": 150,
+              "column": 20,
+              "offset": 5947
+            },
+            "end": {
+              "line": 150,
+              "column": 31,
+              "offset": 5958
+            }
+          }
+        },
+        {
+          "type": "inlineCode",
+          "value": "false",
+          "position": {
+            "start": {
+              "line": 150,
+              "column": 31,
+              "offset": 5958
+            },
+            "end": {
+              "line": 150,
+              "column": 38,
+              "offset": 5965
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 150,
+              "column": 38,
+              "offset": 5965
+            },
+            "end": {
+              "line": 150,
+              "column": 39,
+              "offset": 5966
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 148,
+          "column": 1,
+          "offset": 5788
+        },
+        "end": {
+          "line": 150,
+          "column": 39,
+          "offset": 5966
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket from 'ws';\n\nconst ws = new WebSocket('ws://www.host.com/path', {\n  perMessageDeflate: false\n});",
+      "position": {
+        "start": {
+          "line": 152,
+          "column": 1,
+          "offset": 5968
+        },
+        "end": {
+          "line": 158,
+          "column": 4,
+          "offset": 6090
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "Usage examples",
+          "position": {
+            "start": {
+              "line": 160,
+              "column": 4,
+              "offset": 6095
+            },
+            "end": {
+              "line": 160,
+              "column": 18,
+              "offset": 6109
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 160,
+          "column": 1,
+          "offset": 6092
+        },
+        "end": {
+          "line": 160,
+          "column": 18,
+          "offset": 6109
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Sending and receiving text data",
+          "position": {
+            "start": {
+              "line": 162,
+              "column": 5,
+              "offset": 6115
+            },
+            "end": {
+              "line": 162,
+              "column": 36,
+              "offset": 6146
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 162,
+          "column": 1,
+          "offset": 6111
+        },
+        "end": {
+          "line": 162,
+          "column": 36,
+          "offset": 6146
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket from 'ws';\n\nconst ws = new WebSocket('ws://www.host.com/path');\n\nws.on('error', console.error);\n\nws.on('open', function open() {\n  ws.send('something');\n});\n\nws.on('message', function message(data) {\n  console.log('received: %s', data);\n});",
+      "position": {
+        "start": {
+          "line": 164,
+          "column": 1,
+          "offset": 6148
+        },
+        "end": {
+          "line": 178,
+          "column": 4,
+          "offset": 6415
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Sending binary data",
+          "position": {
+            "start": {
+              "line": 180,
+              "column": 5,
+              "offset": 6421
+            },
+            "end": {
+              "line": 180,
+              "column": 24,
+              "offset": 6440
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 180,
+          "column": 1,
+          "offset": 6417
+        },
+        "end": {
+          "line": 180,
+          "column": 24,
+          "offset": 6440
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket from 'ws';\n\nconst ws = new WebSocket('ws://www.host.com/path');\n\nws.on('error', console.error);\n\nws.on('open', function open() {\n  const array = new Float32Array(5);\n\n  for (var i = 0; i < array.length; ++i) {\n    array[i] = i / 2;\n  }\n\n  ws.send(array);\n});",
+      "position": {
+        "start": {
+          "line": 182,
+          "column": 1,
+          "offset": 6442
+        },
+        "end": {
+          "line": 198,
+          "column": 4,
+          "offset": 6727
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Simple server",
+          "position": {
+            "start": {
+              "line": 200,
+              "column": 5,
+              "offset": 6733
+            },
+            "end": {
+              "line": 200,
+              "column": 18,
+              "offset": 6746
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 200,
+          "column": 1,
+          "offset": 6729
+        },
+        "end": {
+          "line": 200,
+          "column": 18,
+          "offset": 6746
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import { WebSocketServer } from 'ws';\n\nconst wss = new WebSocketServer({ port: 8080 });\n\nwss.on('connection', function connection(ws) {\n  ws.on('error', console.error);\n\n  ws.on('message', function message(data) {\n    console.log('received: %s', data);\n  });\n\n  ws.send('something');\n});",
+      "position": {
+        "start": {
+          "line": 202,
+          "column": 1,
+          "offset": 6748
+        },
+        "end": {
+          "line": 216,
+          "column": 4,
+          "offset": 7045
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "External HTTP/S server",
+          "position": {
+            "start": {
+              "line": 218,
+              "column": 5,
+              "offset": 7051
+            },
+            "end": {
+              "line": 218,
+              "column": 27,
+              "offset": 7073
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 218,
+          "column": 1,
+          "offset": 7047
+        },
+        "end": {
+          "line": 218,
+          "column": 27,
+          "offset": 7073
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import { createServer } from 'https';\nimport { readFileSync } from 'fs';\nimport { WebSocketServer } from 'ws';\n\nconst server = createServer({\n  cert: readFileSync('/path/to/cert.pem'),\n  key: readFileSync('/path/to/key.pem')\n});\nconst wss = new WebSocketServer({ server });\n\nwss.on('connection', function connection(ws) {\n  ws.on('error', console.error);\n\n  ws.on('message', function message(data) {\n    console.log('received: %s', data);\n  });\n\n  ws.send('something');\n});\n\nserver.listen(8080);",
+      "position": {
+        "start": {
+          "line": 220,
+          "column": 1,
+          "offset": 7075
+        },
+        "end": {
+          "line": 242,
+          "column": 4,
+          "offset": 7580
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Multiple servers sharing a single HTTP/S server",
+          "position": {
+            "start": {
+              "line": 244,
+              "column": 5,
+              "offset": 7586
+            },
+            "end": {
+              "line": 244,
+              "column": 52,
+              "offset": 7633
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 244,
+          "column": 1,
+          "offset": 7582
+        },
+        "end": {
+          "line": 244,
+          "column": 52,
+          "offset": 7633
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import { createServer } from 'http';\nimport { WebSocketServer } from 'ws';\n\nconst server = createServer();\nconst wss1 = new WebSocketServer({ noServer: true });\nconst wss2 = new WebSocketServer({ noServer: true });\n\nwss1.on('connection', function connection(ws) {\n  ws.on('error', console.error);\n\n  // ...\n});\n\nwss2.on('connection', function connection(ws) {\n  ws.on('error', console.error);\n\n  // ...\n});\n\nserver.on('upgrade', function upgrade(request, socket, head) {\n  const { pathname } = new URL(request.url, 'wss://base.url');\n\n  if (pathname === '/foo') {\n    wss1.handleUpgrade(request, socket, head, function done(ws) {\n      wss1.emit('connection', ws, request);\n    });\n  } else if (pathname === '/bar') {\n    wss2.handleUpgrade(request, socket, head, function done(ws) {\n      wss2.emit('connection', ws, request);\n    });\n  } else {\n    socket.destroy();\n  }\n});\n\nserver.listen(8080);",
+      "position": {
+        "start": {
+          "line": 246,
+          "column": 1,
+          "offset": 7635
+        },
+        "end": {
+          "line": 283,
+          "column": 4,
+          "offset": 8543
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Client authentication",
+          "position": {
+            "start": {
+              "line": 285,
+              "column": 5,
+              "offset": 8549
+            },
+            "end": {
+              "line": 285,
+              "column": 26,
+              "offset": 8570
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 285,
+          "column": 1,
+          "offset": 8545
+        },
+        "end": {
+          "line": 285,
+          "column": 26,
+          "offset": 8570
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import { createServer } from 'http';\nimport { WebSocketServer } from 'ws';\n\nfunction onSocketError(err) {\n  console.error(err);\n}\n\nconst server = createServer();\nconst wss = new WebSocketServer({ noServer: true });\n\nwss.on('connection', function connection(ws, request, client) {\n  ws.on('error', console.error);\n\n  ws.on('message', function message(data) {\n    console.log(`Received message ${data} from user ${client}`);\n  });\n});\n\nserver.on('upgrade', function upgrade(request, socket, head) {\n  socket.on('error', onSocketError);\n\n  // This function is not defined on purpose. Implement it with your own logic.\n  authenticate(request, function next(err, client) {\n    if (err || !client) {\n      socket.write('HTTP/1.1 401 Unauthorized\\r\\n\\r\\n');\n      socket.destroy();\n      return;\n    }\n\n    socket.removeListener('error', onSocketError);\n\n    wss.handleUpgrade(request, socket, head, function done(ws) {\n      wss.emit('connection', ws, request, client);\n    });\n  });\n});\n\nserver.listen(8080);",
+      "position": {
+        "start": {
+          "line": 287,
+          "column": 1,
+          "offset": 8572
+        },
+        "end": {
+          "line": 326,
+          "column": 4,
+          "offset": 9585
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Also see the provided ",
+          "position": {
+            "start": {
+              "line": 328,
+              "column": 1,
+              "offset": 9587
+            },
+            "end": {
+              "line": 328,
+              "column": 23,
+              "offset": 9609
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "example",
+              "position": {
+                "start": {
+                  "line": 328,
+                  "column": 24,
+                  "offset": 9610
+                },
+                "end": {
+                  "line": 328,
+                  "column": 31,
+                  "offset": 9617
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 328,
+              "column": 23,
+              "offset": 9609
+            },
+            "end": {
+              "line": 328,
+              "column": 55,
+              "offset": 9641
+            }
+          },
+          "label": "session-parse-example",
+          "identifier": "session-parse-example",
+          "referenceType": "full"
+        },
+        {
+          "type": "text",
+          "value": " using ",
+          "position": {
+            "start": {
+              "line": 328,
+              "column": 55,
+              "offset": 9641
+            },
+            "end": {
+              "line": 328,
+              "column": 62,
+              "offset": 9648
+            }
+          }
+        },
+        {
+          "type": "inlineCode",
+          "value": "express-session",
+          "position": {
+            "start": {
+              "line": 328,
+              "column": 62,
+              "offset": 9648
+            },
+            "end": {
+              "line": 328,
+              "column": 79,
+              "offset": 9665
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 328,
+              "column": 79,
+              "offset": 9665
+            },
+            "end": {
+              "line": 328,
+              "column": 80,
+              "offset": 9666
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 328,
+          "column": 1,
+          "offset": 9587
+        },
+        "end": {
+          "line": 328,
+          "column": 80,
+          "offset": 9666
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Server broadcast",
+          "position": {
+            "start": {
+              "line": 330,
+              "column": 5,
+              "offset": 9672
+            },
+            "end": {
+              "line": 330,
+              "column": 21,
+              "offset": 9688
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 330,
+          "column": 1,
+          "offset": 9668
+        },
+        "end": {
+          "line": 330,
+          "column": 21,
+          "offset": 9688
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "A client WebSocket broadcasting to all connected WebSocket clients, including\nitself.",
+          "position": {
+            "start": {
+              "line": 332,
+              "column": 1,
+              "offset": 9690
+            },
+            "end": {
+              "line": 333,
+              "column": 8,
+              "offset": 9775
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 332,
+          "column": 1,
+          "offset": 9690
+        },
+        "end": {
+          "line": 333,
+          "column": 8,
+          "offset": 9775
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket, { WebSocketServer } from 'ws';\n\nconst wss = new WebSocketServer({ port: 8080 });\n\nwss.on('connection', function connection(ws) {\n  ws.on('error', console.error);\n\n  ws.on('message', function message(data, isBinary) {\n    wss.clients.forEach(function each(client) {\n      if (client.readyState === WebSocket.OPEN) {\n        client.send(data, { binary: isBinary });\n      }\n    });\n  });\n});",
+      "position": {
+        "start": {
+          "line": 335,
+          "column": 1,
+          "offset": 9777
+        },
+        "end": {
+          "line": 351,
+          "column": 4,
+          "offset": 10194
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "A client WebSocket broadcasting to every other connected WebSocket clients,\nexcluding itself.",
+          "position": {
+            "start": {
+              "line": 353,
+              "column": 1,
+              "offset": 10196
+            },
+            "end": {
+              "line": 354,
+              "column": 18,
+              "offset": 10289
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 353,
+          "column": 1,
+          "offset": 10196
+        },
+        "end": {
+          "line": 354,
+          "column": 18,
+          "offset": 10289
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket, { WebSocketServer } from 'ws';\n\nconst wss = new WebSocketServer({ port: 8080 });\n\nwss.on('connection', function connection(ws) {\n  ws.on('error', console.error);\n\n  ws.on('message', function message(data, isBinary) {\n    wss.clients.forEach(function each(client) {\n      if (client !== ws && client.readyState === WebSocket.OPEN) {\n        client.send(data, { binary: isBinary });\n      }\n    });\n  });\n});",
+      "position": {
+        "start": {
+          "line": 356,
+          "column": 1,
+          "offset": 10291
+        },
+        "end": {
+          "line": 372,
+          "column": 4,
+          "offset": 10725
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Round-trip time",
+          "position": {
+            "start": {
+              "line": 374,
+              "column": 5,
+              "offset": 10731
+            },
+            "end": {
+              "line": 374,
+              "column": 20,
+              "offset": 10746
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 374,
+          "column": 1,
+          "offset": 10727
+        },
+        "end": {
+          "line": 374,
+          "column": 20,
+          "offset": 10746
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket from 'ws';\n\nconst ws = new WebSocket('wss://websocket-echo.com/');\n\nws.on('error', console.error);\n\nws.on('open', function open() {\n  console.log('connected');\n  ws.send(Date.now());\n});\n\nws.on('close', function close() {\n  console.log('disconnected');\n});\n\nws.on('message', function message(data) {\n  console.log(`Round-trip time: ${Date.now() - data} ms`);\n\n  setTimeout(function timeout() {\n    ws.send(Date.now());\n  }, 500);\n});",
+      "position": {
+        "start": {
+          "line": 376,
+          "column": 1,
+          "offset": 10748
+        },
+        "end": {
+          "line": 399,
+          "column": 4,
+          "offset": 11208
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Use the Node.js streams API",
+          "position": {
+            "start": {
+              "line": 401,
+              "column": 5,
+              "offset": 11214
+            },
+            "end": {
+              "line": 401,
+              "column": 32,
+              "offset": 11241
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 401,
+          "column": 1,
+          "offset": 11210
+        },
+        "end": {
+          "line": 401,
+          "column": 32,
+          "offset": 11241
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket, { createWebSocketStream } from 'ws';\n\nconst ws = new WebSocket('wss://websocket-echo.com/');\n\nconst duplex = createWebSocketStream(ws, { encoding: 'utf8' });\n\nduplex.on('error', console.error);\n\nduplex.pipe(process.stdout);\nprocess.stdin.pipe(duplex);",
+      "position": {
+        "start": {
+          "line": 403,
+          "column": 1,
+          "offset": 11243
+        },
+        "end": {
+          "line": 414,
+          "column": 4,
+          "offset": 11522
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "Other examples",
+          "position": {
+            "start": {
+              "line": 416,
+              "column": 5,
+              "offset": 11528
+            },
+            "end": {
+              "line": 416,
+              "column": 19,
+              "offset": 11542
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 416,
+          "column": 1,
+          "offset": 11524
+        },
+        "end": {
+          "line": 416,
+          "column": 19,
+          "offset": 11542
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "For a full example with a browser client communicating with a ws server, see the\nexamples folder.",
+          "position": {
+            "start": {
+              "line": 418,
+              "column": 1,
+              "offset": 11544
+            },
+            "end": {
+              "line": 419,
+              "column": 17,
+              "offset": 11641
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 418,
+          "column": 1,
+          "offset": 11544
+        },
+        "end": {
+          "line": 419,
+          "column": 17,
+          "offset": 11641
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Otherwise, see the test cases.",
+          "position": {
+            "start": {
+              "line": 421,
+              "column": 1,
+              "offset": 11643
+            },
+            "end": {
+              "line": 421,
+              "column": 31,
+              "offset": 11673
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 421,
+          "column": 1,
+          "offset": 11643
+        },
+        "end": {
+          "line": 421,
+          "column": 31,
+          "offset": 11673
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "FAQ",
+          "position": {
+            "start": {
+              "line": 423,
+              "column": 4,
+              "offset": 11678
+            },
+            "end": {
+              "line": 423,
+              "column": 7,
+              "offset": 11681
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 423,
+          "column": 1,
+          "offset": 11675
+        },
+        "end": {
+          "line": 423,
+          "column": 7,
+          "offset": 11681
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "How to get the IP address of the client?",
+          "position": {
+            "start": {
+              "line": 425,
+              "column": 5,
+              "offset": 11687
+            },
+            "end": {
+              "line": 425,
+              "column": 45,
+              "offset": 11727
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 425,
+          "column": 1,
+          "offset": 11683
+        },
+        "end": {
+          "line": 425,
+          "column": 45,
+          "offset": 11727
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "The remote IP address can be obtained from the raw socket.",
+          "position": {
+            "start": {
+              "line": 427,
+              "column": 1,
+              "offset": 11729
+            },
+            "end": {
+              "line": 427,
+              "column": 59,
+              "offset": 11787
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 427,
+          "column": 1,
+          "offset": 11729
+        },
+        "end": {
+          "line": 427,
+          "column": 59,
+          "offset": 11787
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import { WebSocketServer } from 'ws';\n\nconst wss = new WebSocketServer({ port: 8080 });\n\nwss.on('connection', function connection(ws, req) {\n  const ip = req.socket.remoteAddress;\n\n  ws.on('error', console.error);\n});",
+      "position": {
+        "start": {
+          "line": 429,
+          "column": 1,
+          "offset": 11789
+        },
+        "end": {
+          "line": 439,
+          "column": 4,
+          "offset": 12016
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "When the server runs behind a proxy like NGINX, the de-facto standard is to use\nthe ",
+          "position": {
+            "start": {
+              "line": 441,
+              "column": 1,
+              "offset": 12018
+            },
+            "end": {
+              "line": 442,
+              "column": 5,
+              "offset": 12102
+            }
+          }
+        },
+        {
+          "type": "inlineCode",
+          "value": "X-Forwarded-For",
+          "position": {
+            "start": {
+              "line": 442,
+              "column": 5,
+              "offset": 12102
+            },
+            "end": {
+              "line": 442,
+              "column": 22,
+              "offset": 12119
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": " header.",
+          "position": {
+            "start": {
+              "line": 442,
+              "column": 22,
+              "offset": 12119
+            },
+            "end": {
+              "line": 442,
+              "column": 30,
+              "offset": 12127
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 441,
+          "column": 1,
+          "offset": 12018
+        },
+        "end": {
+          "line": 442,
+          "column": 30,
+          "offset": 12127
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "wss.on('connection', function connection(ws, req) {\n  const ip = req.headers['x-forwarded-for'].split(',')[0].trim();\n\n  ws.on('error', console.error);\n});",
+      "position": {
+        "start": {
+          "line": 444,
+          "column": 1,
+          "offset": 12129
+        },
+        "end": {
+          "line": 450,
+          "column": 4,
+          "offset": 12294
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "How to detect and close broken connections?",
+          "position": {
+            "start": {
+              "line": 452,
+              "column": 5,
+              "offset": 12300
+            },
+            "end": {
+              "line": 452,
+              "column": 48,
+              "offset": 12343
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 452,
+          "column": 1,
+          "offset": 12296
+        },
+        "end": {
+          "line": 452,
+          "column": 48,
+          "offset": 12343
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Sometimes, the link between the server and the client can be interrupted in a\nway that keeps both the server and the client unaware of the broken state of the\nconnection (e.g. when pulling the cord).",
+          "position": {
+            "start": {
+              "line": 454,
+              "column": 1,
+              "offset": 12345
+            },
+            "end": {
+              "line": 456,
+              "column": 41,
+              "offset": 12544
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 454,
+          "column": 1,
+          "offset": 12345
+        },
+        "end": {
+          "line": 456,
+          "column": 41,
+          "offset": 12544
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "In these cases, ping messages can be used as a means to verify that the remote\nendpoint is still responsive.",
+          "position": {
+            "start": {
+              "line": 458,
+              "column": 1,
+              "offset": 12546
+            },
+            "end": {
+              "line": 459,
+              "column": 30,
+              "offset": 12654
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 458,
+          "column": 1,
+          "offset": 12546
+        },
+        "end": {
+          "line": 459,
+          "column": 30,
+          "offset": 12654
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import { WebSocketServer } from 'ws';\n\nfunction heartbeat() {\n  this.isAlive = true;\n}\n\nconst wss = new WebSocketServer({ port: 8080 });\n\nwss.on('connection', function connection(ws) {\n  ws.isAlive = true;\n  ws.on('error', console.error);\n  ws.on('pong', heartbeat);\n});\n\nconst interval = setInterval(function ping() {\n  wss.clients.forEach(function each(ws) {\n    if (ws.isAlive === false) return ws.terminate();\n\n    ws.isAlive = false;\n    ws.ping();\n  });\n}, 30000);\n\nwss.on('close', function close() {\n  clearInterval(interval);\n});",
+      "position": {
+        "start": {
+          "line": 461,
+          "column": 1,
+          "offset": 12656
+        },
+        "end": {
+          "line": 488,
+          "column": 4,
+          "offset": 13203
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Pong messages are automatically sent in response to ping messages as required by\nthe spec.",
+          "position": {
+            "start": {
+              "line": 490,
+              "column": 1,
+              "offset": 13205
+            },
+            "end": {
+              "line": 491,
+              "column": 10,
+              "offset": 13295
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 490,
+          "column": 1,
+          "offset": 13205
+        },
+        "end": {
+          "line": 491,
+          "column": 10,
+          "offset": 13295
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Just like the server example above, your clients might as well lose connection\nwithout knowing it. You might want to add a ping listener on your clients to\nprevent that. A simple implementation would be:",
+          "position": {
+            "start": {
+              "line": 493,
+              "column": 1,
+              "offset": 13297
+            },
+            "end": {
+              "line": 495,
+              "column": 48,
+              "offset": 13500
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 493,
+          "column": 1,
+          "offset": 13297
+        },
+        "end": {
+          "line": 495,
+          "column": 48,
+          "offset": 13500
+        }
+      }
+    },
+    {
+      "type": "code",
+      "lang": "js",
+      "meta": null,
+      "value": "import WebSocket from 'ws';\n\nfunction heartbeat() {\n  clearTimeout(this.pingTimeout);\n\n  // Use `WebSocket#terminate()`, which immediately destroys the connection,\n  // instead of `WebSocket#close()`, which waits for the close timer.\n  // Delay should be equal to the interval at which your server\n  // sends out pings plus a conservative assumption of the latency.\n  this.pingTimeout = setTimeout(() => {\n    this.terminate();\n  }, 30000 + 1000);\n}\n\nconst client = new WebSocket('wss://websocket-echo.com/');\n\nclient.on('error', console.error);\nclient.on('open', heartbeat);\nclient.on('ping', heartbeat);\nclient.on('close', function clear() {\n  clearTimeout(this.pingTimeout);\n});",
+      "position": {
+        "start": {
+          "line": 497,
+          "column": 1,
+          "offset": 13502
+        },
+        "end": {
+          "line": 520,
+          "column": 4,
+          "offset": 14193
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 3,
+      "children": [
+        {
+          "type": "text",
+          "value": "How to connect via a proxy?",
+          "position": {
+            "start": {
+              "line": 522,
+              "column": 5,
+              "offset": 14199
+            },
+            "end": {
+              "line": 522,
+              "column": 32,
+              "offset": 14226
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 522,
+          "column": 1,
+          "offset": 14195
+        },
+        "end": {
+          "line": 522,
+          "column": 32,
+          "offset": 14226
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "Use a custom ",
+          "position": {
+            "start": {
+              "line": 524,
+              "column": 1,
+              "offset": 14228
+            },
+            "end": {
+              "line": 524,
+              "column": 14,
+              "offset": 14241
+            }
+          }
+        },
+        {
+          "type": "inlineCode",
+          "value": "http.Agent",
+          "position": {
+            "start": {
+              "line": 524,
+              "column": 14,
+              "offset": 14241
+            },
+            "end": {
+              "line": 524,
+              "column": 26,
+              "offset": 14253
+            }
+          }
+        },
+        {
+          "type": "text",
+          "value": " implementation like ",
+          "position": {
+            "start": {
+              "line": 524,
+              "column": 26,
+              "offset": 14253
+            },
+            "end": {
+              "line": 524,
+              "column": 47,
+              "offset": 14274
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "https-proxy-agent",
+              "position": {
+                "start": {
+                  "line": 524,
+                  "column": 48,
+                  "offset": 14275
+                },
+                "end": {
+                  "line": 524,
+                  "column": 65,
+                  "offset": 14292
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 524,
+              "column": 47,
+              "offset": 14274
+            },
+            "end": {
+              "line": 524,
+              "column": 68,
+              "offset": 14295
+            }
+          },
+          "label": "https-proxy-agent",
+          "identifier": "https-proxy-agent",
+          "referenceType": "collapsed"
+        },
+        {
+          "type": "text",
+          "value": " or\n",
+          "position": {
+            "start": {
+              "line": 524,
+              "column": 68,
+              "offset": 14295
+            },
+            "end": {
+              "line": 525,
+              "column": 1,
+              "offset": 14299
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "socks-proxy-agent",
+              "position": {
+                "start": {
+                  "line": 525,
+                  "column": 2,
+                  "offset": 14300
+                },
+                "end": {
+                  "line": 525,
+                  "column": 19,
+                  "offset": 14317
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 525,
+              "column": 1,
+              "offset": 14299
+            },
+            "end": {
+              "line": 525,
+              "column": 22,
+              "offset": 14320
+            }
+          },
+          "label": "socks-proxy-agent",
+          "identifier": "socks-proxy-agent",
+          "referenceType": "collapsed"
+        },
+        {
+          "type": "text",
+          "value": ".",
+          "position": {
+            "start": {
+              "line": 525,
+              "column": 22,
+              "offset": 14320
+            },
+            "end": {
+              "line": 525,
+              "column": 23,
+              "offset": 14321
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 524,
+          "column": 1,
+          "offset": 14228
+        },
+        "end": {
+          "line": 525,
+          "column": 23,
+          "offset": 14321
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "Changelog",
+          "position": {
+            "start": {
+              "line": 527,
+              "column": 4,
+              "offset": 14326
+            },
+            "end": {
+              "line": 527,
+              "column": 13,
+              "offset": 14335
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 527,
+          "column": 1,
+          "offset": 14323
+        },
+        "end": {
+          "line": 527,
+          "column": 13,
+          "offset": 14335
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "text",
+          "value": "We're using the GitHub ",
+          "position": {
+            "start": {
+              "line": 529,
+              "column": 1,
+              "offset": 14337
+            },
+            "end": {
+              "line": 529,
+              "column": 24,
+              "offset": 14360
+            }
+          }
+        },
+        {
+          "type": "linkReference",
+          "children": [
+            {
+              "type": "text",
+              "value": "releases",
+              "position": {
+                "start": {
+                  "line": 529,
+                  "column": 25,
+                  "offset": 14361
+                },
+                "end": {
+                  "line": 529,
+                  "column": 33,
+                  "offset": 14369
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 529,
+              "column": 24,
+              "offset": 14360
+            },
+            "end": {
+              "line": 529,
+              "column": 45,
+              "offset": 14381
+            }
+          },
+          "label": "changelog",
+          "identifier": "changelog",
+          "referenceType": "full"
+        },
+        {
+          "type": "text",
+          "value": " for changelog entries.",
+          "position": {
+            "start": {
+              "line": 529,
+              "column": 45,
+              "offset": 14381
+            },
+            "end": {
+              "line": 529,
+              "column": 68,
+              "offset": 14404
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 529,
+          "column": 1,
+          "offset": 14337
+        },
+        "end": {
+          "line": 529,
+          "column": 68,
+          "offset": 14404
+        }
+      }
+    },
+    {
+      "type": "heading",
+      "depth": 2,
+      "children": [
+        {
+          "type": "text",
+          "value": "License",
+          "position": {
+            "start": {
+              "line": 531,
+              "column": 4,
+              "offset": 14409
+            },
+            "end": {
+              "line": 531,
+              "column": 11,
+              "offset": 14416
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 531,
+          "column": 1,
+          "offset": 14406
+        },
+        "end": {
+          "line": 531,
+          "column": 11,
+          "offset": 14416
+        }
+      }
+    },
+    {
+      "type": "paragraph",
+      "children": [
+        {
+          "type": "link",
+          "title": null,
+          "url": "LICENSE",
+          "children": [
+            {
+              "type": "text",
+              "value": "MIT",
+              "position": {
+                "start": {
+                  "line": 533,
+                  "column": 2,
+                  "offset": 14419
+                },
+                "end": {
+                  "line": 533,
+                  "column": 5,
+                  "offset": 14422
+                }
+              }
+            }
+          ],
+          "position": {
+            "start": {
+              "line": 533,
+              "column": 1,
+              "offset": 14418
+            },
+            "end": {
+              "line": 533,
+              "column": 15,
+              "offset": 14432
+            }
+          }
+        }
+      ],
+      "position": {
+        "start": {
+          "line": 533,
+          "column": 1,
+          "offset": 14418
+        },
+        "end": {
+          "line": 533,
+          "column": 15,
+          "offset": 14432
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "`buffer.isutf8()`",
+      "label": "`buffer.isutf8()`",
+      "title": null,
+      "url": "https://nodejs.org/api/buffer.html#bufferisutf8input",
+      "position": {
+        "start": {
+          "line": 535,
+          "column": 1,
+          "offset": 14434
+        },
+        "end": {
+          "line": 535,
+          "column": 74,
+          "offset": 14507
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "bufferutil",
+      "label": "bufferutil",
+      "title": null,
+      "url": "https://github.com/websockets/bufferutil",
+      "position": {
+        "start": {
+          "line": 536,
+          "column": 1,
+          "offset": 14508
+        },
+        "end": {
+          "line": 536,
+          "column": 55,
+          "offset": 14562
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "changelog",
+      "label": "changelog",
+      "title": null,
+      "url": "https://github.com/websockets/ws/releases",
+      "position": {
+        "start": {
+          "line": 537,
+          "column": 1,
+          "offset": 14563
+        },
+        "end": {
+          "line": 537,
+          "column": 55,
+          "offset": 14617
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "client-report",
+      "label": "client-report",
+      "title": null,
+      "url": "http://websockets.github.io/ws/autobahn/clients/",
+      "position": {
+        "start": {
+          "line": 538,
+          "column": 1,
+          "offset": 14618
+        },
+        "end": {
+          "line": 538,
+          "column": 66,
+          "offset": 14683
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "https-proxy-agent",
+      "label": "https-proxy-agent",
+      "title": null,
+      "url": "https://github.com/TooTallNate/node-https-proxy-agent",
+      "position": {
+        "start": {
+          "line": 539,
+          "column": 1,
+          "offset": 14684
+        },
+        "end": {
+          "line": 539,
+          "column": 75,
+          "offset": 14758
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "node-zlib-bug",
+      "label": "node-zlib-bug",
+      "title": null,
+      "url": "https://github.com/nodejs/node/issues/8871",
+      "position": {
+        "start": {
+          "line": 540,
+          "column": 1,
+          "offset": 14759
+        },
+        "end": {
+          "line": 540,
+          "column": 60,
+          "offset": 14818
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "node-zlib-deflaterawdocs",
+      "label": "node-zlib-deflaterawdocs",
+      "title": null,
+      "url": "https://nodejs.org/api/zlib.html#zlib_zlib_createdeflateraw_options",
+      "position": {
+        "start": {
+          "line": 541,
+          "column": 1,
+          "offset": 14819
+        },
+        "end": {
+          "line": 542,
+          "column": 70,
+          "offset": 14916
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "permessage-deflate",
+      "label": "permessage-deflate",
+      "title": null,
+      "url": "https://tools.ietf.org/html/rfc7692",
+      "position": {
+        "start": {
+          "line": 543,
+          "column": 1,
+          "offset": 14917
+        },
+        "end": {
+          "line": 543,
+          "column": 58,
+          "offset": 14974
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "server-report",
+      "label": "server-report",
+      "title": null,
+      "url": "http://websockets.github.io/ws/autobahn/servers/",
+      "position": {
+        "start": {
+          "line": 544,
+          "column": 1,
+          "offset": 14975
+        },
+        "end": {
+          "line": 544,
+          "column": 66,
+          "offset": 15040
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "session-parse-example",
+      "label": "session-parse-example",
+      "title": null,
+      "url": "./examples/express-session-parse",
+      "position": {
+        "start": {
+          "line": 545,
+          "column": 1,
+          "offset": 15041
+        },
+        "end": {
+          "line": 545,
+          "column": 58,
+          "offset": 15098
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "socks-proxy-agent",
+      "label": "socks-proxy-agent",
+      "title": null,
+      "url": "https://github.com/TooTallNate/node-socks-proxy-agent",
+      "position": {
+        "start": {
+          "line": 546,
+          "column": 1,
+          "offset": 15099
+        },
+        "end": {
+          "line": 546,
+          "column": 75,
+          "offset": 15173
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "utf-8-validate",
+      "label": "utf-8-validate",
+      "title": null,
+      "url": "https://github.com/websockets/utf-8-validate",
+      "position": {
+        "start": {
+          "line": 547,
+          "column": 1,
+          "offset": 15174
+        },
+        "end": {
+          "line": 547,
+          "column": 63,
+          "offset": 15236
+        }
+      }
+    },
+    {
+      "type": "definition",
+      "identifier": "ws-server-options",
+      "label": "ws-server-options",
+      "title": null,
+      "url": "./doc/ws.md#new-websocketserveroptions-callback",
+      "position": {
+        "start": {
+          "line": 548,
+          "column": 1,
+          "offset": 15237
+        },
+        "end": {
+          "line": 548,
+          "column": 69,
+          "offset": 15305
+        }
+      }
+    }
+  ],
+  "position": {
+    "start": {
+      "line": 1,
+      "column": 1,
+      "offset": 0
+    },
+    "end": {
+      "line": 549,
+      "column": 1,
+      "offset": 15306
+    }
+  }
+}
