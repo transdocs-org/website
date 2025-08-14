@@ -47,10 +47,16 @@ jobs:
     - name: Commit and push changes
       run: |
         git add .
-        git commit -m "docs: update translated documents" -a || echo "No changes to commit"
+        git commit -m "docs: updated"
         git push
 
     - name: Run transdocs
       run: |
         cd .deploy
         npx @transdocs/cli
+
+    - name: Commit and push translated changes
+      run: |
+        git add .
+        git commit -m "docs: update translated documents"
+        git push
