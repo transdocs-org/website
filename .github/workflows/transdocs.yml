@@ -44,7 +44,6 @@ jobs:
 
     - name: Commit and push changes
       run: |
-        cd ..
         git add .
         git commit -m "docs: update translated documents" -a || echo "No changes to commit"
         git push
