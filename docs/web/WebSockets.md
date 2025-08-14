@@ -1,7 +1,7 @@
 # ws: a Node.js WebSocket library
 
 [![Version npm](https://img.shields.io/npm/v/ws.svg?logo=npm)](https://www.npmjs.com/package/ws)
-[![CI](https://img.shields.io/github/actions/workflow/status/websockets/ws/ci.yml?branch=master&label=CI&logo=github)](https://github.com/websockets/ws/actions?query=workflow%3ACI+branch%3Amaster)
+[![CI](https://img.shields.io/github/actions/workflow/status/websockets/ws/ci.yml?branch=master\&label=CI\&logo=github)](https://github.com/websockets/ws/actions?query=workflow%3ACI+branch%3Amaster)
 [![Coverage Status](https://img.shields.io/coveralls/websockets/ws/master.svg?logo=coveralls)](https://coveralls.io/github/websockets/ws)
 
 ws is a simple to use, blazing fast, and thoroughly tested WebSocket client and
@@ -20,34 +20,34 @@ can use one of the many wrappers available on npm, like
 
 ## Table of Contents
 
-- [Protocol support](#protocol-support)
-- [Installing](#installing)
-  - [Opt-in for performance](#opt-in-for-performance)
-    - [Legacy opt-in for performance](#legacy-opt-in-for-performance)
-- [API docs](#api-docs)
-- [WebSocket compression](#websocket-compression)
-- [Usage examples](#usage-examples)
-  - [Sending and receiving text data](#sending-and-receiving-text-data)
-  - [Sending binary data](#sending-binary-data)
-  - [Simple server](#simple-server)
-  - [External HTTP/S server](#external-https-server)
-  - [Multiple servers sharing a single HTTP/S server](#multiple-servers-sharing-a-single-https-server)
-  - [Client authentication](#client-authentication)
-  - [Server broadcast](#server-broadcast)
-  - [Round-trip time](#round-trip-time)
-  - [Use the Node.js streams API](#use-the-nodejs-streams-api)
-  - [Other examples](#other-examples)
-- [FAQ](#faq)
-  - [How to get the IP address of the client?](#how-to-get-the-ip-address-of-the-client)
-  - [How to detect and close broken connections?](#how-to-detect-and-close-broken-connections)
-  - [How to connect via a proxy?](#how-to-connect-via-a-proxy)
-- [Changelog](#changelog)
-- [License](#license)
+* [Protocol support](#protocol-support)
+* [Installing](#installing)
+  * [Opt-in for performance](#opt-in-for-performance)
+    * [Legacy opt-in for performance](#legacy-opt-in-for-performance)
+* [API docs](#api-docs)
+* [WebSocket compression](#websocket-compression)
+* [Usage examples](#usage-examples)
+  * [Sending and receiving text data](#sending-and-receiving-text-data)
+  * [Sending binary data](#sending-binary-data)
+  * [Simple server](#simple-server)
+  * [External HTTP/S server](#external-https-server)
+  * [Multiple servers sharing a single HTTP/S server](#multiple-servers-sharing-a-single-https-server)
+  * [Client authentication](#client-authentication)
+  * [Server broadcast](#server-broadcast)
+  * [Round-trip time](#round-trip-time)
+  * [Use the Node.js streams API](#use-the-nodejs-streams-api)
+  * [Other examples](#other-examples)
+* [FAQ](#faq)
+  * [How to get the IP address of the client?](#how-to-get-the-ip-address-of-the-client)
+  * [How to detect and close broken connections?](#how-to-detect-and-close-broken-connections)
+  * [How to connect via a proxy?](#how-to-connect-via-a-proxy)
+* [Changelog](#changelog)
+* [License](#license)
 
 ## Protocol support
 
-- **HyBi drafts 07-12** (Use the option `protocolVersion: 8`)
-- **HyBi drafts 13-17** (Current default, alternatively option
+* **HyBi drafts 07-12** (Use the option `protocolVersion: 8`)
+* **HyBi drafts 13-17** (Current default, alternatively option
   `protocolVersion: 13`)
 
 ## Installing
@@ -533,16 +533,27 @@ We're using the GitHub [releases][changelog] for changelog entries.
 [MIT](https://github.com/websockets/ws/blob/master/LICENSE)
 
 [`buffer.isutf8()`]: https://nodejs.org/api/buffer.html#bufferisutf8input
+
 [bufferutil]: https://github.com/websockets/bufferutil
+
 [changelog]: https://github.com/websockets/ws/releases
+
 [client-report]: http://websockets.github.io/ws/autobahn/clients/
+
 [https-proxy-agent]: https://github.com/TooTallNate/node-https-proxy-agent
+
 [node-zlib-bug]: https://github.com/nodejs/node/issues/8871
-[node-zlib-deflaterawdocs]:
-  https://nodejs.org/api/zlib.html#zlib_zlib_createdeflateraw_options
+
+[node-zlib-deflaterawdocs]: https://nodejs.org/api/zlib.html#zlib_zlib_createdeflateraw_options
+
 [permessage-deflate]: https://tools.ietf.org/html/rfc7692
+
 [server-report]: http://websockets.github.io/ws/autobahn/servers/
-[session-parse-example]: ./examples/express-session-parse
+
+[session-parse-example]: https://github.com/websockets/ws/blob/master/examples/express-session-parse
+
 [socks-proxy-agent]: https://github.com/TooTallNate/node-socks-proxy-agent
+
 [utf-8-validate]: https://github.com/websockets/utf-8-validate
-[ws-server-options]: ./doc/ws.md#new-websocketserveroptions-callback
+
+[ws-server-options]: https://github.com/websockets/ws/blob/master/doc/ws.md#new-websocketserveroptions-callback
