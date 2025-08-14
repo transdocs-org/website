@@ -25,10 +25,29 @@ jobs:
       with:
         node-version: '22'
 
+    - name: Install pnpm
+      run: npm install -g pnpm
+
+    - name: Install dependencies
+      run: pnpm install
+
+    - name: Build
+      run: pnpm build
+
+    - name: Run
+      run: node dist/index.js
+
     - name: Setup git user
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+    - name: Commit and push changes
+      run: |
+        cd ..
+        git add .
+        git commit -m "docs: update translated documents" -a || echo "No changes to commit"
+        git push
 
     - name: Run transdocs
       run: |
