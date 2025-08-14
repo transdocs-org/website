@@ -47,7 +47,7 @@ jobs:
     - name: Commit and push changes
       run: |
         git add .
-        git commit -m "docs: updated"
+        git commit -m "docs: updated" -a || echo "No changes to commit"
         git push
 
     - name: Run transdocs
@@ -58,5 +58,5 @@ jobs:
     - name: Commit and push translated changes
       run: |
         git add .
-        git commit -m "docs: update translated documents"
+        git commit -m "docs: update translated documents" -a || echo "No changes to commit"
         git push
