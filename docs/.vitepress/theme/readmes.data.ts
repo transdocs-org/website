@@ -12,6 +12,10 @@ const tags = [
 
 const sites = [
   {
+    name: 'Model Context Protocol',
+    url: 'https://mcp.transdocs.org'
+  },
+  {
     name: 'UnoCSS',
     url: 'https://unocss.transdocs.org'
   },
@@ -19,10 +23,10 @@ const sites = [
     name: 'Nestjs',
     url: 'https://nestjs.transdocs.org'
   },
-  {
-    name: 'Langchainjs',
-    url: 'https://langchainjs.transdocs.org'
-  },
+  // {
+  //   name: 'Langchainjs',
+  //   url: 'https://langchainjs.transdocs.org'
+  // },
   {
     name: 'ChromaDB',
     url: 'https://chroma.transdocs.org'
