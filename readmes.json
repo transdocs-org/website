@@ -109,6 +109,102 @@
         "real-time"
       ],
       "filename": "WebSockets"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/servers/blob/main",
+      "name": "Servers",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "server",
+        "infrastructure",
+        "protocol"
+      ],
+      "filename": "Servers"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "name": "Typescript Sdk",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "typescript",
+        "sdk",
+        "client"
+      ],
+      "filename": "Typescript-Sdk"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "name": "Python Sdk",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "python",
+        "sdk",
+        "client"
+      ],
+      "filename": "Python-Sdk"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "name": "Rust Sdk",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "rust",
+        "sdk",
+        "client"
+      ],
+      "filename": "Rust-Sdk"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/registry",
+      "name": "Registry",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "registry",
+        "protocol",
+        "metadata"
+      ],
+      "filename": "Registry"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/go-sdk",
+      "name": "Go Sdk",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "go",
+        "sdk",
+        "client"
+      ],
+      "filename": "Go-Sdk"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/java-sdk",
+      "name": "Java Sdk",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "java",
+        "sdk",
+        "client"
+      ],
+      "filename": "Java-Sdk"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/use-mcp",
+      "name": "Use M C P",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "mcp",
+        "protocol",
+        "integration"
+      ],
+      "filename": "Use-M-C-P"
     }
   ]
 }
