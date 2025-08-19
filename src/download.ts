@@ -13,9 +13,10 @@ function convertToRawReadmeUrl(url: string) {
  * @param url README文件的URL
  * @param filePath 保存文件的本地路径
  * @param maxRetries 最大重试次数
+ * @param proxy 代理服务器地址，例如 'http://127.0.0.1:10808'
  * @returns Promise<void>
  */
-export async function downloadReadme(url: string, filePath: string, maxRetries: number = 10): Promise<void> {
+export async function downloadReadme(url: string, filePath: string, maxRetries: number = 10, proxy?: string): Promise<void> {
   let lastError: any;
 
   const downloadUrl = url.includes('github.com') ? convertToRawReadmeUrl(url) : url;
@@ -23,7 +24,7 @@ export async function downloadReadme(url: string, filePath: string, maxRetries: 
   for (let i = 0; i < maxRetries; i++) {
     try {
       // 发送HTTP GET请求获取文件内容
-      let data = await httpGet(downloadUrl, { timeout: 10000, proxy: 'http://127.0.0.1:10808' });
+      let data = await httpGet(downloadUrl, { timeout: 10000, proxy });
 
       // 如果是GitHub URL，处理相对链接
       if (url.includes('github.com')) {

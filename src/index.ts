@@ -1,10 +1,23 @@
 import fs from 'fs';
 import path from 'path';
+import { Command } from 'commander';
 import { processReadmes } from './llm';
 import { downloadReadme } from './download';
 import { sanitizeFilename } from './utils';
 
 async function main() {
+  // 初始化命令行参数解析器
+  const program = new Command();
+  
+  program
+    .name('transdocs')
+    .description('Translate documentation tool')
+    .version('1.0.0')
+    .option('-p, --proxy <proxy>', 'set proxy server, e.g. http://127.0.0.1:10808')
+    .parse();
+    
+  const options = program.opts();
+
   try {
     // 处理 readmes.json 文件
     await processReadmes();
@@ -43,7 +56,7 @@ async function main() {
 
         // 下载文件
         console.log(`正在下载: ${sanitizedName}.md from ${readme.url}`);
-        await downloadReadme(readme.url, filePath);
+        await downloadReadme(readme.url, filePath, 10, options.proxy);
         console.log(`下载完成: ${sanitizedName}.md`);
       } catch (error) {
         console.error(`下载 ${readme.name} 时出错:`, error);
