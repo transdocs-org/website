@@ -23,7 +23,7 @@ export async function downloadReadme(url: string, filePath: string, maxRetries: 
   for (let i = 0; i < maxRetries; i++) {
     try {
       // 发送HTTP GET请求获取文件内容
-      let data = await httpGet(downloadUrl, { timeout: 10000 });
+      let data = await httpGet(downloadUrl, { timeout: 10000, proxy: 'http://127.0.0.1:10808' });
 
       // 如果是GitHub URL，处理相对链接
       if (url.includes('github.com')) {
