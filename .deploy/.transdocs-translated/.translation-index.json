@@ -29,6 +29,62 @@
       ]
     },
     {
+      "filePath": "docs/ai/Langchain-Mongodb.md",
+      "fileName": "Langchain-Mongodb.md",
+      "md5Hash": "56ceeb105d05886ceb749b788a6293ad",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/ai/Langchain-Mongodb.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "56ceeb105d05886ceb749b788a6293ad.zh",
+          "relativePath": "56ceeb105d05886ceb749b788a6293ad.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/ai/Langchain-Mpc-Adapters.md",
+      "fileName": "Langchain-Mpc-Adapters.md",
+      "md5Hash": "eaa8326418610871cffe697855c7976d",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/ai/Langchain-Mpc-Adapters.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "eaa8326418610871cffe697855c7976d.zh",
+          "relativePath": "eaa8326418610871cffe697855c7976d.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/ai/Langchain-Redis.md",
+      "fileName": "Langchain-Redis.md",
+      "md5Hash": "90e016ad51713b3fbb09272b95e84bed",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/ai/Langchain-Redis.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "90e016ad51713b3fbb09272b95e84bed.zh",
+          "relativePath": "90e016ad51713b3fbb09272b95e84bed.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/ai/Langchain-Textsplitters.md",
+      "fileName": "Langchain-Textsplitters.md",
+      "md5Hash": "d1cc1a90cd182837df578a05896b4d7d",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/ai/Langchain-Textsplitters.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "d1cc1a90cd182837df578a05896b4d7d.zh",
+          "relativePath": "d1cc1a90cd182837df578a05896b4d7d.zh"
+        }
+      ]
+    },
+    {
       "filePath": "docs/ai/Langchainjs-Community.md",
       "fileName": "Langchainjs-Community.md",
       "md5Hash": "9edf966cd974c0c82a46c7afacaae32f",
@@ -165,6 +221,132 @@
           "language": "zh",
           "fileName": "fd5566415a8c13f6546dcb123d1b39c7.zh",
           "relativePath": "fd5566415a8c13f6546dcb123d1b39c7.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/Go-Sdk.md",
+      "fileName": "Go-Sdk.md",
+      "md5Hash": "d95b0d1e8e2b864ea897452f347c7a3d",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/Go-Sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "d95b0d1e8e2b864ea897452f347c7a3d.zh",
+          "relativePath": "d95b0d1e8e2b864ea897452f347c7a3d.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/Java-Sdk.md",
+      "fileName": "Java-Sdk.md",
+      "md5Hash": "10651ffd0f3897c0d2ae716b953916a9",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/Java-Sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "10651ffd0f3897c0d2ae716b953916a9.zh",
+          "relativePath": "10651ffd0f3897c0d2ae716b953916a9.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/Langchain-Scripts.md",
+      "fileName": "Langchain-Scripts.md",
+      "md5Hash": "2cf757daa888e97098743482790fdc0a",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/Langchain-Scripts.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "2cf757daa888e97098743482790fdc0a.zh",
+          "relativePath": "2cf757daa888e97098743482790fdc0a.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/Python-Sdk.md",
+      "fileName": "Python-Sdk.md",
+      "md5Hash": "fc69f90e5d81c340def3673facab4bbb",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/Python-Sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "fc69f90e5d81c340def3673facab4bbb.zh",
+          "relativePath": "fc69f90e5d81c340def3673facab4bbb.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/Registry.md",
+      "fileName": "Registry.md",
+      "md5Hash": "430b15d3bafc57d4cdbdce822f6a3a77",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/Registry.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "430b15d3bafc57d4cdbdce822f6a3a77.zh",
+          "relativePath": "430b15d3bafc57d4cdbdce822f6a3a77.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/Rust-Sdk.md",
+      "fileName": "Rust-Sdk.md",
+      "md5Hash": "ead875e0f0cf20b3b35aefe44adaf302",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/Rust-Sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "ead875e0f0cf20b3b35aefe44adaf302.zh",
+          "relativePath": "ead875e0f0cf20b3b35aefe44adaf302.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/Servers.md",
+      "fileName": "Servers.md",
+      "md5Hash": "91d77c146c829006f0512fb1bb7662b9",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/Servers.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "91d77c146c829006f0512fb1bb7662b9.zh",
+          "relativePath": "91d77c146c829006f0512fb1bb7662b9.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/Typescript-Sdk.md",
+      "fileName": "Typescript-Sdk.md",
+      "md5Hash": "91d77c146c829006f0512fb1bb7662b9",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/Typescript-Sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "91d77c146c829006f0512fb1bb7662b9.zh",
+          "relativePath": "91d77c146c829006f0512fb1bb7662b9.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs/tool/UseMCP.md",
+      "fileName": "UseMCP.md",
+      "md5Hash": "b9fc6785c2c5b641f7dd62ed01df08d5",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tool/UseMCP.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "b9fc6785c2c5b641f7dd62ed01df08d5.zh",
+          "relativePath": "b9fc6785c2c5b641f7dd62ed01df08d5.zh"
         }
       ]
     },
