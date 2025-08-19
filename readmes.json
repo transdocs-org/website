@@ -98,7 +98,7 @@
       "filename": "Json5"
     },
     {
-      "url": "https://github.com/websockets/ws/blob/master",
+      "url": "https://github.com/websockets/ws/tree/master",
       "name": "WebSockets",
       "category": "web",
       "categoryId": "web",
@@ -111,7 +111,7 @@
       "filename": "WebSockets"
     },
     {
-      "url": "https://github.com/modelcontextprotocol/servers/blob/main",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main",
       "name": "Servers",
       "category": "tool",
       "categoryId": "tool",
@@ -123,7 +123,7 @@
       "filename": "Servers"
     },
     {
-      "url": "https://github.com/modelcontextprotocol/typescript-sdk",
+      "url": "https://github.com/modelcontextprotocol/servers/tree/main",
       "name": "Typescript Sdk",
       "category": "tool",
       "categoryId": "tool",
@@ -135,7 +135,7 @@
       "filename": "Typescript-Sdk"
     },
     {
-      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "url": "https://github.com/modelcontextprotocol/python-sdk/tree/main",
       "name": "Python Sdk",
       "category": "tool",
       "categoryId": "tool",
@@ -147,7 +147,7 @@
       "filename": "Python-Sdk"
     },
     {
-      "url": "https://github.com/modelcontextprotocol/rust-sdk",
+      "url": "https://github.com/modelcontextprotocol/rust-sdk/tree/main",
       "name": "Rust Sdk",
       "category": "tool",
       "categoryId": "tool",
@@ -159,7 +159,7 @@
       "filename": "Rust-Sdk"
     },
     {
-      "url": "https://github.com/modelcontextprotocol/registry",
+      "url": "https://github.com/modelcontextprotocol/registry/tree/main",
       "name": "Registry",
       "category": "tool",
       "categoryId": "tool",
@@ -171,7 +171,7 @@
       "filename": "Registry"
     },
     {
-      "url": "https://github.com/modelcontextprotocol/go-sdk",
+      "url": "https://github.com/modelcontextprotocol/go-sdk/tree/main",
       "name": "Go Sdk",
       "category": "tool",
       "categoryId": "tool",
@@ -183,7 +183,7 @@
       "filename": "Go-Sdk"
     },
     {
-      "url": "https://github.com/modelcontextprotocol/java-sdk",
+      "url": "https://github.com/modelcontextprotocol/java-sdk/tree/main",
       "name": "Java Sdk",
       "category": "tool",
       "categoryId": "tool",
@@ -195,7 +195,7 @@
       "filename": "Java-Sdk"
     },
     {
-      "url": "https://github.com/modelcontextprotocol/use-mcp",
+      "url": "https://github.com/modelcontextprotocol/use-mcp/tree/main",
       "name": "Use M C P",
       "category": "tool",
       "categoryId": "tool",
@@ -204,7 +204,72 @@
         "protocol",
         "integration"
       ],
-      "filename": "Use-M-C-P"
+      "filename": "UseMCP"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mcp-adapters",
+      "name": "Langchain Mpc Adapters",
+      "category": "ai",
+      "categoryId": "ai",
+      "tags": [
+        "javascript",
+        "typescript",
+        "ai",
+        "langchain"
+      ],
+      "filename": "Langchain-Mpc-Adapters"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mongodb",
+      "name": "Langchain Mongodb",
+      "category": "ai",
+      "categoryId": "ai",
+      "tags": [
+        "javascript",
+        "ai",
+        "mongodb",
+        "integration"
+      ],
+      "filename": "Langchain-Mongodb"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-redis",
+      "name": "Langchain Redis",
+      "category": "ai",
+      "categoryId": "ai",
+      "tags": [
+        "javascript",
+        "ai",
+        "redis",
+        "integration"
+      ],
+      "filename": "Langchain-Redis"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-scripts",
+      "name": "Langchain Scripts",
+      "category": "tool",
+      "categoryId": "tool",
+      "tags": [
+        "javascript",
+        "tool",
+        "scripting",
+        "utils"
+      ],
+      "filename": "Langchain-Scripts"
+    },
+    {
+      "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-textsplitters",
+      "name": "Langchain Textsplitters",
+      "category": "ai",
+      "categoryId": "ai",
+      "tags": [
+        "javascript",
+        "ai",
+        "text processing",
+        "nlp"
+      ],
+      "filename": "Langchain-Textsplitters"
     }
   ]
 }
