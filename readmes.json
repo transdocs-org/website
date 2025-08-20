@@ -3,273 +3,261 @@
     {
       "url": "https://github.com/binance/binance-connector-js/tree/master/clients/spot",
       "name": "Binance Connector Js Spot",
-      "category": "blockchain",
-      "categoryId": "blockchain",
+      "category": "API Client",
+      "categoryId": "API Client",
       "tags": [
-        "javascript",
-        "api",
-        "client",
-        "binance",
-        "spot trading"
+        "Binance",
+        "JavaScript",
+        "Crypto",
+        "Spot Trading"
       ],
-      "filename": "Binance-Connector-Js-Spot"
+      "filename": "binance-connector-js-spot"
     },
     {
       "url": "https://github.com/binance/binance-connector-python/tree/master/clients/spot",
       "name": "Binance Connector Python Spot",
-      "category": "blockchain",
-      "categoryId": "blockchain",
+      "category": "API Client",
+      "categoryId": "API Client",
       "tags": [
-        "python",
-        "api",
-        "client",
-        "binance",
-        "spot trading"
+        "Binance",
+        "Python",
+        "Crypto",
+        "Spot Trading"
       ],
-      "filename": "Binance-Connector-Python-Spot"
+      "filename": "binance-connector-python-spot"
     },
     {
       "url": "https://github.com/binance/binance-connector-python/tree/master/clients/margin_trading",
       "name": "Binance Connector Python Margin Trading",
-      "category": "blockchain",
-      "categoryId": "blockchain",
+      "category": "API Client",
+      "categoryId": "API Client",
       "tags": [
-        "python",
-        "api",
-        "client",
-        "binance",
-        "margin trading"
+        "Binance",
+        "Python",
+        "Crypto",
+        "Margin Trading"
       ],
-      "filename": "Binance-Connector-Python-Margin-Trading"
+      "filename": "binance-connector-python-margin-trading"
     },
     {
       "url": "https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading",
       "name": "Binance Connector Js Margin Trading",
-      "category": "blockchain",
-      "categoryId": "blockchain",
+      "category": "API Client",
+      "categoryId": "API Client",
       "tags": [
-        "javascript",
-        "api",
-        "client",
-        "binance",
-        "margin trading"
+        "Binance",
+        "JavaScript",
+        "Crypto",
+        "Margin Trading"
       ],
-      "filename": "Binance-Connector-Js-Margin-Trading"
+      "filename": "binance-connector-js-margin-trading"
     },
     {
       "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-community",
       "name": "Langchainjs Community",
-      "category": "ai",
-      "categoryId": "ai",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "javascript",
-        "ai",
-        "langchain",
-        "community",
-        "machine learning"
+        "LangChain",
+        "JavaScript",
+        "LLM",
+        "AI"
       ],
-      "filename": "Langchainjs-Community"
+      "filename": "langchainjs-community"
     },
     {
       "url": "https://github.com/langchain-ai/langchain-community/tree/main/libs/community",
-      "name": "Langchain Community",
-      "category": "ai",
-      "categoryId": "ai",
+      "name": "Langchain Community Community",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "python",
-        "ai",
-        "langchain",
-        "community",
-        "machine learning"
+        "LangChain",
+        "Python",
+        "LLM",
+        "AI"
       ],
-      "filename": "Langchain-Community"
+      "filename": "langchain-community-community"
     },
     {
       "url": "https://github.com/json5/json5/tree/main",
-      "name": "Json5",
-      "category": "web",
-      "categoryId": "web",
+      "name": "json5",
+      "category": "Data Format",
+      "categoryId": "Data Format",
       "tags": [
-        "javascript",
-        "json",
-        "data format",
-        "configuration"
+        "JSON",
+        "JavaScript",
+        "Data",
+        "Parser"
       ],
-      "filename": "Json5"
+      "filename": "json5"
     },
     {
       "url": "https://github.com/websockets/ws/tree/master",
-      "name": "WebSockets",
-      "category": "web",
-      "categoryId": "web",
+      "name": "Websockets Ws",
+      "category": "Networking",
+      "categoryId": "Networking",
       "tags": [
-        "javascript",
-        "websockets",
-        "networking",
-        "real-time"
+        "WebSocket",
+        "Node.js",
+        "Networking"
       ],
-      "filename": "WebSockets"
+      "filename": "websockets-ws"
     },
     {
       "url": "https://github.com/modelcontextprotocol/servers/tree/main",
-      "name": "Servers",
-      "category": "tool",
-      "categoryId": "tool",
+      "name": "Modelcontextprotocol Servers",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "server",
-        "infrastructure",
-        "protocol"
+        "MCP",
+        "Model Context Protocol",
+        "AI",
+        "Server"
       ],
-      "filename": "Servers"
-    },
-    {
-      "url": "https://github.com/modelcontextprotocol/servers/tree/main",
-      "name": "Typescript Sdk",
-      "category": "tool",
-      "categoryId": "tool",
-      "tags": [
-        "typescript",
-        "sdk",
-        "client"
-      ],
-      "filename": "Typescript-Sdk"
+      "filename": "modelcontextprotocol-servers"
     },
     {
       "url": "https://github.com/modelcontextprotocol/python-sdk/tree/main",
-      "name": "Python Sdk",
-      "category": "tool",
-      "categoryId": "tool",
+      "name": "Modelcontextprotocol Python Sdk",
+      "category": "SDK",
+      "categoryId": "SDK",
       "tags": [
-        "python",
-        "sdk",
-        "client"
+        "MCP",
+        "Model Context Protocol",
+        "Python",
+        "AI"
       ],
-      "filename": "Python-Sdk"
+      "filename": "modelcontextprotocol-python-sdk"
     },
     {
       "url": "https://github.com/modelcontextprotocol/rust-sdk/tree/main",
-      "name": "Rust Sdk",
-      "category": "tool",
-      "categoryId": "tool",
+      "name": "Modelcontextprotocol Rust Sdk",
+      "category": "SDK",
+      "categoryId": "SDK",
       "tags": [
-        "rust",
-        "sdk",
-        "client"
+        "MCP",
+        "Model Context Protocol",
+        "Rust",
+        "AI"
       ],
-      "filename": "Rust-Sdk"
+      "filename": "modelcontextprotocol-rust-sdk"
     },
     {
       "url": "https://github.com/modelcontextprotocol/registry/tree/main",
-      "name": "Registry",
-      "category": "tool",
-      "categoryId": "tool",
+      "name": "Modelcontextprotocol Registry",
+      "category": "Infrastructure",
+      "categoryId": "Infrastructure",
       "tags": [
-        "registry",
-        "protocol",
-        "metadata"
+        "MCP",
+        "Model Context Protocol",
+        "Registry",
+        "AI"
       ],
-      "filename": "Registry"
+      "filename": "modelcontextprotocol-registry"
     },
     {
       "url": "https://github.com/modelcontextprotocol/go-sdk/tree/main",
-      "name": "Go Sdk",
-      "category": "tool",
-      "categoryId": "tool",
+      "name": "Modelcontextprotocol Go Sdk",
+      "category": "SDK",
+      "categoryId": "SDK",
       "tags": [
-        "go",
-        "sdk",
-        "client"
+        "MCP",
+        "Model Context Protocol",
+        "Go",
+        "AI"
       ],
-      "filename": "Go-Sdk"
+      "filename": "modelcontextprotocol-go-sdk"
     },
     {
       "url": "https://github.com/modelcontextprotocol/java-sdk/tree/main",
-      "name": "Java Sdk",
-      "category": "tool",
-      "categoryId": "tool",
+      "name": "Modelcontextprotocol Java Sdk",
+      "category": "SDK",
+      "categoryId": "SDK",
       "tags": [
-        "java",
-        "sdk",
-        "client"
+        "MCP",
+        "Model Context Protocol",
+        "Java",
+        "AI"
       ],
-      "filename": "Java-Sdk"
+      "filename": "modelcontextprotocol-java-sdk"
     },
     {
       "url": "https://github.com/modelcontextprotocol/use-mcp/tree/main",
-      "name": "Use M C P",
-      "category": "tool",
-      "categoryId": "tool",
+      "name": "Modelcontextprotocol Use Mcp",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "mcp",
-        "protocol",
-        "integration"
+        "MCP",
+        "Model Context Protocol",
+        "JavaScript",
+        "AI"
       ],
-      "filename": "UseMCP"
+      "filename": "modelcontextprotocol-use-mcp"
     },
     {
       "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mcp-adapters",
-      "name": "Langchain Mpc Adapters",
-      "category": "ai",
-      "categoryId": "ai",
+      "name": "Langchainjs Mcp Adapters",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "javascript",
-        "typescript",
-        "ai",
-        "langchain"
+        "LangChain",
+        "JavaScript",
+        "MCP",
+        "AI"
       ],
-      "filename": "Langchain-Mpc-Adapters"
+      "filename": "langchainjs-mcp-adapters"
     },
     {
       "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-mongodb",
-      "name": "Langchain Mongodb",
-      "category": "ai",
-      "categoryId": "ai",
+      "name": "Langchainjs Mongodb",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "javascript",
-        "ai",
-        "mongodb",
-        "integration"
+        "LangChain",
+        "JavaScript",
+        "MongoDB",
+        "AI"
       ],
-      "filename": "Langchain-Mongodb"
+      "filename": "langchainjs-mongodb"
     },
     {
       "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-redis",
-      "name": "Langchain Redis",
-      "category": "ai",
-      "categoryId": "ai",
+      "name": "Langchainjs Redis",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "javascript",
-        "ai",
-        "redis",
-        "integration"
+        "LangChain",
+        "JavaScript",
+        "Redis",
+        "AI"
       ],
-      "filename": "Langchain-Redis"
+      "filename": "langchainjs-redis"
     },
     {
       "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-scripts",
-      "name": "Langchain Scripts",
-      "category": "tool",
-      "categoryId": "tool",
+      "name": "Langchainjs Scripts",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "javascript",
-        "tool",
-        "scripting",
-        "utils"
+        "LangChain",
+        "JavaScript",
+        "Scripts",
+        "AI"
       ],
-      "filename": "Langchain-Scripts"
+      "filename": "langchainjs-scripts"
     },
     {
       "url": "https://github.com/langchain-ai/langchainjs/tree/main/libs/langchain-textsplitters",
-      "name": "Langchain Textsplitters",
-      "category": "ai",
-      "categoryId": "ai",
+      "name": "Langchainjs Textsplitters",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
       "tags": [
-        "javascript",
-        "ai",
-        "text processing",
-        "nlp"
+        "LangChain",
+        "JavaScript",
+        "Text Processing",
+        "AI"
       ],
-      "filename": "Langchain-Textsplitters"
+      "filename": "langchainjs-textsplitters"
     }
   ]
 }

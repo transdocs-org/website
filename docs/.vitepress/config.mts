@@ -54,6 +54,7 @@ export default defineConfig({
   },
   lastUpdated: true,
   lang: 'zh-CN',
+  ignoreDeadLinks: true,
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     [

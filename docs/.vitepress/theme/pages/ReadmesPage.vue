@@ -8,12 +8,13 @@ import {data} from '@/readmes.data';
     <Content />
 
     <section v-for="category in data.categories" class="section">
-      <h2>{{ category.name.toUpperCase() }}</h2>
-      <ul class="list">
+      <h2 class="section-title">{{ category.name.toUpperCase() }}</h2>
+
+      <ol class="section-list">
         <li v-for="item in category.items">
           <Tag :href="`/${category.id}/${item.filename}`" :item class="item">{{ item.name }}</Tag>
         </li>
-      </ul>
+      </ol>
     </section>
   </div>
 </template>
@@ -23,7 +24,11 @@ import {data} from '@/readmes.data';
   padding: 32px;
 
   .section {
-    .list {
+    &-title {
+      font-weight: bold;
+    }
+
+    &-list {
       display: flex;
       flex-wrap: wrap;
       margin: 10px -5px 20px;

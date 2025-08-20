@@ -11,29 +11,29 @@
 
 This is a client library for the Binance Spot SDK API, enabling developers to interact programmatically with Binance's SPOT trading platform. The library provides tools for retrieving market data, executing trades, and managing orders through three distinct endpoints:
 
-- [REST API](https://github.com/binance/binance-connector-python/tree/master/clients/spot/src/binance_sdk_spot/rest_api/rest_api.py)
-- [Websocket API](https://github.com/binance/binance-connector-python/tree/master/clients/spot/src/binance_sdk_spot/websocket_api/websocket_api.py)
-- [Websocket Stream](https://github.com/binance/binance-connector-python/tree/master/clients/spot/src/binance_sdk_spot/websocket_streams/websocket_streams.py)
+* [REST API](https://github.com/binance/binance-connector-python/tree/master/clients/spot/src/binance_sdk_spot/rest_api/rest_api.py)
+* [Websocket API](https://github.com/binance/binance-connector-python/tree/master/clients/spot/src/binance_sdk_spot/websocket_api/websocket_api.py)
+* [Websocket Stream](https://github.com/binance/binance-connector-python/tree/master/clients/spot/src/binance_sdk_spot/websocket_streams/websocket_streams.py)
 
 ## Table of Contents
 
-- [Supported Features](#supported-features)
-- [Installation](#installation)
-- [Documentation](#documentation)
-- [REST APIs](#rest-apis)
-- [Websocket APIs](#websocket-apis)
-- [Websocket Streams](#websocket-streams)
-- [Testing](#testing)
-- [Migration Guide](#migration-guide)
-- [Contributing](#contributing)
-- [Licence](#licence)
+* [Supported Features](#supported-features)
+* [Installation](#installation)
+* [Documentation](#documentation)
+* [REST APIs](#rest-apis)
+* [Websocket APIs](#websocket-apis)
+* [Websocket Streams](#websocket-streams)
+* [Testing](#testing)
+* [Migration Guide](#migration-guide)
+* [Contributing](#contributing)
+* [Licence](#licence)
 
 ## Supported Features
 
-- REST API Endpoints:
-  - `/api/*`
-- WebSocket Endpoints: Real-time data streaming and request-response communication.
-- Inclusion of test cases and examples for quick onboarding.
+* REST API Endpoints:
+  * `/api/*`
+* WebSocket Endpoints: Real-time data streaming and request-response communication.
+* Inclusion of test cases and examples for quick onboarding.
 
 ## Installation
 
@@ -80,22 +80,22 @@ More examples can be found in the [`examples/rest_api`](https://github.com/binan
 
 The REST API supports the following advanced configuration options:
 
-- `timeout`: Timeout for requests in milliseconds (default: 1000 ms).
-- `proxy`: Proxy configuration:
-  - `host`: Proxy server hostname.
-  - `port`: Proxy server port.
-  - `protocol`: Proxy protocol (http or https).
-  - `auth`: Proxy authentication credentials:
-    - `username`: Proxy username.
-    - `password`: Proxy password.
-- `keep_alive`: Enable HTTP keep-alive (default: true).
-- `compression`: Enable response compression (default: true).
-- `retries`: Number of retry attempts for failed requests (default: 3).
-- `backoff`: Delay in milliseconds between retries (default: 1000 ms).
-- `https_agent`: Custom HTTPS agent for advanced TLS configuration.
-- `time_unit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
-- `private_key`: RSA or ED25519 private key for authentication.
-- `private_key_passphrase`: Passphrase for the private key, if encrypted.
+* `timeout`: Timeout for requests in milliseconds (default: 1000 ms).
+* `proxy`: Proxy configuration:
+  * `host`: Proxy server hostname.
+  * `port`: Proxy server port.
+  * `protocol`: Proxy protocol (http or https).
+  * `auth`: Proxy authentication credentials:
+    * `username`: Proxy username.
+    * `password`: Proxy password.
+* `keep_alive`: Enable HTTP keep-alive (default: true).
+* `compression`: Enable response compression (default: true).
+* `retries`: Number of retry attempts for failed requests (default: 3).
+* `backoff`: Delay in milliseconds between retries (default: 1000 ms).
+* `https_agent`: Custom HTTPS agent for advanced TLS configuration.
+* `time_unit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
+* `private_key`: RSA or ED25519 private key for authentication.
+* `private_key_passphrase`: Passphrase for the private key, if encrypted.
 
 ##### Timeout
 
@@ -137,16 +137,16 @@ To enhance security, you can use certificate pinning with the `https_agent` opti
 
 The REST API provides detailed error types to help you handle issues effectively:
 
-- `ClientError`: Represents an error that occurred in the SDK client.
-- `RequiredError`: Thrown when a required parameter is missing or undefined.
-- `UnauthorizedError`: Indicates missing or invalid authentication credentials.
-- `ForbiddenError`: Access to the requested resource is forbidden.
-- `TooManyRequestsError`: Rate limit exceeded.
-- `RateLimitBanError`: IP address banned for exceeding rate limits.
-- `ServerError`: Internal server error, optionally includes a status code.
-- `NetworkError`: Issues with network connectivity.
-- `NotFoundError`: Resource not found.
-- `BadRequestError`: Invalid request or one that cannot be served.
+* `ClientError`: Represents an error that occurred in the SDK client.
+* `RequiredError`: Thrown when a required parameter is missing or undefined.
+* `UnauthorizedError`: Indicates missing or invalid authentication credentials.
+* `ForbiddenError`: Access to the requested resource is forbidden.
+* `TooManyRequestsError`: Rate limit exceeded.
+* `RateLimitBanError`: IP address banned for exceeding rate limits.
+* `ServerError`: Internal server error, optionally includes a status code.
+* `NetworkError`: Issues with network connectivity.
+* `NotFoundError`: Resource not found.
+* `BadRequestError`: Invalid request or one that cannot be served.
 
 See the [Error Handling example](https://github.com/binance/binance-connector-python/tree/master/clients/spot/docs/rest_api/error-handling.md) for detailed usage.
 
@@ -210,25 +210,25 @@ More examples are available in the [`examples/websocket_api`](https://github.com
 
 The WebSocket API supports the following advanced configuration options:
 
-- `timeout`: Set the timeout for WebSocket requests (default: 5000 ms).
-- `reconnect_delay`: Delay (ms) between reconnections.
-- `compression`: Enable response compression.
-- `proxy`: Proxy configuration:
-  - `host`: Proxy server hostname.
-  - `port`: Proxy server port.
-  - `protocol`: Proxy protocol (http or https).
-  - `auth`: Proxy authentication credentials:
-    - `username`: Proxy username.
-    - `password`: Proxy password.
-- `mode`: Choose between `single` and `pool` connection modes.
-  - `single`: A single WebSocket connection.
-  - `pool`: A pool of WebSocket connections.
-- `pool_size`: Define the number of WebSocket connections in pool mode.
-- `time_unit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
-- `private_key`: RSA or ED25519 private key for authentication.
-- `private_key_passphrase`: Passphrase for the private key, if encrypted.
-- `https_agent`: Custom HTTPS agent for advanced TLS configuration.
-- `user_agent`: Custom user agent string for WebSocket Streams.
+* `timeout`: Set the timeout for WebSocket requests (default: 5000 ms).
+* `reconnect_delay`: Delay (ms) between reconnections.
+* `compression`: Enable response compression.
+* `proxy`: Proxy configuration:
+  * `host`: Proxy server hostname.
+  * `port`: Proxy server port.
+  * `protocol`: Proxy protocol (http or https).
+  * `auth`: Proxy authentication credentials:
+    * `username`: Proxy username.
+    * `password`: Proxy password.
+* `mode`: Choose between `single` and `pool` connection modes.
+  * `single`: A single WebSocket connection.
+  * `pool`: A pool of WebSocket connections.
+* `pool_size`: Define the number of WebSocket connections in pool mode.
+* `time_unit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
+* `private_key`: RSA or ED25519 private key for authentication.
+* `private_key_passphrase`: Passphrase for the private key, if encrypted.
+* `https_agent`: Custom HTTPS agent for advanced TLS configuration.
+* `user_agent`: Custom user agent string for WebSocket Streams.
 
 ##### Timeout
 
@@ -245,7 +245,6 @@ Enable or disable compression for WebSocket messages. See the [Compression examp
 ##### Proxy
 
 The WebSocket API supports HTTP/HTTPS proxy configurations. See the [Proxy example](https://github.com/binance/binance-connector-python/tree/master/clients/spot/docs/websocket_api/proxy.md) for detailed usage.
-
 
 ##### Connection Mode
 
@@ -332,22 +331,22 @@ More examples are available in the [`examples/websocket-streams`](https://github
 
 The WebSocket Streams API supports the following advanced configuration options:
 
-- `reconnect_delay`: Delay (ms) between reconnections.
-- `compression`: Enable response compression.
-- `proxy`: Proxy configuration:
-  - `host`: Proxy server hostname.
-  - `port`: Proxy server port.
-  - `protocol`: Proxy protocol (http or https).
-  - `auth`: Proxy authentication credentials:
-    - `username`: Proxy username.
-    - `password`: Proxy password.
-- `mode`: Choose between `single` and `pool` connection modes.
-  - `single`: A single WebSocket connection.
-  - `pool`: A pool of WebSocket connections.
-- `pool_size`: Define the number of WebSocket connections in pool mode.
-- `time_unit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
-- `https_agent`: Custom HTTPS agent for advanced TLS configuration.
-- `user_agent`: Custom user agent string for WebSocket Streams.
+* `reconnect_delay`: Delay (ms) between reconnections.
+* `compression`: Enable response compression.
+* `proxy`: Proxy configuration:
+  * `host`: Proxy server hostname.
+  * `port`: Proxy server port.
+  * `protocol`: Proxy protocol (http or https).
+  * `auth`: Proxy authentication credentials:
+    * `username`: Proxy username.
+    * `password`: Proxy password.
+* `mode`: Choose between `single` and `pool` connection modes.
+  * `single`: A single WebSocket connection.
+  * `pool`: A pool of WebSocket connections.
+* `pool_size`: Define the number of WebSocket connections in pool mode.
+* `time_unit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
+* `https_agent`: Custom HTTPS agent for advanced TLS configuration.
+* `user_agent`: Custom user agent string for WebSocket Streams.
 
 ##### Reconnect Delay
 

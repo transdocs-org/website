@@ -11,29 +11,29 @@
 
 This is a client library for the Binance SPOT API, enabling developers to interact programmatically with Binance's SPOT trading platform. The library provides tools for retrieving market data, executing trades, and managing orders through three distinct endpoints:
 
-- [REST API](https://github.com/binance/binance-connector-js/tree/master/clients/spot/src/rest-api/rest-api.ts)
-- [Websocket API](https://github.com/binance/binance-connector-js/tree/master/clients/spot/src/websocket-api/websocket-api-connection.ts)
-- [Websocket Stream](https://github.com/binance/binance-connector-js/tree/master/clients/spot/src/websocket-streams/websocket-streams-connection.ts)
+* [REST API](https://github.com/binance/binance-connector-js/tree/master/clients/spot/src/rest-api/rest-api.ts)
+* [Websocket API](https://github.com/binance/binance-connector-js/tree/master/clients/spot/src/websocket-api/websocket-api-connection.ts)
+* [Websocket Stream](https://github.com/binance/binance-connector-js/tree/master/clients/spot/src/websocket-streams/websocket-streams-connection.ts)
 
 ## Table of Contents
 
-- [Supported Features](#supported-features)
-- [Installation](#installation)
-- [Documentation](#documentation)
-- [REST APIs](#rest-apis)
-- [Websocket APIs](#websocket-apis)
-- [Websocket Streams](#websocket-streams)
-- [Testing](#testing)
-- [Migration Guide](#migration-guide)
-- [Contributing](#contributing)
-- [Licence](#licence)
+* [Supported Features](#supported-features)
+* [Installation](#installation)
+* [Documentation](#documentation)
+* [REST APIs](#rest-apis)
+* [Websocket APIs](#websocket-apis)
+* [Websocket Streams](#websocket-streams)
+* [Testing](#testing)
+* [Migration Guide](#migration-guide)
+* [Contributing](#contributing)
+* [Licence](#licence)
 
 ## Supported Features
 
-- REST API Endpoints:
-  - `/api/*`
-- WebSocket Endpoints: Real-time data streaming and request-response communication.
-- Inclusion of test cases and examples for quick onboarding.
+* REST API Endpoints:
+  * `/api/*`
+* WebSocket Endpoints: Real-time data streaming and request-response communication.
+* Inclusion of test cases and examples for quick onboarding.
 
 ## Installation
 
@@ -80,22 +80,22 @@ More examples can be found in the [`examples/rest-api`](https://github.com/binan
 
 The REST API supports the following advanced configuration options:
 
-- `timeout`: Timeout for requests in milliseconds (default: 1000 ms).
-- `proxy`: Proxy configuration:
-  - `host`: Proxy server hostname.
-  - `port`: Proxy server port.
-  - `protocol`: Proxy protocol (http or https).
-  - `auth`: Proxy authentication credentials:
-    - `username`: Proxy username.
-    - `password`: Proxy password.
-- `keepAlive`: Enable HTTP keep-alive (default: true).
-- `compression`: Enable response compression (default: true).
-- `retries`: Number of retry attempts for failed requests (default: 3).
-- `backoff`: Delay in milliseconds between retries (default: 1000 ms).
-- `httpsAgent`: Custom HTTPS agent for advanced TLS configuration.
-- `privateKey`: RSA or ED25519 private key for authentication.
-- `privateKeyPassphrase`: Passphrase for the private key, if encrypted.
-- `timeUnit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
+* `timeout`: Timeout for requests in milliseconds (default: 1000 ms).
+* `proxy`: Proxy configuration:
+  * `host`: Proxy server hostname.
+  * `port`: Proxy server port.
+  * `protocol`: Proxy protocol (http or https).
+  * `auth`: Proxy authentication credentials:
+    * `username`: Proxy username.
+    * `password`: Proxy password.
+* `keepAlive`: Enable HTTP keep-alive (default: true).
+* `compression`: Enable response compression (default: true).
+* `retries`: Number of retry attempts for failed requests (default: 3).
+* `backoff`: Delay in milliseconds between retries (default: 1000 ms).
+* `httpsAgent`: Custom HTTPS agent for advanced TLS configuration.
+* `privateKey`: RSA or ED25519 private key for authentication.
+* `privateKeyPassphrase`: Passphrase for the private key, if encrypted.
+* `timeUnit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
 
 ##### Timeout
 
@@ -137,16 +137,16 @@ To enhance security, you can use certificate pinning with the `httpsAgent` optio
 
 The REST API provides detailed error types to help you handle issues effectively:
 
-- `ConnectorClientError`: General client error.
-- `RequiredError`: Thrown when a required parameter is missing.
-- `UnauthorizedError`: Indicates missing or invalid authentication credentials.
-- `ForbiddenError`: Access to the requested resource is forbidden.
-- `TooManyRequestsError`: Rate limit exceeded.
-- `RateLimitBanError`: IP address banned for exceeding rate limits.
-- `ServerError`: Internal server error.
-- `NetworkError`: Issues with network connectivity.
-- `NotFoundError`: Resource not found.
-- `BadRequestError`: Invalid request.
+* `ConnectorClientError`: General client error.
+* `RequiredError`: Thrown when a required parameter is missing.
+* `UnauthorizedError`: Indicates missing or invalid authentication credentials.
+* `ForbiddenError`: Access to the requested resource is forbidden.
+* `TooManyRequestsError`: Rate limit exceeded.
+* `RateLimitBanError`: IP address banned for exceeding rate limits.
+* `ServerError`: Internal server error.
+* `NetworkError`: Issues with network connectivity.
+* `NotFoundError`: Resource not found.
+* `BadRequestError`: Invalid request.
 
 See the [Error Handling example](https://github.com/binance/binance-connector-js/tree/master/clients/spot/docs/rest-api/error-handling.md) for detailed usage.
 
@@ -197,17 +197,17 @@ More examples are available in the [`examples/websocket-api`](https://github.com
 
 The WebSocket API supports the following advanced configuration options:
 
-- `timeout`: Set the timeout for WebSocket requests (default: 5000 ms).
-- `reconnectDelay`: Specify the delay between reconnection attempts (default: 5000 ms).
-- `compression`: Enable or disable compression for WebSocket messages (default: true).
-- `agent`: Customize the WebSocket agent for advanced configurations.
-- `mode`: Choose between `single` and `pool` connection modes.
-  - `single`: A single WebSocket connection.
-  - `pool`: A pool of WebSocket connections.
-- `poolSize`: Define the number of WebSocket connections in pool mode.
-- `privateKey`: RSA or ED25519 private key for authentication.
-- `privateKeyPassphrase`: Passphrase for the private key, if encrypted.
-- `timeUnit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
+* `timeout`: Set the timeout for WebSocket requests (default: 5000 ms).
+* `reconnectDelay`: Specify the delay between reconnection attempts (default: 5000 ms).
+* `compression`: Enable or disable compression for WebSocket messages (default: true).
+* `agent`: Customize the WebSocket agent for advanced configurations.
+* `mode`: Choose between `single` and `pool` connection modes.
+  * `single`: A single WebSocket connection.
+  * `pool`: A pool of WebSocket connections.
+* `poolSize`: Define the number of WebSocket connections in pool mode.
+* `privateKey`: RSA or ED25519 private key for authentication.
+* `privateKeyPassphrase`: Passphrase for the private key, if encrypted.
+* `timeUnit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
 
 ##### Timeout
 
@@ -321,14 +321,14 @@ More examples are available in the [`examples/websocket-streams`](https://github
 
 The WebSocket Streams API supports the following advanced configuration options:
 
-- `reconnectDelay`: Specify the delay between reconnection attempts (default: 5000 ms).
-- `compression`: Enable or disable compression for WebSocket messages (default: true).
-- `agent`: Customize the WebSocket agent for advanced configurations.
-- `mode`: Choose between `single` and `pool` connection modes.
-  - `single`: A single WebSocket connection.
-  - `pool`: A pool of WebSocket connections.
-- `poolSize`: Define the number of WebSocket connections in pool mode.
-- `timeUnit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
+* `reconnectDelay`: Specify the delay between reconnection attempts (default: 5000 ms).
+* `compression`: Enable or disable compression for WebSocket messages (default: true).
+* `agent`: Customize the WebSocket agent for advanced configurations.
+* `mode`: Choose between `single` and `pool` connection modes.
+  * `single`: A single WebSocket connection.
+  * `pool`: A pool of WebSocket connections.
+* `poolSize`: Define the number of WebSocket connections in pool mode.
+* `timeUnit`: Specify the time unit for timestamps (e.g., milliseconds or microseconds).
 
 ##### Reconnect Delay
 

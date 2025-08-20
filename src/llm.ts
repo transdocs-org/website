@@ -35,10 +35,29 @@ async function analyzeReadmesWithLLM(urls: string[]) {
   // 初始化 JSON 输出解析器
   const parser = new JsonOutputParser();
 
+  // 使用 lowdb 读取 readmes.json 文件
+  const readmePath = path.join(process.cwd(), 'readmes.json');
+  const db = await JSONFilePreset<{ readmes: ReadmeItem[] }>(readmePath, { readmes: [] });
+
+  // 过滤出已经处理的项目
+  const examples = db.data.readmes.filter(
+    readme => readme.name && readme.category && readme.tags
+  ).map(item => {
+    return {
+      url: item.url,
+      name: item.name,
+      category: item.category,
+      tags: item.tags
+    }
+  })
+
   // 使用 PromptTemplate 构造提示词
   const formattedPrompt = await README_ANALYSIS_PROMPT.format({
-    urls: urls.join('\n')
+    urls: urls.join('\n'),
+    examples: JSON.stringify(examples)
   });
+
+  console.log(formattedPrompt)
 
   // 调用 LLM
   const response = await llm.invoke([

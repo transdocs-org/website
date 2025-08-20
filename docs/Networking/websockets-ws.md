@@ -71,7 +71,7 @@ binaries are available for the most popular platforms, so you don't necessarily
 need to have a C++ compiler installed on your machine.
 
 To force ws to not use bufferutil, use the
-[`WS_NO_BUFFER_UTIL`](https://github.com/websockets/ws/blob/master/doc/ws.md#ws_no_buffer_util) environment variable. This
+[`WS_NO_BUFFER_UTIL`](https://github.com/websockets/ws/tree/master/doc/ws.md#ws_no_buffer_util) environment variable. This
 can be useful to enhance security in systems where a user can put a package in
 the package search path of an application of another user, due to how the
 Node.js resolver algorithm works.
@@ -88,11 +88,11 @@ npm install --save-optional utf-8-validate
 This contains a binary polyfill for [`buffer.isUtf8()`][].
 
 To force ws not to use utf-8-validate, use the
-[`WS_NO_UTF_8_VALIDATE`](https://github.com/websockets/ws/blob/master/doc/ws.md#ws_no_utf_8_validate) environment variable.
+[`WS_NO_UTF_8_VALIDATE`](https://github.com/websockets/ws/tree/master/doc/ws.md#ws_no_utf_8_validate) environment variable.
 
 ## API docs
 
-See [`/doc/ws.md`](https://github.com/websockets/ws/blob/master/doc/ws.md) for Node.js-like documentation of ws classes and
+See [`/doc/ws.md`](https://github.com/websockets/ws/tree/master/doc/ws.md) for Node.js-like documentation of ws classes and
 utility functions.
 
 ## WebSocket compression
@@ -530,7 +530,7 @@ We're using the GitHub [releases][changelog] for changelog entries.
 
 ## License
 
-[MIT](https://github.com/websockets/ws/blob/master/LICENSE)
+[MIT](https://github.com/websockets/ws/tree/master/LICENSE)
 
 [`buffer.isutf8()`]: https://nodejs.org/api/buffer.html#bufferisutf8input
 
@@ -550,10 +550,10 @@ We're using the GitHub [releases][changelog] for changelog entries.
 
 [server-report]: http://websockets.github.io/ws/autobahn/servers/
 
-[session-parse-example]: https://github.com/websockets/ws/blob/master/examples/express-session-parse
+[session-parse-example]: https://github.com/websockets/ws/tree/master/examples/express-session-parse
 
 [socks-proxy-agent]: https://github.com/TooTallNate/node-socks-proxy-agent
 
 [utf-8-validate]: https://github.com/websockets/utf-8-validate
 
-[ws-server-options]: https://github.com/websockets/ws/blob/master/doc/ws.md#new-websocketserveroptions-callback
+[ws-server-options]: https://github.com/websockets/ws/tree/master/doc/ws.md#new-websocketserveroptions-callback

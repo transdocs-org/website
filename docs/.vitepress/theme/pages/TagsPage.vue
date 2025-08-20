@@ -1,16 +1,33 @@
 <script setup lang="ts">
+import {computed} from 'vue';
 import Tag from '@/components/Tag.vue';
 import {data} from '@/readmes.data';
 
+const list = computed(() => {
+  return data.tags.map((tag) => {
+    return {
+      tag,
+      list: data.readmes.filter((item) => item.tags?.includes?.(tag))
+    };
+  });
+});
 </script>
 
 <template>
   <div class="tags-page">
     <Content />
 
-    <div class="tags">
-      <Tag v-for="tag in data.tags" :href="`/tag/${tag}`" :tag class="tag">{{ tag }}</Tag>
-    </div>
+    <section v-for="item in list" class="section">
+      <h2 class="section-title">
+        <a :href="`/tag/${item.tag}`">{{ item.tag }}</a>
+      </h2>
+
+      <ol class="section-list">
+        <li v-for="item2 in item.list">
+          <Tag rel="noreferrer" :href="item2.url" class="item">{{ item2.name }}</Tag>
+        </li>
+      </ol>
+    </section>
   </div>
 </template>
 
@@ -18,12 +35,23 @@ import {data} from '@/readmes.data';
 .tags-page {
   padding: 32px;
 
-  .tags {
-    display: flex;
-    flex-wrap: wrap;
+  .section {
+    width: 100%;
+    margin-bottom: 20px;
 
-    .tag {
-      margin: 5px;
+    &-title {
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    &-list {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -5px;
+
+      .item {
+        margin: 5px;
+      }
     }
   }
 }

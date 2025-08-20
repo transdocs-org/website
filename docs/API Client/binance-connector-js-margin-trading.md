@@ -11,28 +11,28 @@
 
 This is a client library for the Binance Margin Trading API, enabling developers to interact programmatically with Binance's Margin Trading trading platform. The library provides tools to use funds provided by a third party to conduct asset transactions through the REST API:
 
-- [REST API](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/src/rest-api/rest-api.ts)
-- [Websocket Stream](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/src/websocket-streams/websocket-streams-connection.ts)
+* [REST API](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/src/rest-api/rest-api.ts)
+* [Websocket Stream](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/src/websocket-streams/websocket-streams-connection.ts)
 
 ## Table of Contents
 
-- [Supported Features](#supported-features)
-- [Installation](#installation)
-- [Documentation](#documentation)
-- [REST APIs](#rest-apis)
-- [Websocket Streams](#websocket-streams)
-- [Testing](#testing)
-- [Migration Guide](#migration-guide)
-- [Contributing](#contributing)
-- [Licence](#licence)
+* [Supported Features](#supported-features)
+* [Installation](#installation)
+* [Documentation](#documentation)
+* [REST APIs](#rest-apis)
+* [Websocket Streams](#websocket-streams)
+* [Testing](#testing)
+* [Migration Guide](#migration-guide)
+* [Contributing](#contributing)
+* [Licence](#licence)
 
 ## Supported Features
 
-- REST API Endpoints:
-  - `/sapi/v1/margin/*`
-  - `/sapi/v1/bnbBurn/*`
-  - `/sapi/v1/userDataStream/*`
-- Inclusion of test cases and examples for quick onboarding.
+* REST API Endpoints:
+  * `/sapi/v1/margin/*`
+  * `/sapi/v1/bnbBurn/*`
+  * `/sapi/v1/userDataStream/*`
+* Inclusion of test cases and examples for quick onboarding.
 
 ## Installation
 
@@ -79,21 +79,21 @@ More examples can be found in the [`examples/rest-api`](https://github.com/binan
 
 The REST API supports the following advanced configuration options:
 
-- `timeout`: Timeout for requests in milliseconds (default: 1000 ms).
-- `proxy`: Proxy configuration:
-  - `host`: Proxy server hostname.
-  - `port`: Proxy server port.
-  - `protocol`: Proxy protocol (http or https).
-  - `auth`: Proxy authentication credentials:
-    - `username`: Proxy username.
-    - `password`: Proxy password.
-- `keepAlive`: Enable HTTP keep-alive (default: true).
-- `compression`: Enable response compression (default: true).
-- `retries`: Number of retry attempts for failed requests (default: 3).
-- `backoff`: Delay in milliseconds between retries (default: 1000 ms).
-- `httpsAgent`: Custom HTTPS agent for advanced TLS configuration.
-- `privateKey`: RSA or ED25519 private key for authentication.
-- `privateKeyPassphrase`: Passphrase for the private key, if encrypted.
+* `timeout`: Timeout for requests in milliseconds (default: 1000 ms).
+* `proxy`: Proxy configuration:
+  * `host`: Proxy server hostname.
+  * `port`: Proxy server port.
+  * `protocol`: Proxy protocol (http or https).
+  * `auth`: Proxy authentication credentials:
+    * `username`: Proxy username.
+    * `password`: Proxy password.
+* `keepAlive`: Enable HTTP keep-alive (default: true).
+* `compression`: Enable response compression (default: true).
+* `retries`: Number of retry attempts for failed requests (default: 3).
+* `backoff`: Delay in milliseconds between retries (default: 1000 ms).
+* `httpsAgent`: Custom HTTPS agent for advanced TLS configuration.
+* `privateKey`: RSA or ED25519 private key for authentication.
+* `privateKeyPassphrase`: Passphrase for the private key, if encrypted.
 
 ##### Timeout
 
@@ -131,16 +131,16 @@ To enhance security, you can use certificate pinning with the `httpsAgent` optio
 
 The REST API provides detailed error types to help you handle issues effectively:
 
-- `ConnectorClientError`: General client error.
-- `RequiredError`: Thrown when a required parameter is missing.
-- `UnauthorizedError`: Indicates missing or invalid authentication credentials.
-- `ForbiddenError`: Access to the requested resource is forbidden.
-- `TooManyRequestsError`: Rate limit exceeded.
-- `RateLimitBanError`: IP address banned for exceeding rate limits.
-- `ServerError`: Internal server error.
-- `NetworkError`: Issues with network connectivity.
-- `NotFoundError`: Resource not found.
-- `BadRequestError`: Invalid request.
+* `ConnectorClientError`: General client error.
+* `RequiredError`: Thrown when a required parameter is missing.
+* `UnauthorizedError`: Indicates missing or invalid authentication credentials.
+* `ForbiddenError`: Access to the requested resource is forbidden.
+* `TooManyRequestsError`: Rate limit exceeded.
+* `RateLimitBanError`: IP address banned for exceeding rate limits.
+* `ServerError`: Internal server error.
+* `NetworkError`: Issues with network connectivity.
+* `NotFoundError`: Resource not found.
+* `BadRequestError`: Invalid request.
 
 See the [Error Handling example](https://github.com/binance/binance-connector-js/tree/master/clients/margin-trading/docs/rest-api/error-handling.md) for detailed usage.
 
@@ -154,13 +154,13 @@ WebSocket Streams in `margin-trading` is used for subscribing to risk and trade 
 
 The WebSocket Streams API supports the following advanced configuration options:
 
-- `reconnectDelay`: Specify the delay between reconnection attempts (default: 5000 ms).
-- `compression`: Enable or disable compression for WebSocket messages (default: true).
-- `agent`: Customize the WebSocket agent for advanced configurations.
-- `mode`: Choose between `single` and `pool` connection modes.
-  - `single`: A single WebSocket connection.
-  - `pool`: A pool of WebSocket connections.
-- `poolSize`: Define the number of WebSocket connections in pool mode.
+* `reconnectDelay`: Specify the delay between reconnection attempts (default: 5000 ms).
+* `compression`: Enable or disable compression for WebSocket messages (default: true).
+* `agent`: Customize the WebSocket agent for advanced configurations.
+* `mode`: Choose between `single` and `pool` connection modes.
+  * `single`: A single WebSocket connection.
+  * `pool`: A pool of WebSocket connections.
+* `poolSize`: Define the number of WebSocket connections in pool mode.
 
 #### Subscribe to Risk and Trade Data Streams
 
@@ -281,8 +281,8 @@ npm run test
 
 The tests cover:
 
-- REST API endpoints
-- Error handling and edge cases
+* REST API endpoints
+* Error handling and edge cases
 
 ## Migration Guide
 
