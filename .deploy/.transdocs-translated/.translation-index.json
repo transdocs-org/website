@@ -267,6 +267,20 @@
       ]
     },
     {
+      "filePath": "docs\\SDK\\modelcontextprotocol-csharp-sdk.md",
+      "fileName": "modelcontextprotocol-csharp-sdk.md",
+      "md5Hash": "cf276b84ad4952050c4004769eabe0df",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-csharp-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "cf276b84ad4952050c4004769eabe0df.zh",
+          "relativePath": "cf276b84ad4952050c4004769eabe0df.zh"
+        }
+      ]
+    },
+    {
       "filePath": "docs\\SDK\\modelcontextprotocol-go-sdk.md",
       "fileName": "modelcontextprotocol-go-sdk.md",
       "md5Hash": "d95b0d1e8e2b864ea897452f347c7a3d",
@@ -295,6 +309,20 @@
       ]
     },
     {
+      "filePath": "docs\\SDK\\modelcontextprotocol-kotlin-sdk.md",
+      "fileName": "modelcontextprotocol-kotlin-sdk.md",
+      "md5Hash": "1b7bfa4b770519e13d835eb2cff25df4",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-kotlin-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "1b7bfa4b770519e13d835eb2cff25df4.zh",
+          "relativePath": "1b7bfa4b770519e13d835eb2cff25df4.zh"
+        }
+      ]
+    },
+    {
       "filePath": "docs\\SDK\\modelcontextprotocol-python-sdk.md",
       "fileName": "modelcontextprotocol-python-sdk.md",
       "md5Hash": "fc69f90e5d81c340def3673facab4bbb",
@@ -309,6 +337,20 @@
       ]
     },
     {
+      "filePath": "docs\\SDK\\modelcontextprotocol-ruby-sdk.md",
+      "fileName": "modelcontextprotocol-ruby-sdk.md",
+      "md5Hash": "029af9e8b0bb617d7fd4daaf663dfa3f",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-ruby-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "029af9e8b0bb617d7fd4daaf663dfa3f.zh",
+          "relativePath": "029af9e8b0bb617d7fd4daaf663dfa3f.zh"
+        }
+      ]
+    },
+    {
       "filePath": "docs\\SDK\\modelcontextprotocol-rust-sdk.md",
       "fileName": "modelcontextprotocol-rust-sdk.md",
       "md5Hash": "ead875e0f0cf20b3b35aefe44adaf302",
@@ -319,6 +361,34 @@
           "language": "zh",
           "fileName": "ead875e0f0cf20b3b35aefe44adaf302.zh",
           "relativePath": "ead875e0f0cf20b3b35aefe44adaf302.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-swift-sdk.md",
+      "fileName": "modelcontextprotocol-swift-sdk.md",
+      "md5Hash": "33b92f401e78ec7afe1847eb01c1c8f2",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-swift-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "33b92f401e78ec7afe1847eb01c1c8f2.zh",
+          "relativePath": "33b92f401e78ec7afe1847eb01c1c8f2.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-typescript-sdk.md",
+      "fileName": "modelcontextprotocol-typescript-sdk.md",
+      "md5Hash": "b9c31e1dd4d9d9673f76c54365bd8f5b",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-typescript-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "b9c31e1dd4d9d9673f76c54365bd8f5b.zh",
+          "relativePath": "b9c31e1dd4d9d9673f76c54365bd8f5b.zh"
         }
       ]
     },
