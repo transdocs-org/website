@@ -323,6 +323,19 @@
         "AI"
       ],
       "filename": "langchainjs-textsplitters"
+    },
+    {
+      "url": "https://github.com/modelcontextprotocol/inspector/tree/main",
+      "name": "Modelcontextprotocol Inspector",
+      "category": "AI Framework",
+      "categoryId": "AI Framework",
+      "tags": [
+        "MCP",
+        "Model Context Protocol",
+        "Inspector",
+        "AI"
+      ],
+      "filename": "modelcontextprotocol-inspector"
     }
   ]
 }
