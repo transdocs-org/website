@@ -1,11 +1,11 @@
 {
   "transdocs.org": [
     {
-      "filePath": "docs/.vitepress/config.mts",
+      "filePath": "docs\\.vitepress\\config.mts",
       "fileName": "config.mts",
       "md5Hash": "ecdfece9ae53d3a42ad1246b43267deb",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/.vitepress/config.mts",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\.vitepress\\config.mts",
       "translations": [
         {
           "language": "zh",
@@ -15,11 +15,11 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/langchain-community-community.md",
+      "filePath": "docs\\AI Framework\\langchain-community-community.md",
       "fileName": "langchain-community-community.md",
       "md5Hash": "f0adf38000f92d92ace2150e811ce06a",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/langchain-community-community.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\langchain-community-community.md",
       "translations": [
         {
           "language": "zh",
@@ -29,11 +29,11 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/langchainjs-community.md",
+      "filePath": "docs\\AI Framework\\langchainjs-community.md",
       "fileName": "langchainjs-community.md",
       "md5Hash": "423a1e937d9898fb063dbafb6a3638d3",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/langchainjs-community.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\langchainjs-community.md",
       "translations": [
         {
           "language": "zh",
@@ -43,11 +43,11 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/langchainjs-mcp-adapters.md",
+      "filePath": "docs\\AI Framework\\langchainjs-mcp-adapters.md",
       "fileName": "langchainjs-mcp-adapters.md",
       "md5Hash": "eaa8326418610871cffe697855c7976d",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/langchainjs-mcp-adapters.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\langchainjs-mcp-adapters.md",
       "translations": [
         {
           "language": "zh",
@@ -57,11 +57,11 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/langchainjs-mongodb.md",
+      "filePath": "docs\\AI Framework\\langchainjs-mongodb.md",
       "fileName": "langchainjs-mongodb.md",
       "md5Hash": "56ceeb105d05886ceb749b788a6293ad",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/langchainjs-mongodb.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\langchainjs-mongodb.md",
       "translations": [
         {
           "language": "zh",
@@ -71,11 +71,11 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/langchainjs-redis.md",
+      "filePath": "docs\\AI Framework\\langchainjs-redis.md",
       "fileName": "langchainjs-redis.md",
       "md5Hash": "90e016ad51713b3fbb09272b95e84bed",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/langchainjs-redis.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\langchainjs-redis.md",
       "translations": [
         {
           "language": "zh",
@@ -85,11 +85,11 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/langchainjs-scripts.md",
+      "filePath": "docs\\AI Framework\\langchainjs-scripts.md",
       "fileName": "langchainjs-scripts.md",
       "md5Hash": "2cf757daa888e97098743482790fdc0a",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/langchainjs-scripts.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\langchainjs-scripts.md",
       "translations": [
         {
           "language": "zh",
@@ -99,11 +99,11 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/langchainjs-textsplitters.md",
+      "filePath": "docs\\AI Framework\\langchainjs-textsplitters.md",
       "fileName": "langchainjs-textsplitters.md",
       "md5Hash": "d1cc1a90cd182837df578a05896b4d7d",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/langchainjs-textsplitters.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\langchainjs-textsplitters.md",
       "translations": [
         {
           "language": "zh",
@@ -113,11 +113,25 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/modelcontextprotocol-servers.md",
+      "filePath": "docs\\AI Framework\\modelcontextprotocol-inspector.md",
+      "fileName": "modelcontextprotocol-inspector.md",
+      "md5Hash": "871b72f9594dce4317ead5a9993fcfe6",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\modelcontextprotocol-inspector.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "871b72f9594dce4317ead5a9993fcfe6.zh",
+          "relativePath": "871b72f9594dce4317ead5a9993fcfe6.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\AI Framework\\modelcontextprotocol-servers.md",
       "fileName": "modelcontextprotocol-servers.md",
       "md5Hash": "91d77c146c829006f0512fb1bb7662b9",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/modelcontextprotocol-servers.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\modelcontextprotocol-servers.md",
       "translations": [
         {
           "language": "zh",
@@ -127,11 +141,11 @@
       ]
     },
     {
-      "filePath": "docs/AI Framework/modelcontextprotocol-use-mcp.md",
+      "filePath": "docs\\AI Framework\\modelcontextprotocol-use-mcp.md",
       "fileName": "modelcontextprotocol-use-mcp.md",
       "md5Hash": "b9fc6785c2c5b641f7dd62ed01df08d5",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/modelcontextprotocol-use-mcp.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\AI Framework\\modelcontextprotocol-use-mcp.md",
       "translations": [
         {
           "language": "zh",
@@ -141,11 +155,11 @@
       ]
     },
     {
-      "filePath": "docs/API Client/binance-connector-js-margin-trading.md",
+      "filePath": "docs\\API Client\\binance-connector-js-margin-trading.md",
       "fileName": "binance-connector-js-margin-trading.md",
       "md5Hash": "33c4445ef2ca5484ea4226cce8692932",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/API Client/binance-connector-js-margin-trading.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\API Client\\binance-connector-js-margin-trading.md",
       "translations": [
         {
           "language": "zh",
@@ -155,11 +169,11 @@
       ]
     },
     {
-      "filePath": "docs/API Client/binance-connector-js-spot.md",
+      "filePath": "docs\\API Client\\binance-connector-js-spot.md",
       "fileName": "binance-connector-js-spot.md",
       "md5Hash": "3dc1b71d8f33c8564429afcd5f0f90bb",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/API Client/binance-connector-js-spot.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\API Client\\binance-connector-js-spot.md",
       "translations": [
         {
           "language": "zh",
@@ -169,11 +183,11 @@
       ]
     },
     {
-      "filePath": "docs/API Client/binance-connector-python-margin-trading.md",
+      "filePath": "docs\\API Client\\binance-connector-python-margin-trading.md",
       "fileName": "binance-connector-python-margin-trading.md",
       "md5Hash": "0e31931e3c55c4aa86e266ce8579e517",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/API Client/binance-connector-python-margin-trading.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\API Client\\binance-connector-python-margin-trading.md",
       "translations": [
         {
           "language": "zh",
@@ -183,11 +197,11 @@
       ]
     },
     {
-      "filePath": "docs/API Client/binance-connector-python-spot.md",
+      "filePath": "docs\\API Client\\binance-connector-python-spot.md",
       "fileName": "binance-connector-python-spot.md",
       "md5Hash": "e38d2aa0701c719d16848e00309285f1",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/API Client/binance-connector-python-spot.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\API Client\\binance-connector-python-spot.md",
       "translations": [
         {
           "language": "zh",
@@ -197,11 +211,11 @@
       ]
     },
     {
-      "filePath": "docs/Data Format/json5.md",
+      "filePath": "docs\\Data Format\\json5.md",
       "fileName": "json5.md",
       "md5Hash": "cc7c18866e3089d2301916ae732e60d8",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/Data Format/json5.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\Data Format\\json5.md",
       "translations": [
         {
           "language": "zh",
@@ -211,165 +225,11 @@
       ]
     },
     {
-      "filePath": "docs/Infrastructure/modelcontextprotocol-registry.md",
-      "fileName": "modelcontextprotocol-registry.md",
-      "md5Hash": "430b15d3bafc57d4cdbdce822f6a3a77",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/Infrastructure/modelcontextprotocol-registry.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "430b15d3bafc57d4cdbdce822f6a3a77.zh",
-          "relativePath": "430b15d3bafc57d4cdbdce822f6a3a77.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/Networking/websockets-ws.md",
-      "fileName": "websockets-ws.md",
-      "md5Hash": "5cdb4a8b0a4dac86a26b238340f70103",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/Networking/websockets-ws.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "5cdb4a8b0a4dac86a26b238340f70103.zh",
-          "relativePath": "5cdb4a8b0a4dac86a26b238340f70103.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-csharp-sdk.md",
-      "fileName": "modelcontextprotocol-csharp-sdk.md",
-      "md5Hash": "cf276b84ad4952050c4004769eabe0df",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-csharp-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "cf276b84ad4952050c4004769eabe0df.zh",
-          "relativePath": "cf276b84ad4952050c4004769eabe0df.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-go-sdk.md",
-      "fileName": "modelcontextprotocol-go-sdk.md",
-      "md5Hash": "d95b0d1e8e2b864ea897452f347c7a3d",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-go-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "d95b0d1e8e2b864ea897452f347c7a3d.zh",
-          "relativePath": "d95b0d1e8e2b864ea897452f347c7a3d.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-java-sdk.md",
-      "fileName": "modelcontextprotocol-java-sdk.md",
-      "md5Hash": "10651ffd0f3897c0d2ae716b953916a9",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-java-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "10651ffd0f3897c0d2ae716b953916a9.zh",
-          "relativePath": "10651ffd0f3897c0d2ae716b953916a9.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-kotlin-sdk.md",
-      "fileName": "modelcontextprotocol-kotlin-sdk.md",
-      "md5Hash": "1b7bfa4b770519e13d835eb2cff25df4",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-kotlin-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "1b7bfa4b770519e13d835eb2cff25df4.zh",
-          "relativePath": "1b7bfa4b770519e13d835eb2cff25df4.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-python-sdk.md",
-      "fileName": "modelcontextprotocol-python-sdk.md",
-      "md5Hash": "fc69f90e5d81c340def3673facab4bbb",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-python-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "fc69f90e5d81c340def3673facab4bbb.zh",
-          "relativePath": "fc69f90e5d81c340def3673facab4bbb.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-ruby-sdk.md",
-      "fileName": "modelcontextprotocol-ruby-sdk.md",
-      "md5Hash": "029af9e8b0bb617d7fd4daaf663dfa3f",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-ruby-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "029af9e8b0bb617d7fd4daaf663dfa3f.zh",
-          "relativePath": "029af9e8b0bb617d7fd4daaf663dfa3f.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-rust-sdk.md",
-      "fileName": "modelcontextprotocol-rust-sdk.md",
-      "md5Hash": "ead875e0f0cf20b3b35aefe44adaf302",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-rust-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "ead875e0f0cf20b3b35aefe44adaf302.zh",
-          "relativePath": "ead875e0f0cf20b3b35aefe44adaf302.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-swift-sdk.md",
-      "fileName": "modelcontextprotocol-swift-sdk.md",
-      "md5Hash": "33b92f401e78ec7afe1847eb01c1c8f2",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-swift-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "33b92f401e78ec7afe1847eb01c1c8f2.zh",
-          "relativePath": "33b92f401e78ec7afe1847eb01c1c8f2.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/SDK/modelcontextprotocol-typescript-sdk.md",
-      "fileName": "modelcontextprotocol-typescript-sdk.md",
-      "md5Hash": "b9c31e1dd4d9d9673f76c54365bd8f5b",
-      "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/SDK/modelcontextprotocol-typescript-sdk.md",
-      "translations": [
-        {
-          "language": "zh",
-          "fileName": "b9c31e1dd4d9d9673f76c54365bd8f5b.zh",
-          "relativePath": "b9c31e1dd4d9d9673f76c54365bd8f5b.zh"
-        }
-      ]
-    },
-    {
-      "filePath": "docs/index.md",
+      "filePath": "docs\\index.md",
       "fileName": "index.md",
       "md5Hash": "152f80ccc891ed3860c90a017534dd5d",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/index.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\index.md",
       "translations": [
         {
           "language": "zh",
@@ -379,11 +239,39 @@
       ]
     },
     {
-      "filePath": "docs/readmes.md",
+      "filePath": "docs\\Infrastructure\\modelcontextprotocol-registry.md",
+      "fileName": "modelcontextprotocol-registry.md",
+      "md5Hash": "430b15d3bafc57d4cdbdce822f6a3a77",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\Infrastructure\\modelcontextprotocol-registry.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "430b15d3bafc57d4cdbdce822f6a3a77.zh",
+          "relativePath": "430b15d3bafc57d4cdbdce822f6a3a77.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\Networking\\websockets-ws.md",
+      "fileName": "websockets-ws.md",
+      "md5Hash": "5cdb4a8b0a4dac86a26b238340f70103",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\Networking\\websockets-ws.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "5cdb4a8b0a4dac86a26b238340f70103.zh",
+          "relativePath": "5cdb4a8b0a4dac86a26b238340f70103.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\readmes.md",
       "fileName": "readmes.md",
       "md5Hash": "af926576e305abca7daa988a1d7c42ae",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/readmes.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\readmes.md",
       "translations": [
         {
           "language": "zh",
@@ -393,11 +281,137 @@
       ]
     },
     {
-      "filePath": "docs/sites.md",
+      "filePath": "docs\\SDK\\modelcontextprotocol-csharp-sdk.md",
+      "fileName": "modelcontextprotocol-csharp-sdk.md",
+      "md5Hash": "cf276b84ad4952050c4004769eabe0df",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-csharp-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "cf276b84ad4952050c4004769eabe0df.zh",
+          "relativePath": "cf276b84ad4952050c4004769eabe0df.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-go-sdk.md",
+      "fileName": "modelcontextprotocol-go-sdk.md",
+      "md5Hash": "d95b0d1e8e2b864ea897452f347c7a3d",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-go-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "d95b0d1e8e2b864ea897452f347c7a3d.zh",
+          "relativePath": "d95b0d1e8e2b864ea897452f347c7a3d.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-java-sdk.md",
+      "fileName": "modelcontextprotocol-java-sdk.md",
+      "md5Hash": "10651ffd0f3897c0d2ae716b953916a9",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-java-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "10651ffd0f3897c0d2ae716b953916a9.zh",
+          "relativePath": "10651ffd0f3897c0d2ae716b953916a9.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-kotlin-sdk.md",
+      "fileName": "modelcontextprotocol-kotlin-sdk.md",
+      "md5Hash": "1b7bfa4b770519e13d835eb2cff25df4",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-kotlin-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "1b7bfa4b770519e13d835eb2cff25df4.zh",
+          "relativePath": "1b7bfa4b770519e13d835eb2cff25df4.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-python-sdk.md",
+      "fileName": "modelcontextprotocol-python-sdk.md",
+      "md5Hash": "fc69f90e5d81c340def3673facab4bbb",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-python-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "fc69f90e5d81c340def3673facab4bbb.zh",
+          "relativePath": "fc69f90e5d81c340def3673facab4bbb.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-ruby-sdk.md",
+      "fileName": "modelcontextprotocol-ruby-sdk.md",
+      "md5Hash": "029af9e8b0bb617d7fd4daaf663dfa3f",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-ruby-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "029af9e8b0bb617d7fd4daaf663dfa3f.zh",
+          "relativePath": "029af9e8b0bb617d7fd4daaf663dfa3f.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-rust-sdk.md",
+      "fileName": "modelcontextprotocol-rust-sdk.md",
+      "md5Hash": "ead875e0f0cf20b3b35aefe44adaf302",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-rust-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "ead875e0f0cf20b3b35aefe44adaf302.zh",
+          "relativePath": "ead875e0f0cf20b3b35aefe44adaf302.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-swift-sdk.md",
+      "fileName": "modelcontextprotocol-swift-sdk.md",
+      "md5Hash": "33b92f401e78ec7afe1847eb01c1c8f2",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-swift-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "33b92f401e78ec7afe1847eb01c1c8f2.zh",
+          "relativePath": "33b92f401e78ec7afe1847eb01c1c8f2.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\SDK\\modelcontextprotocol-typescript-sdk.md",
+      "fileName": "modelcontextprotocol-typescript-sdk.md",
+      "md5Hash": "b9c31e1dd4d9d9673f76c54365bd8f5b",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\SDK\\modelcontextprotocol-typescript-sdk.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "b9c31e1dd4d9d9673f76c54365bd8f5b.zh",
+          "relativePath": "b9c31e1dd4d9d9673f76c54365bd8f5b.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\sites.md",
       "fileName": "sites.md",
       "md5Hash": "282abea4bee63be5c68d25ef5f39c229",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/sites.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\sites.md",
       "translations": [
         {
           "language": "zh",
@@ -407,11 +421,11 @@
       ]
     },
     {
-      "filePath": "docs/tag/[tag].md",
+      "filePath": "docs\\tag\\[tag].md",
       "fileName": "[tag].md",
       "md5Hash": "7e4a54380a0d0f33e1b321c921f7d53a",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tag/[tag].md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\tag\\[tag].md",
       "translations": [
         {
           "language": "zh",
@@ -421,11 +435,11 @@
       ]
     },
     {
-      "filePath": "docs/tags.md",
+      "filePath": "docs\\tags.md",
       "fileName": "tags.md",
       "md5Hash": "fd5566415a8c13f6546dcb123d1b39c7",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/tags.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\tags.md",
       "translations": [
         {
           "language": "zh",
@@ -435,11 +449,11 @@
       ]
     },
     {
-      "filePath": "docs/update-strategy.md",
+      "filePath": "docs\\update-strategy.md",
       "fileName": "update-strategy.md",
       "md5Hash": "7697dfb1b9ca55835fbef189c94397c7",
       "targetLanguage": "zh",
-      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/update-strategy.md",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\update-strategy.md",
       "translations": [
         {
           "language": "zh",
