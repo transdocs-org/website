@@ -2,9 +2,9 @@ name: Transdocs CI
 
 on:
   workflow_dispatch:
-  push:
-    branches:
-      - main
+  # push:
+  #   branches:
+  #     - main
 
 env:
   GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
