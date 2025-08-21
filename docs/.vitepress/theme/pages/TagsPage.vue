@@ -24,7 +24,7 @@ const list = computed(() => {
 
       <ol class="section-list">
         <li v-for="item2 in item.list">
-          <Tag rel="noreferrer" :href="item2.url" class="item">{{ item2.name }}</Tag>
+          <Tag rel="noreferrer" :href="`/${item2.categoryId}/${item2.filename}`" class="item">{{ item2.name }}</Tag>
         </li>
       </ol>
     </section>
