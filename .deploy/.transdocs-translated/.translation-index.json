@@ -113,6 +113,20 @@
       ]
     },
     {
+      "filePath": "docs/AI Framework/modelcontextprotocol-inspector.md",
+      "fileName": "modelcontextprotocol-inspector.md",
+      "md5Hash": "871b72f9594dce4317ead5a9993fcfe6",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "/home/runner/work/website/website/.deploy/.transdocs-repos/transdocs.org/docs/AI Framework/modelcontextprotocol-inspector.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "871b72f9594dce4317ead5a9993fcfe6.zh",
+          "relativePath": "871b72f9594dce4317ead5a9993fcfe6.zh"
+        }
+      ]
+    },
+    {
       "filePath": "docs/AI Framework/modelcontextprotocol-servers.md",
       "fileName": "modelcontextprotocol-servers.md",
       "md5Hash": "91d77c146c829006f0512fb1bb7662b9",
