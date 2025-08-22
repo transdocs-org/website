@@ -336,6 +336,19 @@
         "AI"
       ],
       "filename": "modelcontextprotocol-inspector"
+    },
+    {
+      "url": "https://github.com/punkpeye/awesome-mcp-servers/blob/main",
+      "name": "punkpeye Awesome Mcp Servers",
+      "category": "Infrastructure",
+      "categoryId": "Infrastructure",
+      "tags": [
+        "MCP",
+        "Model Context Protocol",
+        "Server",
+        "Registry"
+      ],
+      "filename": "punkpeye-awesome-mcp-servers"
     }
   ]
 }
