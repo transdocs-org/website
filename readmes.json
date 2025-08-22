@@ -349,6 +349,45 @@
         "Registry"
       ],
       "filename": "punkpeye-awesome-mcp-servers"
+    },
+    {
+      "url": "https://github.com/punkpeye/awesome-mcp-clients/tree/main",
+      "name": "punkpeye Awesome Mcp Clients",
+      "category": "Infrastructure",
+      "categoryId": "Infrastructure",
+      "tags": [
+        "MCP",
+        "Model Context Protocol",
+        "Client",
+        "Registry"
+      ],
+      "filename": "punkpeye-awesome-mcp-clients"
+    },
+    {
+      "url": "https://github.com/punkpeye/fastmcp/tree/main",
+      "name": "punkpeye Fastmcp",
+      "category": "Infrastructure",
+      "categoryId": "Infrastructure",
+      "tags": [
+        "MCP",
+        "Model Context Protocol",
+        "Fast Implementation",
+        "Server"
+      ],
+      "filename": "punkpeye-fastmcp"
+    },
+    {
+      "url": "https://github.com/punkpeye/awesome-mcp-devtools/tree/main",
+      "name": "punkpeye Awesome Mcp Devtools",
+      "category": "Infrastructure",
+      "categoryId": "Infrastructure",
+      "tags": [
+        "MCP",
+        "Model Context Protocol",
+        "Developer Tools",
+        "Utilities"
+      ],
+      "filename": "punkpeye-awesome-mcp-devtools"
     }
   ]
 }

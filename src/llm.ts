@@ -57,8 +57,6 @@ async function analyzeReadmesWithLLM(urls: string[]) {
     examples: JSON.stringify(examples)
   });
 
-  console.log(formattedPrompt)
-
   // 调用 LLM
   const response = await llm.invoke([
     new HumanMessage(formattedPrompt)

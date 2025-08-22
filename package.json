@@ -9,7 +9,7 @@
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
-    "start": "node dist/index.js --proxy http://127.0.0.1:10808"
+    "start": "pnpm build && node dist/index.js --proxy http://127.0.0.1:10808"
   },
   "engines": {
     "node": ">=22",
