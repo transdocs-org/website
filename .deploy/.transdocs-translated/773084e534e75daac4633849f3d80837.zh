@@ -935,8 +935,8 @@ SeekChat 支持执行 MCP 工具，使 AI 能够直接控制您的计算机并�
 <tr><th align="left">编程语言</th><td>JavaScript</td></tr>
 </table>
 
-一个通过 Server-Sent Events (SSE) 连接到任意 MCP 服务器并在类似聊天的 UI 中展示对话的客户端。  
-这是一个用于通过 SSE 测试 MCP 服务器的独立 Apify Actor，支持 Authorization 请求头。  
+一个通过 Server-Sent Events (SSE) 连接到任意 MCP 服务器并在类似聊天的 UI 中展示对话的客户端。
+这是一个用于通过 SSE 测试 MCP 服务器的独立 Apify Actor，支持 Authorization 请求头。
 使用原生 JavaScript（传统方式）构建并托管在 Apify 上，无需任何设置即可运行。
 
 **主要功能：**
@@ -1080,7 +1080,6 @@ Enconvo 是您的 AI 代理启动器，彻底革新您的工作效率。通过�
 <tr><th align="left">类型</th><td>命令行工具（CLI）</td></tr>
 <tr><th align="left">平台</th><td>Windows, MacOS, Linux</td></tr>
 <tr><th align="left">价格</th><td>免费</td></tr>
-</table>
 <tr><th align="left">编程语言</th><td>Python</td></tr>
 </table>
 
