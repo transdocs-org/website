@@ -388,6 +388,20 @@
         "Utilities"
       ],
       "filename": "punkpeye-awesome-mcp-devtools"
+    },
+    {
+      "url": "https://github.com/bennycode/trading-signals/blob/main",
+      "name": "bennycode Trading Signals",
+      "category": "Trading Tools",
+      "categoryId": "Trading Tools",
+      "tags": [
+        "Trading",
+        "Signals",
+        "JavaScript",
+        "Finance",
+        "Crypto"
+      ],
+      "filename": "bennycode-trading-signals"
     }
   ]
 }

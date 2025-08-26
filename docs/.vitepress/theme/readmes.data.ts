@@ -34,6 +34,10 @@ const sites = [
   {
     name: 'ta-lib-python',
     url: 'https://ta-lib-python.transdocs.org'
+  },
+  {
+    name: 'trading-signals',
+    url: 'https://trading-signals.transdocs.org'
   }
 ]
 
