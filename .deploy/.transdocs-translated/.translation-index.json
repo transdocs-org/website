@@ -253,6 +253,62 @@
       ]
     },
     {
+      "filePath": "docs\\Infrastructure\\punkpeye-awesome-mcp-clients.md",
+      "fileName": "punkpeye-awesome-mcp-clients.md",
+      "md5Hash": "773084e534e75daac4633849f3d80837",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\Infrastructure\\punkpeye-awesome-mcp-clients.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "773084e534e75daac4633849f3d80837.zh",
+          "relativePath": "773084e534e75daac4633849f3d80837.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\Infrastructure\\punkpeye-awesome-mcp-devtools.md",
+      "fileName": "punkpeye-awesome-mcp-devtools.md",
+      "md5Hash": "e28e4b13bcea9880d5a36bdc39f6c4ce",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\Infrastructure\\punkpeye-awesome-mcp-devtools.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "e28e4b13bcea9880d5a36bdc39f6c4ce.zh",
+          "relativePath": "e28e4b13bcea9880d5a36bdc39f6c4ce.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\Infrastructure\\punkpeye-awesome-mcp-servers.md",
+      "fileName": "punkpeye-awesome-mcp-servers.md",
+      "md5Hash": "d4e1edf226f12ff5f06d8cfb11582c4c",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\Infrastructure\\punkpeye-awesome-mcp-servers.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "d4e1edf226f12ff5f06d8cfb11582c4c.zh",
+          "relativePath": "d4e1edf226f12ff5f06d8cfb11582c4c.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\Infrastructure\\punkpeye-fastmcp.md",
+      "fileName": "punkpeye-fastmcp.md",
+      "md5Hash": "5dd16ea95cc5e585b1777f43e4b2ab32",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\Infrastructure\\punkpeye-fastmcp.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "5dd16ea95cc5e585b1777f43e4b2ab32.zh",
+          "relativePath": "5dd16ea95cc5e585b1777f43e4b2ab32.zh"
+        }
+      ]
+    },
+    {
       "filePath": "docs\\Networking\\websockets-ws.md",
       "fileName": "websockets-ws.md",
       "md5Hash": "5cdb4a8b0a4dac86a26b238340f70103",
@@ -445,6 +501,20 @@
           "language": "zh",
           "fileName": "fd5566415a8c13f6546dcb123d1b39c7.zh",
           "relativePath": "fd5566415a8c13f6546dcb123d1b39c7.zh"
+        }
+      ]
+    },
+    {
+      "filePath": "docs\\Trading Tools\\bennycode-trading-signals.md",
+      "fileName": "bennycode-trading-signals.md",
+      "md5Hash": "d4a080fdef6755eb1e10fbc84308311e",
+      "targetLanguage": "zh",
+      "sourceFileAbsolutePath": "C:\\Users\\22201\\Projects\\transdocs\\website\\.deploy\\.transdocs-repos\\transdocs.org\\docs\\Trading Tools\\bennycode-trading-signals.md",
+      "translations": [
+        {
+          "language": "zh",
+          "fileName": "d4a080fdef6755eb1e10fbc84308311e.zh",
+          "relativePath": "d4a080fdef6755eb1e10fbc84308311e.zh"
         }
       ]
     },
