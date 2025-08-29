@@ -38,6 +38,10 @@ const sites = [
   {
     name: 'trading-signals',
     url: 'https://trading-signals.transdocs.org'
+  },
+  {
+    name: 'node-cron',
+    url: 'https://nodecron.transdocs.org'
   }
 ]
 
